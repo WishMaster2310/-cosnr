@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', routes);
 //app.use('/users', users);
-//app.use('/sitemuse', sitemuse);
+app.use('/sitemuse', sitemuse);
 
 app.all('*', function(req, res, next) {
   var viewsDir = fs.readdirSync('./views/pages');

@@ -1,17 +1,16 @@
-{% if Export == 'muse' %}
+{%- if Export == 'muse' %}
     {% block content %}{% endblock %}
-    {% else %}
+{% else -%}
 <html>
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Hello body</title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Cloud OS Network Russia</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
         <link rel="author" href="humans.txt">
     </head>
     <body>
-
         {% block content %}{% endblock %}
     </body>
 </html>
