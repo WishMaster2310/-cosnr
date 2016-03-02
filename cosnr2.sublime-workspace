@@ -1,0 +1,414 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"primary"
+			],
+			[
+				"con",
+				"conditions	(index.html)"
+			],
+			[
+				"scroll",
+				"scrollify"
+			],
+			[
+				"j",
+				"javascripts	(layout.html)"
+			],
+			[
+				"tra",
+				"trsanslateZ	(layout.less)"
+			],
+			[
+				"write",
+				"writeFileSync"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "ss html",
+		"selected_items":
+		[
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ss dja",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet:",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				":",
+				"Snippet: html"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"ss less",
+				"Set Syntax: LESS"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"inst",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/projects/cosnr2"
+	],
+	"file_history":
+	[
+		"/D/projects/devcon2015/public/less/blocks/tickets.less",
+		"/D/projects/devcon2015/public/less/blocks/intensive.less",
+		"/D/projects/devcon2015/views/intensive.html",
+		"/D/projects/devcon2015/views/blocks/conditions.html",
+		"/D/projects/devcon2015/datasource/sdata.json",
+		"/D/projects/devcon2015/export/intensive.html",
+		"/D/projects/devcon2015/export/index.html",
+		"/D/projects/devcon2015/views/blocks/header.html",
+		"/D/projects/devcon2015/public/less/blocks/header.less",
+		"/D/projects/devcon2015/views/masterpage.html",
+		"/D/projects/devcon2015/export/masterpage.html",
+		"/D/projects/devcon2015/views/conditions.html",
+		"/D/projects/devcon2015/public/less/variables.less",
+		"/D/projects/devcon2015/public/less/helpers.less",
+		"/D/projects/devcon2015/views/blocks/footer.html",
+		"/D/projects/devcon2015/export/location.html",
+		"/D/projects/devcon2015/public/less/layout/layout.less",
+		"/D/projects/devcon2015/views/contacts.html",
+		"/D/projects/devcon2015/views/blocks/header.twig",
+		"/D/projects/devcon2015/views/layouts/main.html",
+		"/D/projects/devcon2015/views/layouts/prod.html",
+		"/D/projects/devcon2015/views/faq.html",
+		"/D/projects/devcon2015/views/evolution.html",
+		"/D/projects/devcon2015/public/less/blocks/btn.less",
+		"/D/projects/devcon2015/public/less/blocks/faq.less",
+		"/D/projects/devcon2015/routes/export.js",
+		"/D/projects/devcon2015/export/conditions.html",
+		"/D/projects/devcon2015/views/schedule.html",
+		"/D/projects/devcon2015/public/less/blocks/schedule.less",
+		"/D/projects/devcon2015/Gruntfile.js",
+		"/D/projects/devcon2015/public/stylesheets/style.css",
+		"/D/projects/devcon2015/export/faq.html",
+		"/D/projects/devcon2015/export/reg.html",
+		"/D/projects/devcon2015/export/schedule.html",
+		"/D/projects/devcon2015/public/javascripts/main.js",
+		"/D/projects/devcon2015/readme.md",
+		"/D/projects/devcon2015/export/speakers.html",
+		"/D/projects/devcon2015/app.js",
+		"/D/projects/devcon2015/views/error.html",
+		"/D/projects/devcon2015/views/index.html",
+		"/D/projects/devcon2015/views/blocks/about.html",
+		"/D/projects/devcon2015/views/speakers.html",
+		"/D/projects/devcon2015/views/reg.html",
+		"/D/projects/devcon2015/public/less/style.less",
+		"/D/projects/devcon2015/routes/index.js",
+		"/D/projects/devcon2015/export/contacts.html",
+		"/D/projects/devcon2015/views/blocks/faq.twig",
+		"/D/projects/devcon2015/views/faq.twig",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/projects/devcon2015/views/layouts/main.twig",
+		"/D/projects/devcon2015/views/layouts/faq.twig",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/projects/w10lp/assets/less/footer.less",
+		"/D/projects/w10lp/assets/less/hero.less",
+		"/D/projects/w10lp/assets/less/getin.less",
+		"/D/projects/w10lp/assets/less/prod.less",
+		"/D/projects/w10lp/assets/less/style.less",
+		"/D/projects/w10lp/assets/less/layout.less",
+		"/D/projects/jetstyle/sap/public/less/blocks/slider.less",
+		"/D/projects/jetstyle/sap/views/index.html",
+		"/D/projects/jetstyle/sap/public/less/core/layout.less",
+		"/D/projects/jetstyle/sap/public/less/blocks/helpers.less",
+		"/D/projects/jetstyle/sap/public/stylesheets/style.css",
+		"/D/projects/jetstyle/sap/views/__blocks/listing.html",
+		"/D/projects/jetstyle/sap/views/__blocks/hero.html",
+		"/D/projects/jetstyle/sap/public/less/blocks/hero.less",
+		"/D/projects/jetstyle/sap/public/less/blocks/listing.less",
+		"/D/projects/jetstyle/sap/public/less/blocks/workflow.less",
+		"/D/projects/jetstyle/sap/views/layout.html",
+		"/D/projects/jetstyle/sap/public/javascripts/site.js",
+		"/D/projects/jetstyle/sap/public/javascripts/1.js",
+		"/D/projects/jetstyle/sap/public/javascripts/__site.js",
+		"/D/projects/jetstyle/sap/public/javascripts/scrollControl.js",
+		"/D/projects/jetstyle/sap/Gruntfile.js",
+		"/D/projects/jetstyle/sap/sprite.css.hbs",
+		"/D/projects/jetstyle/sap/package.json",
+		"/D/projects/jetstyle/sap/views/__blocks/workflow.html",
+		"/D/projects/jetstyle/sap/views/__blocks/slider.html",
+		"/D/projects/jetstyle/sap/public/less/style.less",
+		"/D/projects/jetstyle/sap/public/less/core/sprite.less",
+		"/C/Users/wishm/.ssh/id_rsa.pub",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/projects/jetstyle/sap/public/stylesheets/style.css.map",
+		"/D/projects/jetstyle/sap/app.js",
+		"/D/projects/jetstyle/sap/views/error.html",
+		"/D/projects/jetstyle/sap/routes/index.js",
+		"/D/projects/jetstyle/sap/public/less/core/mixin.less",
+		"/D/projects/jetstyle/sap/public/less/core/font.less",
+		"/D/projects/jetstyle/sap/public/less/core/variables.less",
+		"/D/projects/jetstyle/sap/public/less/core/reset.less",
+		"/D/projects/jetstyle/sap/public/less/blocks/variables.less",
+		"/C/Program Files/Sublime Text 3/subl.exe",
+		"/D/projects/sitemuse/views/_tmp/newpage.twig",
+		"/D/projects/sitemuse/routes/sitemuse.js",
+		"/D/projects/sitemuse/views/_tmp/page1.twig",
+		"/D/projects/sitemuse/views/pages/title.twig",
+		"/D/projects/sitemuse/export/pages/page1.html",
+		"/D/projects/sitemuse/views/pages/page1.twig",
+		"/D/projects/sitemuse/export/pages/newpage.html",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/D/projects/sitemuse/sitemuse.js",
+		"/D/projects/sitemuse/export/pages/title.html",
+		"/D/projects/sitemuse/views/pages/newpage.twig",
+		"/D/projects/sitemuse/views/fragments/newfrag.twig",
+		"/E/projects/sitemuse/public/admin/img/light_noise_diagonal.png",
+		"/C/Program Files (x86)/Git/bin/subl",
+		"/C/Users/wishm/.bash_profile",
+		"/C/Users/wishm/Desktop/subl.sh",
+		"/E/projects/sitemuse/fixture/msmapping.json",
+		"/E/projects/sitemuse/public/admin/scss/style.scss",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"siteDB",
+			"\"></",
+			"-plate",
+			"star",
+			"DevConLite",
+			"condition",
+			"%;\n",
+			"scrKeys",
+			"\n/*(",
+			"';\n",
+			"main",
+			"infoButton",
+			"};\n",
+			"clientlib-generic/",
+			"word",
+			";\n",
+			"style.css.map",
+			"public/stylesheets",
+			"}",
+			"render"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"DevCon Lite",
+			"conditions",
+			"infoButton infoButton--dark",
+			"../",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cosnr2.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"faq",
+				"views\\faq.twig"
+			],
+			[
+				"faq.",
+				"views\\blocks\\faq.twig"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "amch",
+		"selected_items":
+		[
+			[
+				"amch",
+				"D:\\projects\\amchamsite\\amcham.sublime-workspace"
+			],
+			[
+				"",
+				"D:\\__subl_projects\\ug.sublime-project"
+			],
+			[
+				"ug",
+				"D:\\__subl_projects\\ug.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
