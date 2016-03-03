@@ -1075,316 +1075,32 @@ a:hover {
   font-weight: normal;
   color: #231f20;
 }
-.hero-section {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 254px;
-}
-.hero-section_mod_1 .hero-back {
-  background-image: url('../img/header-exampl1.jpg');
-}
-.hero-section_mod_2 .hero-back {
-  background-image: url('../img/header-exampl2.jpg');
-}
-.hero-section_mod_3 .hero-back {
-  background-image: url('../img/header-exampl3.jpg');
-}
-.hero-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-}
-.hero-back {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-}
-.hero-front {
-  position: relative;
-  z-index: 1;
-}
-.hero-text {
-  margin-bottom: 20px;
-  padding-right: 15%;
-  color: #000;
-}
-.hero-title {
-  padding-top: 4.375em;
-}
-.hero-copy {
-  color: #fff;
-  text-align: right;
-}
-.hero-cloud {
-  position: relative;
-  width: 1000px;
-  margin: 0px auto;
-}
-.hero-cloud__unit {
-  width: 551px;
-  position: absolute;
-  right: -100px;
-  top: 100px;
-}
-.hero-cloud__unit > div {
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-}
-.hero-section_mod_1 .cloud-item-1 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud2/1.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_1 .cloud-item-2 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud2/2.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_1 .cloud-item-3 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud2/3.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_1 .cloud-item-4 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud2/4.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_2 .cloud-item-1 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud1/1.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_2 .cloud-item-2 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud1/2.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_2 .cloud-item-3 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud1/3.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_2 .cloud-item-4 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud1/4.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_3 .cloud-item-1 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud3/1.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_3 .cloud-item-2 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud3/2.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_3 .cloud-item-3 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud3/3.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
-.hero-section_mod_3 .cloud-item-4 > div {
-  background-image: url('https://coderussia.blob.core.windows.net/cloud3/4.png');
-  background-repeat: no-repeat;
-  display: inline-block;
-  vertical-align: text-top;
-}
 .btn {
   display: inline-block;
   vertical-align: top;
   font-size: 16px;
   text-decoration: none;
   outline: none;
-  padding: 7px 1.250em 9px 1.250em;
-}
-.btn-green {
-  border: 2px solid #008272;
+  padding: 11px 20px 9px 20px;
   background-color: #008272;
+  border: 0;
   color: #fff;
-  transition: all 0.3s ease-in-out;
+  height: 46px;
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0);
+  font-family: inherit;
 }
-.btn-green:hover {
-  background-color: #00cfb5;
-  border-color: #00cfb5;
-}
-.btn-green:active {
-  background-color: #00a894;
-  border-color: #00a894;
-}
-.btn-blue {
-  border: 2px solid #0072bc;
-  background-color: #0072bc;
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.btn-blue:hover {
-  background-color: #0a9eff;
-  border-color: #0a9eff;
-}
-.btn-blue:active {
-  background-color: #0089e2;
-  border-color: #0089e2;
-}
-.btn-greenlight {
-  border: 2px solid #f2f9f8;
-  background-color: #f2f9f8;
-  color: #008272;
-  transition: all 0.3s ease-in-out;
-}
-.btn-greenlight:hover {
-  background-color: #cfe9e5;
-  border-color: #cfe9e5;
-}
-.btn-greenlight:active {
-  background-color: #e1f1ef;
-  border-color: #e1f1ef;
-}
-.btn-greenlight:active,
-.btn-greenlight_active {
+.btn:hover {
   background-color: #00695c;
-  border-color: #00695c;
   color: #fff;
 }
-.btn-greenlight:hover {
-  background-color: #008272;
-  border-color: #008272;
-  color: #fff;
+.btn:active {
+  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
 }
-.btn-bluelight {
-  border: 2px solid #e6eff5;
-  background-color: #e6eff5;
-  color: #0072bc;
-  vertical-align: inherit;
-  letter-spacing: -0.01em;
-  transition: all 0.3s ease-in-out;
-}
-.btn-bluelight:hover {
-  background-color: #0072bc;
-  border-color: #0072bc;
-  color: #fff;
-}
-.btn-bluelight:active,
-.btn-bluelight_active {
-  background-color: #0063a3;
-  border-color: #0063a3;
-  color: #fff;
-}
-.btn-grayGhost {
-  border: 2px solid #696a6d;
-  background-color: transparent;
-  color: #696a6d;
-  transition: all 0.3s ease-in-out;
-}
-.btn-grayGhost:hover {
-  background-color: #696a6d;
-  border-color: #696a6d;
-  color: #fff;
-}
-.btn-grayGhost:active {
-  background-color: #505153;
-  border-color: #505153;
-}
-.btn-blueGhost {
-  border: 2px solid #0072bc;
-  background-color: transparent;
-  color: #0072bc;
-  transition: all 0.3s ease-in-out;
-}
-.btn-blueGhost:hover {
-  background-color: #0072bc;
-  border-color: #0072bc;
-  color: #fff;
-}
-.btn-blueGhost:active {
-  background-color: #005389;
-  border-color: #005389;
-}
-.btn-filter {
-  border: 1px solid #fff;
+.btn--white {
   background-color: #fff;
-  color: #0072bc;
-  vertical-align: inherit;
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  padding: 4px 1.5em 6px 1.5em;
-}
-.btn-filter span {
-  border-bottom: 1px dashed #696a6d;
-  color: #696a6d;
-  transition: all 0.3s ease-in-out;
-}
-.btn-filter:hover span {
-  border-bottom-color: transparent;
-}
-.btn-filter_active {
-  background-color: #fff;
-  border-color: #0072bc;
-}
-.btn-filter_active span {
-  border-bottom-color: transparent;
-  color: #0072bc;
-}
-.btn-filter_green.btn-filter_active {
-  border-color: #008272 !important;
-}
-.btn-filter_green.btn-filter_active span {
   color: #008272;
-}
-.btn-block {
-  display: block;
-  width: 100%;
-}
-.btn-main {
-  background-color: #F25022;
-  font-size: 1.5em;
-  color: #fff;
-  padding: 10px 10px 12px 10px;
-  display: block;
-  text-align: center;
-}
-.btn-main:hover {
-  background-color: #e33d0d;
-}
-.btn-main:active {
-  background-color: #c1340b;
-}
-.btn-main_disabled {
-  background-color: #c0c0c0 !important;
 }
 .needs-wrapper {
   background-color: #fff;
@@ -6637,13 +6353,15 @@ Copyright (c) 2015 Daniel Eden
 }
 .wrapped-section {
   position: relative;
-  min-height: 400px;
+  min-height: 576px;
+  font-size: 16px;
+  padding-top: 100px;
 }
 .wrapped-section__bg {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   display: none;
   top: 0;
   left: 0;
@@ -6654,17 +6372,12 @@ Copyright (c) 2015 Daniel Eden
 .wrapped-section__bgimage {
   display: none;
 }
+.wrapped-section__content p {
+  margin-bottom: 35px;
+}
 .wrapped-section--mod-hero {
-  background-color: #ccd0bf;
-}
-.wrapped-section--mod-seno {
-  background-color: #b4b4a9;
-}
-.wrapped-section--mod-senokos {
-  background-color: #e0d8c2;
-}
-.wrapped-section--mod-parahod {
-  background-color: #b1bfbf;
+  padding-top: 70px;
+  min-height: 560px;
 }
 .wrapped-section__container {
   position: relative;

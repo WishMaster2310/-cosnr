@@ -1,40 +1,48 @@
 .wrapped-section {
 	position: relative;
-	min-height: 400px;
+	min-height: 576px;
+	font-size: @font-size-base;
+	padding-top: 100px;
 
 	&__bg {
 		position: absolute;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center bottom;
+		background-position: center top;
 		display: none;
-
 		top: 0;
 		left: 0;
 		right: 0;
 		bottom: 0;
 		width: 100%;
+
+
 	}
 
 	&__bgimage {
 		display: none;
 	}
 
+	&__content {
+		p{
+			margin-bottom: 35px;
+		}
+	}
+
 	&--mod {
+
 		&-hero {
-			background-color: #ccd0bf;
+			padding-top: 70px;
+			min-height: 560px;
 		}
 
 		&-seno {
-			background-color: #b4b4a9;
 		}
 
 		&-senokos {
-			background-color: #e0d8c2;
 		}
 
 		&-parahod {
-			background-color: #b1bfbf;
 		}
 	}
 
@@ -42,4 +50,6 @@
 		position: relative;
 		z-index: 1;
 	}
+
+
 }
