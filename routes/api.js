@@ -133,14 +133,14 @@ muse.deletePage = function(item, callback) {
     }
 };
 
-muse.updateItem = function(arguments) {
-    var mod = arguments.group;
-
+muse.updateItem = function(item) {
+    var mod = item.group;
+    console.log(item, 'item');
     var indx = _.findIndex(MSMAP[mod], {
-        '_id': arguments._id
+        '_id': item._id
     });
 
-    MSMAP[mod][indx].msid = arguments.msid;
+    MSMAP[mod][indx].msid = item.msid;
     MSMAP[mod][indx].status = 'sync';
 
     fs.writeFileSync(MSMAP_FILE, JSON.stringify(MSMAP, null, 4));
@@ -148,6 +148,7 @@ muse.updateItem = function(arguments) {
 
 muse.XMLizeImages = function(dir, callback) {
     var exportPages = fs.readdirSync(dir);
+    
     async.each(exportPages, function(p, cb) {
 
         var content = fs.readFileSync(path.join(dir, p));
@@ -160,22 +161,21 @@ muse.XMLizeImages = function(dir, callback) {
 
         $('img').each(function(index, el) {
             var src = $(el).attr('src');
-            var classes = $(el).attr('class');
+            var classes = $(el).attr('class') || "";
             var filename = path.basename(src);
-            var alt = $(el).attr('alt') || '';
+            var alt = $(el).attr('alt') || "";
             var datasrc = $(el).data('src') ? true : false;
 
-            var msid = _.result(_.find(muse.db, function(item) {
-                return item.name === filename;
-            }), 'msid');
+            var msid = _.result(_.find(muse.db, {name: filename}), 'msid');
+            console.log(_.find(muse.db, {name: filename}), 'filename')
 
 
             var replacement = '<mscom:image' +
                 ' spritegroup="default"' +
                 ' sprite="false" noheightwidth="true"' +
-                ' md:payloadguid=' + msid +
-                ' alt=' + alt +
-                ' usedatasource=' + datasrc +
+                ' md:payloadguid="' + msid + '"' +
+                ' alt="' + alt + '"' +
+                ' usedatasource="' + datasrc  + '"' +
                 ' classoverride="' + classes + '"' +
                 ' ></mscom:image>'
             $(el).replaceWith(replacement);
@@ -282,6 +282,8 @@ muse.exporter = function(callback, next) {
     if (!fs.existsSync(EXPORT_FRAGMENTS)) {
         fs.mkdirSync(EXPORT_FRAGMENTS);
     }
+
+     console.log(1)
 
     async.waterfall([
         function(tick) {

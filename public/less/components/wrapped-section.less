@@ -1,0 +1,45 @@
+.wrapped-section {
+	position: relative;
+	min-height: 400px;
+
+	&__bg {
+		position: absolute;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center bottom;
+		display: none;
+
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	&__bgimage {
+		display: none;
+	}
+
+	&--mod {
+		&-hero {
+			background-color: #ccd0bf;
+		}
+
+		&-seno {
+			background-color: #b4b4a9;
+		}
+
+		&-senokos {
+			background-color: #e0d8c2;
+		}
+
+		&-parahod {
+			background-color: #b1bfbf;
+		}
+	}
+
+	&__container {
+		position: relative;
+		z-index: 1;
+	}
+}

@@ -1,0 +1,148 @@
+.filter{
+	&-block {
+		background-color: #fff;
+		.base-shadow();
+		padding: 30px 30px 20px 20px;
+		&__section {
+			&-label {
+				display: inline-block;
+				vertical-align: inherit;
+				min-width: 123px;
+				
+			}
+
+			.btn {
+				//margin-right: .25em;
+			}
+		}
+	}
+
+	&-helper {
+		display: none;
+
+		margin-bottom: 30px;
+		
+		&__item {
+			.opacity(0);
+			display: none;
+			
+			&-inner {
+				display: table;
+				width: 100%;
+				background-color: #fff;
+				background-color: fade(#fff, 70%);
+
+
+				> div {
+					display: table-cell;
+				}
+			}
+
+			&-icon {
+				display: table-cell;
+				vertical-align: middle;
+				width: 160px;
+				padding: 20px;
+				text-align: center;
+				
+			}
+
+			&-text {
+				display: table-cell;
+				vertical-align: middle;
+				padding: 20px 20px 20px 0;
+			}
+
+			&_active {
+				.opacity(1);
+				display: block;
+			}
+		}
+	}
+
+	&-tags {
+		list-style-type: none;
+		margin: 0 0 0 -10px;
+		padding: 0;
+
+		&__wrapper {
+			padding-left: 123px;
+		}
+
+		li {
+			display: inline-block;
+			vertical-align: top;
+			margin-right: -.25em;
+			margin-left: 10px;
+
+			margin-bottom: 10px;
+			
+		}
+
+		&__label {
+			
+
+			input {
+				display: none;
+				visibility: hidden;
+
+				&:checked + span {
+					color: @blue;
+					//color: #fff;
+					border: 1px solid @blue;
+					border-bottom-color: @blue;
+					//background-color: @blue;
+
+					&:before {
+						border-top-color: transparent;
+					}
+				}
+			}
+
+			span {
+				display: inline-block;
+				font-size: 14px;
+				border: 1px solid transparent;
+				cursor: pointer;
+				position: relative;
+				white-space: nowrap;
+				position: relative;
+				  -webkit-user-select: none;  /* Chrome all / Safari all */
+				  -moz-user-select: none;     /* Firefox all */
+				  -ms-user-select: none;      /* IE 10+ */
+				  user-select: none;          /* Likely future */      
+
+
+				padding: 6px 15px;
+				.transition(all .3s ease-in-out);
+
+				&:before {
+					content: "";
+					position: absolute;
+					bottom: 5px;
+					left: 15px;
+					right: 15px;
+					height: 0;
+					border-top: 1px dashed @gray;
+				}
+
+			}
+
+			&:hover {
+				span {
+					border-bottom-color: transparent;
+				}
+			}
+			
+			&_green {
+				input {
+					&:checked + span {
+						color: @green;
+						border-color: @green;
+					}
+				}
+			}
+
+		}
+	}
+}

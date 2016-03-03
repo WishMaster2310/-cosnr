@@ -1,0 +1,105 @@
+.material {
+	&-section {
+		position: relative;
+		//margin-bottom: 4em;
+		margin-bottom: 2em;
+		
+		&-bg {
+			background-color: @green;
+			padding: 2em 0;
+			margin-bottom: 3em;
+			color: #fff;
+		}
+	}
+
+	&-slider {
+		&__item {
+			display: table;
+			width: 100%;
+			//min-height: 180px;
+
+			&-title {
+				font-size: 1.500em;
+				margin-bottom: 5px;
+
+				a {
+					color: #fff;
+					text-decoration: none;
+
+					&:hover {
+						border-bottom: 1px solid #fff;
+					}
+					
+				}
+			}
+
+			&-img {
+				padding-bottom: 67%;
+				.background-size(cover);
+				
+				img {
+					width: 100%;
+				}
+			}
+
+			&-info {
+				margin-bottom: 10px;
+			}
+
+		}
+
+		&__col {
+			&-left {
+				display: table-cell;
+				vertical-align: top;
+				width: 25%;
+
+
+				img {
+					max-width: 100%;
+					display: block;
+					
+				}
+				
+			}
+
+			&-right {
+				display: table-cell;
+				vertical-align: top;
+				padding-top: 20px;	
+				padding-left: 30px;
+				
+			}
+		}
+
+
+		.owl {
+			&-pagination {
+				width: 100%;
+				text-align: center;
+				margin-left: -10px;
+				
+			}
+
+			&-controls {
+				position: absolute;
+				bottom: -5em;
+				left: 0;
+				right: 0;
+				font-size: @font-size-base;
+			}
+
+			&-page {
+				display: inline-block;
+				.circle(10px);
+				background-color: @gray;
+				margin-right: -.25em;
+				margin-left: 10px;
+
+				&.active {
+					background-color: @green;
+				}
+			}
+		}
+	}
+}

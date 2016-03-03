@@ -43,7 +43,7 @@ router.get('/getmapping', function(req, res, next) {
 router.get('/updateItem', function(req, res, next) {
 	try {
 		muse.updateItem(req.query);
-		res.send()
+		res.send({})
 	} catch (err) {
 		res.send({
 			error: err
@@ -53,23 +53,15 @@ router.get('/updateItem', function(req, res, next) {
 
 
 router.get('/removeImage', function(req, res, next) {
-	/*try {
-		fs.unlinkSync(req.query.path);
-		console.log(req.query.path)
-		res.send({});
-	} catch (err) {
-		res.send({
-			error: err
-		});
-	}*/
-	console.log(req.query, '====================')
+
 	muse.removeImage(res, req.query, function(err) {
 		res.send({err: err})
 	});
 });
 
 router.get('/export', function(req, res, next) {
-	muse.exporter(function() {
+	muse.exporter(function(err) {
+		console.log(err)
 		res.send({})
 	}, next);
 });

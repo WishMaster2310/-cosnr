@@ -12,23 +12,19 @@ var watcher = chokidar.watch(path.join(__dirname, '../public', watchDir), {});
 function initWatcher () {
   watcher
     .on('add', function(p, stats) {
-      
-      
       if (_.findIndex(MSMAP.images, { 'name': path.basename(p)}) === -1) {
         
         MSMAP.images.push({
           path: p,
           name: path.basename(p),
           size: stats.size,
+          group: "images",
           msid: "",
           _id: crypto.randomBytes(20).toString('hex')
         });
 
         fs.writeFileSync(MSMAP_FILE, JSON.stringify(MSMAP, null, 4));
-        console.log('File', p, 'has been added');
       };
-
-      
     })
     .on('change', function(p) {console.log('File', p, 'has been changed');})
     .on('unlink', function(p) {

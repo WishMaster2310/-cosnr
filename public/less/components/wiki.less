@@ -1,0 +1,209 @@
+.wiki {
+	&-slider {
+		margin-bottom: 30px;
+
+		&-section {
+			padding: 3.375em 0;
+		}
+
+		&__item {
+			margin-right: 40px;
+			//.opacity(0);
+			//.transition(all .3s ease-in-out)
+		}
+
+		&__title {
+			letter-spacing: -.01em;
+			margin-right: -1em;
+			.animated();
+		}
+
+		&__text {
+			.animated();
+		}
+
+		&__img {
+			img {
+				max-width: 100%;
+				text-align: center;
+				
+			}
+		}
+
+		.active &__item {
+			//.opacity(1)
+		}
+
+		.active &__text {
+			//.fadeInLeftBig()
+		}
+
+		.active &__title {
+			//.fadeInLeft()
+		}
+
+		&__controls {
+			text-align: center;
+			width: 100%;
+
+			&-link {
+				display: inline-block;
+				color: @green;
+				padding: 7px 1.250em 9px 1.250em;
+				text-decoration: none !important;
+
+				>span {
+					border-bottom: 1px dashed @green;
+				}
+
+				&.active {
+					background-color: #fff;
+
+					> span {
+						border-bottom-color: transparent;
+					}
+
+				}
+				
+			}
+		}
+	}
+
+	&-subslider {
+		&__item {
+
+			.base-shadow();
+			margin: 10px;
+
+			&-img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&__title {
+			font-size: @h3-size;
+			line-height: 1.2;
+			color: @blue;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 10px;
+
+			
+		}
+
+		&__table {
+			display: table;
+			width: 100%;
+			min-height: 200px;
+
+			&-col {
+				display: table-cell;
+				vertical-align: top;
+				padding: 1.333em 2.500em;
+				background-color: #fff;
+
+				&_img {
+					.background-size(cover);
+					background-repeat: no-repeat;
+					background-position: center top;
+					width: 27%;
+
+				}
+			}
+		}
+
+		&__info {
+			margin-bottom: 10px;
+		}
+
+		&__text {
+			color: darken(@font-color, 15%)
+		}
+
+		.owl {
+			&-controls {
+				height: 20px;
+				width: 100%;
+				text-align: center;
+				
+			}
+
+			&-pagination {
+				display: block;
+				width: 100%;
+			}
+
+			&-page {
+				background-color: lighten(@gray, 30%);
+				display: inline-block;
+				margin-right: .5em;
+				.circle(10px);
+
+				&.active {
+					background-color: @blue;
+				}
+			}
+
+			&-wrapper-outer {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	&-tiler {
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		margin-right: -.25em;
+		margin-left: 2%;
+		.base-shadow();
+		margin-bottom: 2%;
+
+
+		&__title {
+			color: @blue;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 3px;
+			
+
+			&:hover {
+				text-decoration: underline;
+				
+			}
+			
+		}
+
+		
+
+		&-list {
+			margin-left: -2%;
+		}
+
+		&__inner {
+			display: table;
+			width: 100%;
+
+			&-icon {
+				display: table-cell;
+				vertical-align: middle;
+				background-color: lighten(@blue, 60%);
+				width: 20%;
+				text-align: center;
+				
+
+
+			}
+
+
+			&-data {
+				display: table-cell;
+				vertical-align: middle;
+				background-color: #fff;
+				padding: 1.563em;
+			}
+
+		}
+	}
+}

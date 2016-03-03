@@ -3,9 +3,9 @@
         {
             "name": "index",
             "group": "pages",
-            "status": "new",
+            "status": "sync",
             "fixture": "true",
-            "msid": "",
+            "msid": "5656",
             "_id": "ad00b1e59a8c55f049fa41e0ee59871155ca0f9c",
             "ctime": 1456913821136
         },
@@ -437,20 +437,46 @@
         {
             "name": "TestFr",
             "group": "fragments",
-            "status": "new",
+            "status": "sync",
             "fixture": false,
-            "msid": "",
+            "msid": "t545",
             "_id": "ade8baf4abdc5a8bf97cce5b894e601306331c29",
             "ctime": 1456902398549
         }
     ],
     "images": [
         {
-            "path": "D:\\projects\\sitemuse\\public\\images\\prize1.gif",
-            "name": "prize1.gif",
-            "size": 123261,
+            "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg1.jpg",
+            "name": "wrapped-section_bg1.jpg",
+            "group": "images",
+            "size": 0,
+            "msid": "4545",
+            "_id": "16bb99e7f53a2179a95985738c1cb79000fc0e19",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg2.jpg",
+            "name": "wrapped-section_bg2.jpg",
+            "size": 0,
+            "group": "images",
             "msid": "",
-            "_id": "603bb8de03e7d51c0d4d8199108e538b0d54582a"
+            "_id": "1622b323a41bb38eb0d671fcb9d94c29c456a919"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg3.jpg",
+            "name": "wrapped-section_bg3.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "",
+            "_id": "33a1b7217a7b723d52dbaa9f35d5ac4465c9aa1d"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg4.jpg",
+            "name": "wrapped-section_bg4.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "",
+            "_id": "a2c7c1c9abb52aed1c17f8fda67ca75e8974aad6"
         }
     ]
 }

@@ -37,8 +37,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', routes);
 //app.use('/users', users);
-app.use('/sitemuse', sitemuse);
-app.use('/', function(req, res, next) {
+app.use('/sitemuse',sitemuse);
+
+app.get('/', function(req, res, next) {
   var viewsDir = fs.readdirSync('./views/pages');
   var dataDir = fs.readdirSync('./fixture/pages');
   var d = {};
@@ -88,6 +89,8 @@ app.all('*', function(req, res, next) {
     throw new Error('404 Page '+ reqPath + ' Not Found')
   }
 });
+
+
 
 
 // catch 404 and forward to error handler

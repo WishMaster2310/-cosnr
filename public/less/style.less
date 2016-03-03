@@ -1,0 +1,114 @@
+﻿
+@import 'core/reset.less';
+@import 'core/variables.less';
+@import 'core/mixins.less';
+@import 'core/grid.less';
+@import 'core/layout.less';
+
+@import 'mixins/grid-framework.less';
+@import 'mixins/grid.less';
+@import 'mixins/vendor-prefixes.less';
+
+@import 'components/typography.less';
+@import 'components/hero.less';
+@import 'components/btn.less';
+@import 'components/needs.less';
+@import 'components/material.less';
+@import 'components/animate.less';
+@import 'components/story.less';
+@import 'components/partner.less';
+@import 'components/faq.less';
+@import 'components/filter.less';
+@import 'components/catalog.less';
+@import 'components/product-block.less';
+@import 'components/sprites.less';
+@import 'components/wiki.less';
+@import 'components/service.less';
+@import 'components/tab.less';
+@import 'components/cloud1_sprite1.less';
+@import 'components/cloud1_sprite2.less';
+@import 'components/cloud1_sprite3.less';
+@import 'components/cloud1_sprite4.less';
+@import 'components/wrapped-section.less';
+
+
+@import '../modules/owl/owl.carousel.css';
+@import '../modules/owl/owl.transitions.css';
+
+@import 'components/helpers.less';
+
+
+.mstResponsive .grid-container {
+    width: 95%;
+    max-width: 990px !important;
+}
+
+.mstNonResponsive .product-sidebar-col_right span {
+	font-size: 	1.3em;
+}
+
+.header {
+	margin-bottom: 0 !important;
+}
+
+.mstHdrV3 {
+	margin-bottom: 0 !important;
+	background-color: #fff !important;
+}
+
+.footer {
+	*{
+		.box-sizing(content-box)
+	}
+}
+.header {
+	*{
+		.box-sizing(content-box)
+	}
+}
+
+#templates_list {
+	li a {
+		font-size: 14px;
+		&:before {
+			font-size: 18px;
+		}
+
+		a:link {
+			&:before {
+				background-color: #fff !important;
+				color: #000;
+				font-weight: bold;
+			}
+		}
+
+		&:visited {
+			background-color: #000 !important;
+
+			&:before {
+				background-color: #489E54 !important;
+				color: #fff;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+.mstNonResponsive {
+	
+	.container {
+		width: 960px !important;
+	}
+
+	.expand-block {
+		max-width: 1000px !important;
+	}
+}
+
+.helper-disabled {
+	background-color: #E8E8E8;
+    padding: 20px;
+    color: #000;
+    margin-top: -39px;
+}

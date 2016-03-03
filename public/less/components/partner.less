@@ -1,0 +1,44 @@
+.partner{
+
+	&-section {
+		//background: url('../img/partner-bg.jpg') no-repeat center top;
+		background: url('../img/page-bg.jpg') no-repeat center top fixed;
+		.background-size(cover);
+		padding: 3.750em 0;
+
+		&_no-bg {
+			background-image: none;
+			
+		}
+	}
+	&-list {
+		list-style-type: none;
+		margin: 0 0 0 -2%;
+		padding: 0;
+		text-align: center;
+		
+
+		&__item {
+			display: inline-block;
+			vertical-align: top;
+			width: 220px;
+			height: 100px;
+			margin: 0 -.25em 2% 2%;
+			background-color: #fff;
+			text-align: center;
+			.base-shadow();
+
+			&-link {
+				border: 0;
+				text-decoration: none;
+				outline: none;
+			}
+		
+			img {
+				max-width: 100%;
+				display: block;
+				margin: auto;
+			}
+		}
+	}
+}
