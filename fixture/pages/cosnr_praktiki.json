@@ -1,0 +1,19 @@
+{
+
+	"source": false,
+	"name": "«Инициатива Microsoft Cloud OS Network Russia: национальные облачные сервисы на базе мировой практики Microsoft»",
+	"id": "cosnr_praktiki",
+	"img": false,
+	"links": ["virtualnaya_ifrastructura", "virtualniy_ofice"],
+	"general": [
+
+		{
+			"caption": "",
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/The-initiative-Microsoft-Cloud-OS-Network-Russia-national-cloud-based-global-Microsoft-practice/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>В рамках данного доклада эксперт Microsoft Кирилл Котляренко рассказывает об инициативе Cloud OS Network в России, о российских сервис-провайдерах и представленных ими облачных сервисах для бизнеса, которые успешно используются уже сегодня.</p>"
+		},
+		{
+			"caption": "",
+			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/Computerworld_Rossiya_aDCS_9901_kopiya_(2441).jpg\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Кирилл Котляренко</strong></p> <p>Эксперт по технологиям для сервис-провайдеров в компании Microsoft. Работает в сфере IT более 10 лет, эксперт по технологиям виртуализации, инфраструктурным сервисам и Microsoft Azure. Отвечает за запуск национальных облачных сервисов в рамках инициативы Cloud OS Network Russia.</p> </div> </div><p></p> "
+		}
+	]
+}

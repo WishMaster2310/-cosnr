@@ -1,0 +1,19 @@
+{
+
+	"source": false,
+	"name": "«Резервное копирование и георепликация в гибридном облаке. Обзор возможностей Azure Backup и Azure Site Recovery»",
+	"id": "rezervnoe_kopirivanie",
+	"img": false,
+	"links": ["virtualnaya_ifrastructura", "virtualniy_ofice"],
+	"general": [
+
+		{
+			"caption": "",
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Backup-and-geo-replication-in-a-hybrid-cloud-Overview-Azure-Backup-and-Azure-Site-Recovery/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Олег Новиков представляет службу аварийного восстановления Azure Site Recovery, демонстрирует несколько сценариев использования этого продукта и рассказывает о нюансах реализации этих сценариев.</p>"
+		},
+		{
+			"caption": "",
+			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/Oleg-Novikov_9312.jpg\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Олег Новиков</strong></p> <p>Ведущий инженер компании Softline, несколько лет занимается облачными решениями на основе продуктов компании Microsoft.</p> </div> </div><p></p> "
+		}
+	]
+}

@@ -1,31 +1,436 @@
 {
     "pages": [
         {
-            "name": "rerere",
-            "group": "pages",
-            "status": "sync",
-            "fixture": "true",
-            "msid": "wewewe",
-            "_id": "cba3f8ed0267866569d34bad49b44793a63f5a12",
-            "ctime": 1456903147091
-        },
-        {
-            "name": "232323",
+            "name": "index",
             "group": "pages",
             "status": "new",
             "fixture": "true",
             "msid": "",
-            "_id": "6311f5dbc8aa1fa2d23aafad6bb225ca0ebd0189",
-            "ctime": 1456903313761
+            "_id": "ad00b1e59a8c55f049fa41e0ee59871155ca0f9c",
+            "ctime": 1456913821136
         },
         {
-            "name": "3434",
-            "group": "pages",
+            "name": "cloudv",
+            "origin": "products",
             "status": "new",
-            "fixture": false,
+            "fixture": true,
             "msid": "",
-            "_id": "23b03b4207d0077a7f1cb29117c2d56d21f93357",
-            "ctime": 1456903600574
+            "_id": "a2787c6f533f587bac24e12be5e235f5891b7ef5",
+            "ctime": 1456926319496
+        },
+        {
+            "name": "msiaas",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "05534564198321f13ce2d0a95a70ffdf96b2e150",
+            "ctime": 1456926319501
+        },
+        {
+            "name": "oblakoteka_virtualnaja_infrastruktura",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "d7d95c13741ca523b2e9e9e3df86873f11546377",
+            "ctime": 1456926319504
+        },
+        {
+            "name": "exchange_service",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "a8c9ae740840e33b29a3ffba868f18536078ad9d",
+            "ctime": 1456926319529
+        },
+        {
+            "name": "virtualnaya_ifrastructura",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "906af7b22eaf4a3c0dc21971d790fdce17ed34fd",
+            "ctime": 1456926319532
+        },
+        {
+            "name": "virtualniy_ofice",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "2936cd1178f44edb753455fe52854da3785c55bb",
+            "ctime": 1456926319535
+        },
+        {
+            "name": "active_iaas",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "9471df233cc23e0a1b5177705d87ed0adaa0b177",
+            "ctime": 1456926319537
+        },
+        {
+            "name": "office24",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "b0236a9260b00086d9f279cc89723c0b0384b849",
+            "ctime": 1456926319540
+        },
+        {
+            "name": "infobox_cloud",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "a791f1be96b1d03dfc2182ae8e9eb27d89e651f5",
+            "ctime": 1456926319542
+        },
+        {
+            "name": "biznes_kruglyj_god",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "b291fe80ba1226b5706cba527c70ce16664ccbf5",
+            "ctime": 1456926319545
+        },
+        {
+            "name": "virtualniy_tsod",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "792a22dc6ae23b51309e3d0c8625d3cbad322b9b",
+            "ctime": 1456926319547
+        },
+        {
+            "name": "rt_virtualniy_office",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "a1807fb16009ab7e3c87db0d1feeca510758659c",
+            "ctime": 1456926319576
+        },
+        {
+            "name": "cloud_o",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "471b8827aae895f2a6780fe095154c7ffc7fc6a9",
+            "ctime": 1456926319579
+        },
+        {
+            "name": "crm_ot_softline",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "376b8287c2f315719db66d20ff83ef95434ef809",
+            "ctime": 1456926319582
+        },
+        {
+            "name": "hosted_dynamics_crm",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "737b79c0becf8f5ddc7a5dcc23b705352405f5fa",
+            "ctime": 1456926319602
+        },
+        {
+            "name": "manzana_loyalty",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "aa55061b9ffaf264aa4038435a13a29ee2707879",
+            "ctime": 1456926319605
+        },
+        {
+            "name": "mosoblako",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "3f29b6969639f79b3adc943db919c3d2feaf6340",
+            "ctime": 1456926319607
+        },
+        {
+            "name": "taskmanager",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "63b12c713256ad7f64dbd9d0355c753530704c09",
+            "ctime": 1456926319610
+        },
+        {
+            "name": "systema4i",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "f11fa5fb7cd47b8a607a2c5462f21dcff9feb34c",
+            "ctime": 1456926319614
+        },
+        {
+            "name": "crm_dlya_proizvodstva",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "de1c2b9c02a7c8b3118b4759bb3903b030236848",
+            "ctime": 1456926319617
+        },
+        {
+            "name": "crm_dlya_distributorov",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "20b47a0ca35dbc8fe6a429e09d432ee793bce90f",
+            "ctime": 1456926319619
+        },
+        {
+            "name": "crm_dlya_bankov",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "8bda3e1405e5d9ffca32abcee8dbd05e3a3f9407",
+            "ctime": 1456926319622
+        },
+        {
+            "name": "crm_dlya_kontaktcentrov",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "467b98367e2213da3169380856c0003f788a762a",
+            "ctime": 1456926319624
+        },
+        {
+            "name": "realtor_aero",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "f714e65e3f0818de05d903b1f89df328de5a68e2",
+            "ctime": 1456926319626
+        },
+        {
+            "name": "crm_dlya_gostinic",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "c4b70c8b147539c9837f4fa63c44dc0322e57792",
+            "ctime": 1456926319630
+        },
+        {
+            "name": "crm_dlya_servisa",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "d5f5861b71539ef352a2e8d2594e62398e695815",
+            "ctime": 1456926319633
+        },
+        {
+            "name": "crm_dlya_obrazovaniya",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "0094c54a310ed53618a2a70d3d1a6da8c03a70ff",
+            "ctime": 1456926319635
+        },
+        {
+            "name": "bystryj_start_prodazh",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "d46be8edfc93ab8e7749294108ced8a02941e01e",
+            "ctime": 1456926319638
+        },
+        {
+            "name": "oblachnaja_kopilka_idej",
+            "origin": "cases",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "53cb09681ee0b3132727cd524a870967d4c126ca",
+            "ctime": 1456926319643
+        },
+        {
+            "name": "modernizaciya_pochtovih_servisov",
+            "origin": "cases",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "05d4e3e9ad4a71a151cee3a9beddef2b31de96f3",
+            "ctime": 1456926319646
+        },
+        {
+            "name": "testirovanie_oblachnoi_infrastructuri",
+            "origin": "cases",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "ef143b280355a24223089a6bb95da76d92c4cacb",
+            "ctime": 1456926319650
+        },
+        {
+            "name": "hybrid_history_microsoft",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "2b2497d346c0d7f3595bc0f0ef738889367e26b8",
+            "ctime": 1456926319654
+        },
+        {
+            "name": "webinar_azure_site_recovery",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "23817717ebce3d2b098df6670da05fa85d23398a",
+            "ctime": 1456926319657
+        },
+        {
+            "name": "webinar_active_directory_as_servise",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "184d085da0fadd193c62e6a49b9c3b30260ebeed",
+            "ctime": 1456926319659
+        },
+        {
+            "name": "webinar_active_hybrid_deployment",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "7a1fa8be73dab4cd2e5c5e9db3da598176f8503b",
+            "ctime": 1456926319668
+        },
+        {
+            "name": "oblachniye_servisy_softline",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "0eadd434fee68f24cf9d506d9c5d985a81922149",
+            "ctime": 1456926319673
+        },
+        {
+            "name": "ms_cloud_os_network",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "3d794079c300d9fd006ac654fed703be251f37e9",
+            "ctime": 1456926319676
+        },
+        {
+            "name": "azure_pack_v_oblakoteke",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "bab7c6659e808a748a6c498e92ef02939553700f",
+            "ctime": 1456926319679
+        },
+        {
+            "name": "dataline_oblachnii_servis",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "a7f1eb85e6c5d128fbf04b8b2df06a141d1d801e",
+            "ctime": 1456926319682
+        },
+        {
+            "name": "mir_cod_edinoe_v_treh_licah",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "90aa4bd7219bbec2bb8b8d3ac97805d4b09b3e58",
+            "ctime": 1456926319685
+        },
+        {
+            "name": "ne_infrastrukturoi_edinoi",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "d6ed953c56619308fe10998afbbb87009d4115c1",
+            "ctime": 1456926319688
+        },
+        {
+            "name": "cosnr_praktiki",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "7ddba81fff00bc451fdf4f66209c376a902cf168",
+            "ctime": 1456926319690
+        },
+        {
+            "name": "kak_sdelali_cloudv",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "ab14e158bd160305bca9c7bdebb51025d42a3830",
+            "ctime": 1456926319693
+        },
+        {
+            "name": "nadejniy_fundament",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "b2da68c2f8161b8540d1ee8eb2b7c14cb0065c81",
+            "ctime": 1456926319696
+        },
+        {
+            "name": "obespechenie_bezopsnosti",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "3aee6d82be986dfefe8ee6371a3211ef8d8f6678",
+            "ctime": 1456926319699
+        },
+        {
+            "name": "rezervnoe_kopirivanie",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "5897a7dca9912e543867713002e818b65841d9cf",
+            "ctime": 1456926319702
+        },
+        {
+            "name": "praktika_azure_ad",
+            "origin": "articles",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "54c4a9fb15d7a3135635fa516f8c2d36b2dbb5ed",
+            "ctime": 1456926319704
         }
     ],
     "fragments": [

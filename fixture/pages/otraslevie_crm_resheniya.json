@@ -1,0 +1,22 @@
+{
+	
+	"name": "Отраслевые CRM-решения",
+	"_id": "otraslevie_crm_resheniya",
+	"provider": "dataline",
+	"similar": ["msiaas", "oblakoteka_virtualnaja_infrastruktura", "virtualniy_ofice"],
+	"general": [
+		{
+			"_id": "description",
+			"caption": "Описание",
+			"content": "<p>Контент временно недоступен</p>"
+		}
+	],
+	"technical": [
+
+		{
+			"_id": "architecture",
+			"caption": "Архитектура решения",
+			"content": "<p>Контент временно недоступен</p>"
+		}
+	]
+}

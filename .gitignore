@@ -1,6 +1,7 @@
 .env/*
 node_modules/*
 .sass-cache/*
+__design/*
 export/*
 *.sublime-project
 *.sublime-workspace

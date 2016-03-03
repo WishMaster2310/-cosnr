@@ -56,9 +56,7 @@ muse.createPage = function(page) {
         viewsOrigin = path.join(VIEWS_PATH, 'proto', '__' + page.group + '.html');
     }
 
-    if (_.findIndex(MSMAP[itemGroup], {
-            name: page.name
-        }) < 0) {
+    if (_.findIndex(MSMAP[itemGroup], { name: page.name }) < 0) {
 
         fs.createReadStream(viewsOrigin).pipe(fs.createWriteStream(viewsPath));
 
@@ -432,7 +430,61 @@ muse.removeImage = function (res, item, callback) {
         
         callback()
     }
+}
 
+muse.fillGroup = function (items, group, callback) {
+
+    async.each(items[group], function(item, next) {
+
+        var page = {
+            name: item._id,
+            origin: group,
+            fixture: true
+        };
+
+        var viewsPath = path.join(VIEWS_PATH, 'pages', page.name + '.html');
+        var fixturePath = path.join(FIXTURE_PATH, 'pages', page.name + '.json');
+        var viewsOrigin = path.join(VIEWS_PATH, 'proto', '__' + page.origin  + '.html');
+
+        if (_.findIndex(MSMAP['pages'], { name: page.name }) < 0) {
+            MSMAP['pages'].push(new muse.Page(page));
+            fs.writeFileSync(MSMAP_FILE, JSON.stringify(MSMAP, null, 4));
+            fs.createReadStream(viewsOrigin).pipe(fs.createWriteStream(viewsPath));
+            next()
+        } else {
+           next()
+        }
+
+    }, function(err) {
+        if (err) {
+            console.log(err);
+        } else {
+            muse.notify('Pages export done successfully');
+        }
+        callback()
+    });
+};
+
+muse.extendsOldItems = function (callback){
+    var pages1 = require('../public/datasource/products.json');
+    var pages2 = require('../public/datasource/cases.json');
+    var pages3 = require('../public/datasource/articles.json');
+   // console.log(pages)
+
+    async.waterfall([
+      function(next) {
+          muse.fillGroup(pages1, 'products', next)
+      },
+      function(next) {
+          muse.fillGroup(pages2, 'cases', next)
+      },
+      function(next) {
+          muse.fillGroup(pages3, 'articles', next)
+      }], 
+      function() {
+          callback()
+      }
+    );
 }
 
 

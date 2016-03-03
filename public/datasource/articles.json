@@ -1,0 +1,163 @@
+{
+    "articles": [{
+    "_id": "hybrid_history_microsoft",
+    "type": "Вебинар",
+    "type_id": "webinar",
+    "date": "15 октября",
+    "title": "Запись вебинара «Гибридная история Microsoft: локальные облачные сервисы и&nbsp;Azure»",
+    "slider": false,
+    "icon": false,
+    "img": "hybrid_history.jpg",
+    "desc": "В рамках данного вебинара мы рассказали про локальные облачные сервисы, которые компания Microsoft запускает совместно с 8 российскими сервис-провайдерами."
+  }, {
+    "_id": "webinar_azure_site_recovery",
+    "type": "Вебинар",
+    "type_id": "webinar",
+    "date": "16 октября",
+    "title": "Запись вебинара «Резервный дата-центр на основе Azure Site Recovery»",
+    "slider": false,
+    "icon": false,
+    "img": "645029ee-5d16-456b-99e2-3b650c515f02.jpg",
+    "desc": "В рамках этого вебинара Олег Новиков объяснил необходимость наличия резервного ЦОДа, коротко рассказал об Azure Site Recovery"
+  }, {
+    "_id": "webinar_active_directory_as_servise",
+    "type": "Вебинар",
+    "type_id": "webinar",
+    "date": "17 сентября",
+    "title": "Запись вебинара «Active Directory как сервис»",
+    "slider": false,
+    "icon": false,
+    "img": "14d2371d-b024-4a05-aa5e-6ad989d1d53f.jpg",
+    "desc": "Вебинар посвящен разбору гибридных сценариев интеграции <nobr> Active Directory и Azure AD.</nobr>"
+  }, {
+    "_id": "webinar_active_hybrid_deployment",
+    "type": "Вебинар",
+    "type_id": "webinar",
+    "date": "18 сентября",
+    "title": "Запись вебинара «Гибридные сценарии развертывания распределенной платформы»",
+    "slider": false,
+    "icon": false,
+    "img": "ddc0ecb9-1b91-4b25-8ccf-d76b51f235fe.jpg",
+    "desc": "Вебинар посвящен разбору гибридных сценариев развертывания распределенной платформы."
+  }, {
+    "_id": "oblachniye_servisy_softline",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "23 сентября",
+    "title": "Облачные сервисы Softline",
+    "slider": false,
+    "icon": false,
+    "img": "softlinecloud.jpg",
+    "desc": "Softline представляет первые облачные сервисы международного класса в&nbsp;рамках инициативы Cloud OS&nbsp;Network Russia. Услуги созданы на&nbsp;базе технологий Microsoft и&nbsp;доступны из&nbsp;дата-центров, расположенных на&nbsp;территории нашей страны."
+  }, {
+    "_id": "ms_cloud_os_network",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "17 августа",
+    "title": "Программа Microsoft Cloud&nbsp;OS&nbsp;Network",
+    "slider": false,
+    "icon": false,
+    "img": "articlecosn.jpg",
+    "desc": "Облачная инициатива Microsoft Cloud OS&nbsp;Network (COSN) действует на&nbsp;глобальном рынке с&nbsp;конца 2013&nbsp;года. В&nbsp;России первые сервисы по&nbsp;этой программе стали доступны через локальных партнеров корпорации в&nbsp;2015&nbsp;году."
+  }, {
+    "_id": "azure_pack_v_oblakoteke",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "5 августа",
+    "title": "Azure Pack в «Облакотеке»",
+    "slider": false,
+    "icon": false,
+    "img": "article1.jpg",
+    "desc": "В&nbsp;феврале 2015 года компания &laquo;Облакотека&raquo; запустила новую IaaS-платформу, предназначенную для размещения IT-инфраструктур с&nbsp;интерфейсом управления &laquo;как в&nbsp;Microsoft Azure&raquo;."
+  }, {
+    "_id": "dataline_oblachnii_servis",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "6 августа",
+    "title": "Dataline запустила новый облачный сервис",
+    "slider": false,
+    "icon": false,
+    "img": "4922f900ce844208a294d44e363777a0.png",
+    "desc": "В&nbsp;облачном меню компании Dataline появилась новинка&nbsp;&mdash; облако на&nbsp;базе технологии Microsoft Hyper-V и&nbsp;с&nbsp;порталом управления Windows Azure Pack."
+  }, {
+    "_id": "mir_cod_edinoe_v_treh_licah",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "7 августа",
+    "title": "&laquo;Мир ЦОД&raquo;: единое в&nbsp;трех&nbsp;лицах",
+    "slider": false,
+    "icon": false,
+    "img": "article1.jpg",
+    "desc": "Облачные сервисы на&nbsp;базе технологий Microsoft российские заказчики могут реализовать самостоятельно или воспользовавшись услугами корпорации либо ее&nbsp;партнеров-провайдеров."
+  }, {
+    "_id": "ne_infrastrukturoi_edinoi",
+    "type": "Статья",
+    "type_id": "article",
+    "date": "17 августа",
+    "title": "Не инфраструктурой единой",
+    "slider": false,
+    "icon": false,
+    "img": "article1.jpg",
+    "desc": "Российские компании &laquo;Ростелеком&raquo;, DataLine, Infobox, Softline, &laquo;Электронная Москва&raquo;, &laquo;Крок&raquo; и&nbsp;&laquo;Облакотека&raquo;&nbsp;&mdash; участники инициативы Microsoft Cloud OS&nbsp;Network Russia&nbsp;&mdash; представили свои первые облачные сервисы на&nbsp;базе технологий корпорации."
+  }, {
+    "_id": "cosnr_praktiki",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Инициатива Microsoft Cloud OS Network Russia: национальные облачные сервисы на базе мировой практики Microsoft»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart1.jpg",
+    "desc": "Доклад об инициативе Cloud OS Network в России и российских сервис-провайдерах"
+  }, {
+    "_id": "kak_sdelali_cloudv",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Построения облачного сервиса на практике: как мы сделали Cloud-V»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart2.jpg",
+    "desc": "Доклад про облачный сервис Cloud-V от Dataline, который построен на базе Azure Pack"
+  }, {
+    "_id": "nadejniy_fundament",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Надежный фундамент: Dataline OST, или Как устроен один из крупнейших ЦОД в России»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart3.jpg",
+    "desc": "Доклад о том, как устроен дата-центр Dataline, в котором развернут сервис Cloud-V"
+  }, {
+    "_id": "obespechenie_bezopsnosti",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Обеспечение безопасности облачных сервисов: 5nine Cloud Security для Cloud-V»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart4.jpg",
+    "desc": "Доклад о безопасности как о ключевом факторе при обеспечении непрерывности услуг облачных сервисов"
+  }, {
+    "_id": "rezervnoe_kopirivanie",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Резервное копирование и георепликация в гибридном облаке. Обзор возможностей Azure Backup и Azure Site Recovery»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart5.jpg",
+    "desc": "Презентация службы аварийного восстановления Azure Site Recovery"
+  }, {
+    "_id": "praktika_azure_ad",
+    "type": "Доклад",
+    "type_id": "webinar",
+    "date": "10 ноября",
+    "title": "«Практика построения гибридных облачных сервисов: Active Directory как сервис с использованием Azure AD»",
+    "slider": true,
+    "icon": false,
+    "img": "jumpStart6.jpg",
+    "desc": "Доклад о том, как строятся гибридные облачные сервисы компании «Облакотека»"
+  }]
+}

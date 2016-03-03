@@ -88,6 +88,12 @@ router.post('/syncwithsitemuse', function(req, res, next) {
 	});
 });
 
+router.get('/init_items', function(req, res, next) {
+	muse.extendsOldItems(function(err) {
+		res.send({err: err})
+	});
+});
+
 muse.notify('Muse Init');
 
 module.exports = router;

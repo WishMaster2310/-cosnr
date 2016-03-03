@@ -1,0 +1,19 @@
+{
+
+	"source": false,
+	"name": "«Обеспечение безопасности облачных сервисов: 5nine Cloud Security для Cloud-V»",
+	"id": "obespechenie_bezopsnosti",
+	"img": false,
+	"links": ["virtualnaya_ifrastructura", "virtualniy_ofice"],
+	"general": [
+
+		{
+			"caption": "",
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Securing-the-cloud-5nine-Cloud-Security-for-Cloud-V/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Юрий Бражников рассказывает о безопасности как о ключевом факторе при обеспечении непрерывности услуг облачных сервисов, которые предоставляет компания 5nine Software своим клиентам.</p>"
+		},
+		{
+			"caption": "",
+			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/brajnikov.png\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Юрий Бражников</strong></p> <p>Генеральный директор компании 5nine Software в России и СНГ. Опыт в IT более 26 лет. С 2011 года работает в сфере виртуализации и защиты информации.</p> </div> </div><p></p> "
+		}
+	]
+}

@@ -38,12 +38,35 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.use('/', routes);
 //app.use('/users', users);
 app.use('/sitemuse', sitemuse);
+app.use('/', function(req, res, next) {
+  var viewsDir = fs.readdirSync('./views/pages');
+  var dataDir = fs.readdirSync('./fixture/pages');
+  var d = {};
+
+  var targetData = _.find(dataDir, function(n) {
+    return n == 'index.json'
+  });
+
+  if (!!targetData) {
+    d = require('./fixture/pages/' + targetData);
+  };
+
+  res.render('pages/index.html', {Page: d, Export: false});
+});
 
 app.all('*', function(req, res, next) {
   var viewsDir = fs.readdirSync('./views/pages');
   var dataDir = fs.readdirSync('./fixture/pages');
   var reqPath = _.compact(req.url.split('/'));
   var d = {};
+
+  var targetData = _.find(dataDir, function(n) {
+    return n == reqPath + '.json'
+  });
+  
+  if (!!targetData) {
+    d = require('./fixture/pages/' + targetData);
+  };
 
   // find page
   var targetPage = _.find(viewsDir, function(n) {
