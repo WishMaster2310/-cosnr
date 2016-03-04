@@ -1,5 +1,4 @@
-{
-    "articles": [{
+[{
     "_id": "hybrid_history_microsoft",
     "type": "Вебинар",
     "type_id": "webinar",
@@ -160,4 +159,3 @@
     "img": "jumpStart6.jpg",
     "desc": "Доклад о том, как строятся гибридные облачные сервисы компании «Облакотека»"
   }]
-}

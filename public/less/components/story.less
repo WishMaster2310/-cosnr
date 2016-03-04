@@ -1,75 +1,5 @@
 .story {
-	&-slider {
-
-		.owl {
-			&-wrapper-outer {
-				overflow: visible;
-			}
-
-			&-item {
-				.transition(opacity .3s ease-in-out);
-				.opacity(.3);
-
-				&.active {
-					.opacity(1);
-				}
-			}
-
-			&-controls {
-				height: 0px; 
-				background: #000;
-				top: 50%;
-				left: 0;
-				right: 0;
-				position: absolute;
-			}
-
-			&-buttons {
-				> div {
-					position: absolute;
-					width: 70px;
-					height: 70px;
-					display: block;
-					border-style: solid;
-					border-width: 2px;
-					border-color: transparent;
-					top: 50%;
-					margin-top: -35px;
-					.rotate(45deg);
-					z-index: 1;
-
-					&.owl-prev {
-						left: -50px;
-						border-bottom-color: @gray;
-						border-left-color: @gray;
-					}
-
-					&.owl-next {
-						border-top-color: @gray;
-						border-right-color: @gray;
-						right: -50px;
-					}
-
-					&.disabled {
-						.opacity(.3)
-					}
-				}
-			}
-		}
-
-		&__item {
-			padding: 0px 15px;
-		}
-
-		&-wrapper {
-			overflow: hidden;
-			padding-bottom: 10px;
-		}
-	}
-
-	&-section {
-		padding-bottom: 3em;
-	}
+	
 
 	&-block {
 		.base-shadow();
@@ -85,6 +15,7 @@
 			margin-right: -1.875em;
 			height: 175px;
 			position: relative;
+			background-color: #f8f8f8;
 			//.transition(all .3s ease-in-out);
 			img {
 				display: block;
@@ -94,7 +25,8 @@
 				right: 0;
 				bottom: 0;
 				margin: auto;
-				min-height: 100%;
+				max-width: 80%;
+				max-height: 80%;
 			}
 		}
 									

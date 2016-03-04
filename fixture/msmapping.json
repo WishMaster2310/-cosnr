@@ -477,6 +477,30 @@
             "group": "images",
             "msid": "",
             "_id": "a2c7c1c9abb52aed1c17f8fda67ca75e8974aad6"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-promsvyazbank.jpg",
+            "name": "case-logo-promsvyazbank.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "",
+            "_id": "7c7a7de2ffc8e92628b9bfb6c3cb459bd0cb732d"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-kagazy.jpg",
+            "name": "case-logo-kagazy.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "",
+            "_id": "58d1fac97fa2fae27b61d77faf3fc947bf53f74b"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-directum.jpg",
+            "name": "case-logo-directum.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "",
+            "_id": "3d4df9bcd0bde1d40da0e7203a62053c6ed11a8e"
         }
     ]
 }

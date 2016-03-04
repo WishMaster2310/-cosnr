@@ -11,6 +11,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var nunjucks = require('nunjucks');
 var sitemuse = require('./routes/sitemuse');
+var muse = require('./routes/api');
 var app = express();
 var fs = require('fs');
 var _ = require('lodash')
@@ -51,8 +52,15 @@ app.get('/', function(req, res, next) {
   if (!!targetData) {
     d = require('./fixture/pages/' + targetData);
   };
-
-  res.render('pages/index.html', {Page: d, Export: false});
+  console.log(muse.articles)
+  res.render('pages/index.html', {
+      Page: d,
+      Export: false,
+      Articles: muse.articles,
+      Cases: muse.cases,
+      Products: muse.products,
+      Base: muse.base
+    });
 });
 
 app.all('*', function(req, res, next) {
@@ -64,27 +72,25 @@ app.all('*', function(req, res, next) {
   var targetData = _.find(dataDir, function(n) {
     return n == reqPath + '.json'
   });
-  
-  if (!!targetData) {
-    d = require('./fixture/pages/' + targetData);
-  };
 
   // find page
   var targetPage = _.find(viewsDir, function(n) {
     return n == reqPath + '.html'
   });
-
-  // find page Data
-  var targetData = _.find(dataDir, function(n) {
-    return n == reqPath + '.json'
-  });
   
   if (!!targetData) {
     d = require('./fixture/pages/' + targetData);
-  };  
+  };
 
   if (!!targetPage) {
-    res.render('pages/' + targetPage, {Page: d, Export: false})
+    res.render('pages/' + targetPage, {
+      Page: d, 
+      Export: false,
+      Articles: muse.articles,
+      Cases: muse.cases,
+      Products: muse.cases
+    }
+  )
   } else {
     throw new Error('404 Page '+ reqPath + ' Not Found')
   }

@@ -18,6 +18,11 @@ var EXPORT_PATH = path.join(__dirname, '../export/');
 var EXPORT_PAGES = path.join(__dirname, '../export/pages');
 var EXPORT_FRAGMENTS = path.join(__dirname, '../export/fragments');
 
+muse.articles = JSON.parse(fs.readFileSync('public/datasource/articles.json', 'utf8'));
+muse.cases = JSON.parse(fs.readFileSync('public/datasource/cases.json', 'utf8'));
+muse.products = JSON.parse(fs.readFileSync('public/datasource/products.json', 'utf8'));
+muse.base = JSON.parse(fs.readFileSync('public/datasource/base.json', 'utf8'));
+
 muse.notify = function(str) {
   console.log('[SiteMuse]:'.green, str);
 };
@@ -204,6 +209,10 @@ muse.exportPage = function(flag, callback) {
                 var locals = JSON.parse(fs.readFileSync(path.join(__dirname, '../fixture', 'pages', page.name + '.json')))
                 var content = nunjucks.render(_tmp, {
                     Page: locals,
+                    Articles: muse.articles,
+                    Cases: muse.cases,
+                    Products: muse.cases,
+                    Base: muse.base,
                     Export: flag
                 });
             } else {
@@ -282,8 +291,6 @@ muse.exporter = function(callback, next) {
     if (!fs.existsSync(EXPORT_FRAGMENTS)) {
         fs.mkdirSync(EXPORT_FRAGMENTS);
     }
-
-     console.log(1)
 
     async.waterfall([
         function(tick) {
@@ -436,7 +443,7 @@ muse.removeImage = function (res, item, callback) {
 
 muse.fillGroup = function (items, group, callback) {
 
-    async.each(items[group], function(item, next) {
+    async.each(items, function(item, next) {
 
         var page = {
             name: item._id,

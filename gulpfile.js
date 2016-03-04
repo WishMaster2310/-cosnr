@@ -72,7 +72,7 @@ gulp.task('default', function() {
  
   server.run(['bin/www'], [], [true]);
 
-  gulp.watch(['views/**/*.html', 'views/*.html', './app.js', 'routes/**/*.js'], function(event) {
+  gulp.watch(['views/**/*.html', 'views/*.html', 'public/datasource/*.json', './app.js', 'routes/**/*.js'], function(event) {
     server.notify(event);
     console.log(path.basename(event.path), 'was', event.type);
     server.stop();
