@@ -245,3 +245,16 @@ a {
   		padding-bottom: 75%;
   	}*/
 }
+
+.pseudo-link {
+	text-decoration: none !important;
+	cursor: pointer;
+	> span {
+		border-bottom: 1px dashed;
+		color: @green;
+	}
+
+	&:hover > span {
+		border-bottom-color: transparent;
+	}
+}
