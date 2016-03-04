@@ -4,7 +4,7 @@
 {% block content %}
 <div class="hero wrapped-section wrapped-section--mod-hero">
 	<div class="wrapped-section__bg">
-		<img src="" data-src="/images/wrapped-section_bg1.jpg" class="wrapped-section__bgimage" alt="">
+		<img src="" data-src="/images/wrapped-section_bg1.jpg" class="wrapped-section__bgimage j-lazybg" alt="">
 	</div>
 	<div class="container wrapped-section__container">
 		<div class="row">
@@ -25,7 +25,7 @@
 
 <div class="wrapped-section wrapped-section--mod-seno">
 	<div class="wrapped-section__bg">
-		<img src="" data-src="/images/wrapped-section_bg2.jpg" class="wrapped-section__bgimage" alt="">
+		<img src="" data-src="/images/wrapped-section_bg2.jpg" class="wrapped-section__bgimage j-lazybg" alt="">
 	</div>
 	<div class="container wrapped-section__container">
 		<div class="row">
@@ -45,7 +45,7 @@
 
 <div class="wrapped-section wrapped-section--mod-senokos">
 	<div class="wrapped-section__bg">
-		<img src="" data-src="/images/wrapped-section_bg3.jpg" class="wrapped-section__bgimage" alt="">
+		<img src="" data-src="/images/wrapped-section_bg3.jpg" class="wrapped-section__bgimage j-lazybg" alt="">
 	</div>
 	<div class="container wrapped-section__container" >
 		<div class="row">
@@ -64,7 +64,7 @@
 
 <div class="wrapped-section wrapped-section--mod-parahod">
 	<div class="wrapped-section__bg">
-		<img src="" data-src="/images/wrapped-section_bg4.jpg" class="wrapped-section__bgimage" alt="">
+		<img src="" data-src="/images/wrapped-section_bg4.jpg" class="wrapped-section__bgimage j-lazybg" alt="">
 	</div>
 	<div class="container wrapped-section__container">
 		<div class="row">
@@ -81,12 +81,55 @@
 		</div>
 	</div>
 </div>
-<section>
+
+<section class="slider-section">
   <div class="container">
     <h1 class="h1 text-center">Примеры успешных внедрений</h1>
-		
   </div>
   {% include "blocks/case-slider.html" %}
+</section>
+
+
+<section class="partner-section">
+	<img src="" data-src="/images/partners-section-bg.jpg" class="j-lazybg" alt="">
+  <div class="container">
+    <h1 class="h1 text-center">Наши партнеры</h1>
+    <ul class="partner-list mb30">
+			{% for partner in Base.partners %}
+			<li class="partner-list__item">
+
+				<span class="partner-list__item-link">
+					<img src="/images/{{ partner.logo }}" alt="{{ partner.name }}">
+				</span>
+			</li>
+			{% endfor %}
+		</ul>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center">
+        <p class="mb10">
+	          Мы объединили глобальный опыт Microsoft по построению облачных сервисов с&nbsp;локальной экспертизой лучших российских партнеров. 
+	      </p>
+	      <p  class="mb30">Если вы обладаете похожей компетенцией, присоединяйтесь!</p>
+	      <p>
+	          <a href="#" class="btn mb20">Стать партнером</a>&emsp;<a href="#" class="btn btn--white mb20">Посмотреть решения</a>
+	      </p>
+      </div>
+		</div>
+  </div>
+</section>
+
+<section class="faq-section">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="h1">Закажите звонок</h1>
+                <p class="mb20">
+                    Команда экспертов Cloud OS Network Russia готова ответить на&nbsp;ваши вопросы и помочь вам в выборе сервиса или решения. 
+                </p>
+                <a href="#" class="btn">Заказать звонок</a>
+            </div>
+        </div>
+    </div>
 </section>
 
 {% endblock %}

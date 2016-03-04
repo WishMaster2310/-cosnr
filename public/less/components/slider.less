@@ -2,9 +2,16 @@
 	margin-left: -40px;
 	margin-right: -40px;
 
+	&-section {
+		padding: 100px 0;
+	}
+
 	&__item {
 		padding: 5px 20px;
-		opacity: .3
+		opacity: .2;
+		transition: opacity .3s ease-in-out;
+		filter: grayscale(100%);
+		outline: none !important;
 	}
 
 	&--cases {
@@ -13,7 +20,8 @@
 		}
 
 		.slick-active {
-			opacity: 1
+			opacity: 1;
+			filter: grayscale(0);
 		}
 	}
 
@@ -22,6 +30,5 @@
 	&-wrapp {
 		overflow: hidden;
 	}
-
 
 }

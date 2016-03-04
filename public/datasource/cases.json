@@ -19,30 +19,7 @@
   "name": "Тестирование облачной инфраструктуры",
   "url": "#",
   "target_id": "oblakoteka_virtualnaja_infrastruktura"
-},
-{
-  "_id": "oblachnaja_kopilka_idej",
-  "text": "&laquo;Промсвязьбанк&raquo; в&nbsp;сжатые сроки решил задачу по&nbsp;развертыванию платформы для реализации проекта.",
-  "img": "case-logo-promsvyazbank.jpg",
-  "name": "Облачная копилка идей",
-  "url": "#",
-  "target_id": "oblakoteka_virtualnaja_infrastruktura"
-}, {
-  "_id": "modernizaciya_pochtovih_servisov",
-  "text": "Softline модернизировала почтовые сервисы производственной компании Kagazy Recycling в Казахстане.",
-  "img": "case-logo-kagazy.jpg",
-  "name": "Модернизация почтовых сервисов",
-  "url": "#",
-  "target_id": "oblakoteka_virtualnaja_infrastruktura"
-}, {
-  "_id": "testirovanie_oblachnoi_infrastructuri",
-  "text": "Компания Directum протестировала облачную инфраструктуру Softline.",
-  "img": "case-logo-directum.jpg",
-  "name": "Тестирование облачной инфраструктуры",
-  "url": "#",
-  "target_id": "oblakoteka_virtualnaja_infrastruktura"
-},
-{
+},{
   "_id": "oblachnaja_kopilka_idej",
   "text": "&laquo;Промсвязьбанк&raquo; в&nbsp;сжатые сроки решил задачу по&nbsp;развертыванию платформы для реализации проекта.",
   "img": "case-logo-promsvyazbank.jpg",

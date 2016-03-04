@@ -12,7 +12,7 @@ $(function() {
 	};
 
 
-	$('.wrapped-section__bgimage').each(function(indx, elem) {
+	$('.j-lazybg').each(function(indx, elem) {
 			loadSectionBgs(elem);
 	});
 });

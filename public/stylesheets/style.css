@@ -826,7 +826,7 @@ table {
 }
 body {
   font: normal normal normal 16px/1.4 'wf_segoe-ui_semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
-  color: #696a6d;
+  color: #000000;
   background-color: #f8f8f8 !important;
 }
 body.bg-body {
@@ -1099,6 +1099,14 @@ a:hover {
 .btn--white {
   background-color: #fff;
   color: #008272;
+}
+.btn--min-width {
+  min-width: 195px;
+  text-align: center;
+}
+.btn--min-width2 {
+  min-width: 140px;
+  text-align: center;
 }
 .needs-wrapper {
   background-color: #fff;
@@ -4168,6 +4176,25 @@ Copyright (c) 2015 Daniel Eden
   padding-left: 20px;
   font-size: 1.500em;
 }
+.story-block__btn {
+  display: inline-block;
+  color: #008272;
+  background-color: #f2f9f8;
+  height: 38px;
+  padding: 10px 20px 5px 20px;
+  font-size: 16px;
+  line-height: 1;
+  text-decoration: none;
+  outline: none !important;
+}
+.story-block__btn:hover {
+  background-color: #008272;
+  color: #fff;
+}
+.story-block__btn:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
 .story-block_mod_open .story-block__popup-content {
   display: block;
 }
@@ -4186,12 +4213,10 @@ Copyright (c) 2015 Daniel Eden
   margin-left: 3%;
 }
 .partner-section {
-  background: url('../img/page-bg.jpg') no-repeat center top fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  padding: 3.750em 0;
+  padding: 80px 0 100px;
 }
 .partner-section_no-bg {
   background-image: none;
@@ -4204,6 +4229,7 @@ Copyright (c) 2015 Daniel Eden
 }
 .partner-list__item {
   display: inline-block;
+  position: relative;
   vertical-align: top;
   width: 220px;
   height: 100px;
@@ -4221,9 +4247,15 @@ Copyright (c) 2015 Daniel Eden
   max-width: 100%;
   display: block;
   margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .faq-section {
   padding: 3.750em 0;
+  background: #fff;
 }
 .faqs-item {
   padding-left: 60px;
@@ -5012,7 +5044,7 @@ Copyright (c) 2015 Daniel Eden
   margin-bottom: 10px;
 }
 .wiki-subslider__text {
-  color: #434446;
+  color: #000000;
 }
 .wiki-subslider .owl-controls {
   height: 20px;
@@ -5167,7 +5199,7 @@ Copyright (c) 2015 Daniel Eden
   font-size: 1.500em;
 }
 .tab-menu__item-link.active {
-  color: #696a6d !important;
+  color: #000000 !important;
   border-bottom-color: transparent;
 }
 .wrapped-section {
@@ -5206,15 +5238,24 @@ Copyright (c) 2015 Daniel Eden
   margin-left: -40px;
   margin-right: -40px;
 }
+.slider-section {
+  padding: 100px 0;
+}
 .slider__item {
   padding: 5px 20px;
-  opacity: 0.3;
+  opacity: .2;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  outline: none !important;
 }
 .slider--cases .slick-list {
   overflow: visible;
 }
 .slider--cases .slick-active {
   opacity: 1;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 .slider-wrapp {
   overflow: hidden;

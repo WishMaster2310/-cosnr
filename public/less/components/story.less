@@ -117,6 +117,28 @@
 			}
 		}
 
+
+		&__btn {
+			display: inline-block;
+			color: @green;
+			background-color: @green-light;
+			height: 38px;
+			padding: 10px 20px 5px 20px;
+			font-size: 16px;
+			line-height: 1;
+			text-decoration: none;
+			outline: none !important;
+
+			&:hover {
+				background-color: @green;
+				color: #fff;
+			}
+
+			&:active {
+				transform: scale(.98);
+			}
+		}
+
 		&_mod {
 			&_open {
 				.story-block__popup {
