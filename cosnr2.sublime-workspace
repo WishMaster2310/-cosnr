@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"gree",
+				"green-light2	 variables.less"
+			],
+			[
+				"ar",
+				"articles"
+			],
+			[
+				"datas",
+				"datasource"
+			],
+			[
 				"in",
 				"inherit"
 			],
@@ -43,78 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "public/less/style.less",
-			"settings":
-			{
-				"buffer_size": 2103,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/components/wrapped-section.less",
-			"settings":
-			{
-				"buffer_size": 710,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/components/tab.less",
-			"settings":
-			{
-				"buffer_size": 1436,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/pages/index.html",
-			"settings":
-			{
-				"buffer_size": 2770,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/components/btn.less",
-			"settings":
-			{
-				"buffer_size": 514,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/core/layout.less",
-			"settings":
-			{
-				"buffer_size": 3101,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/core/mixins.less",
-			"settings":
-			{
-				"buffer_size": 6235,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/components/hero.less",
-			"settings":
-			{
-				"buffer_size": 1,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/javascripts/general.js",
-			"settings":
-			{
-				"buffer_size": 388,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -123,7 +63,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 334.0,
+		"height": 219.0,
 		"last_filter": "ss js",
 		"selected_items":
 		[
@@ -206,25 +146,48 @@
 	"expanded_folders":
 	[
 		"/D/projects/cosnr2",
-		"/D/projects/cosnr2/fixture/fragments",
+		"/D/projects/cosnr2/modules",
 		"/D/projects/cosnr2/public",
-		"/D/projects/cosnr2/public/less",
-		"/D/projects/cosnr2/public/less/components",
-		"/D/projects/cosnr2/public/less/core",
-		"/D/projects/cosnr2/public/less/mixins",
-		"/D/projects/cosnr2/routes",
-		"/D/projects/cosnr2/views",
-		"/D/projects/cosnr2/views/pages"
+		"/D/projects/cosnr2/public/javascripts",
+		"/D/projects/cosnr2/public/stylesheets"
 	],
 	"file_history":
 	[
-		"/D/projects/cosnr2/app.js",
-		"/D/projects/cosnr2/routes/api.js",
-		"/D/projects/cosnr2/modules/watcher.js",
-		"/D/projects/cosnr2/export/pages/index.html",
-		"/D/projects/cosnr2/views/pages/index.html",
-		"/D/projects/cosnr2/public/javascripts/general.js",
+		"/D/projects/cosnr2/public/less/components/btn.less",
+		"/D/projects/cosnr2/public/less/components/story.less",
+		"/D/projects/cosnr2/views/blocks/case-slider.html",
+		"/D/projects/cosnr2/public/less/core/layout.less",
+		"/D/projects/cosnr2/public/less/components/wrapped-section.less",
 		"/D/projects/cosnr2/views/layout.html",
+		"/D/projects/cosnr2/public/javascripts/general.js",
+		"/D/projects/cosnr2/public/less/style.less",
+		"/D/projects/cosnr2/views/pages/index.html",
+		"/D/projects/cosnr2/public/less/components/faq.less",
+		"/D/projects/cosnr2/public/javascripts/index.js",
+		"/D/projects/cosnr2/cosnr2.sublime-project",
+		"/D/projects/cosnr2/export/pages/index.html",
+		"/D/projects/cosnr2/public/datasource/cases.json",
+		"/D/projects/cosnr2/public/less/core/variables.less",
+		"/D/projects/cosnr2/public/less/components/partner.less",
+		"/D/projects/cosnr2/public/datasource/base.json",
+		"/D/projects/cosnr2/public/less/modules/slick.less",
+		"/D/projects/cosnr2/Gruntfile.js",
+		"/D/projects/cosnr2/gulpfile.js",
+		"/D/projects/cosnr2/public/stylesheets/style.css",
+		"/D/projects/cosnr2/public/less/components/slider.less",
+		"/D/projects/cosnr2/public/less/components/helpers.less",
+		"/D/projects/cosnr2/routes/api.js",
+		"/D/projects/cosnr2/public/images/partner-logo-logo_elmoscow.png",
+		"/D/projects/cosnr2/public/javascripts/slick.min.js",
+		"/D/projects/cosnr2/views/blocks",
+		"/C/Users/wishm/Downloads/slick-1.5.9 (1)/slick-1.5.9/slick/slick.min.js",
+		"/D/projects/cosnr2/public/less/components/tab.less",
+		"/D/projects/cosnr2/app.js",
+		"/D/projects/cosnr2/public/datasource/articles.json",
+		"/D/projects/cosnr2/public/datasource/products.json",
+		"/D/projects/cosnr2/public/less/components/typography.less",
+		"/D/projects/cosnr2/public/less/components/hero.less",
+		"/D/projects/cosnr2/modules/watcher.js",
 		"/D/projects/cosnr2/routes/sitemuse.js",
 		"/D/projects/cosnr2/views/proto/__cases.html",
 		"/C/Users/wishm/Desktop/qqq.js",
@@ -233,14 +196,8 @@
 		"/D/projects/cosnr2/fixture/msmapping.json",
 		"/D/projects/hcloudsite/fixture/__base.json",
 		"/D/projects/cosnr2/.gitignore",
-		"/D/projects/cosnr2/public/datasource/products.json",
 		"/D/projects/cosnr2/public/datasource",
-		"/D/projects/cosnr2/public/datasource/cases.json",
-		"/D/projects/cosnr2/public/datasource/articles.json",
 		"/D/projects/cosnr2/fixture/pages/index.json",
-		"/D/projects/cosnr2/gulpfile.js",
-		"/D/projects/cosnr2/public/less/style.less",
-		"/D/projects/cosnr2/public/stylesheets/style.css",
 		"/D/projects/cosnr2/.git/config",
 		"/D/projects/cosnr2/views/proto/__products.html",
 		"/D/projects/devcon2015/public/less/blocks/tickets.less",
@@ -323,29 +280,7 @@
 		"/D/projects/jetstyle/sap/views/__blocks/workflow.html",
 		"/D/projects/jetstyle/sap/views/__blocks/slider.html",
 		"/D/projects/jetstyle/sap/public/less/style.less",
-		"/D/projects/jetstyle/sap/public/less/core/sprite.less",
-		"/C/Users/wishm/.ssh/id_rsa.pub",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/D/projects/jetstyle/sap/public/stylesheets/style.css.map",
-		"/D/projects/jetstyle/sap/app.js",
-		"/D/projects/jetstyle/sap/views/error.html",
-		"/D/projects/jetstyle/sap/routes/index.js",
-		"/D/projects/jetstyle/sap/public/less/core/mixin.less",
-		"/D/projects/jetstyle/sap/public/less/core/font.less",
-		"/D/projects/jetstyle/sap/public/less/core/variables.less",
-		"/D/projects/jetstyle/sap/public/less/core/reset.less",
-		"/D/projects/jetstyle/sap/public/less/blocks/variables.less",
-		"/C/Program Files/Sublime Text 3/subl.exe",
-		"/D/projects/sitemuse/views/_tmp/newpage.twig",
-		"/D/projects/sitemuse/routes/sitemuse.js",
-		"/D/projects/sitemuse/views/_tmp/page1.twig",
-		"/D/projects/sitemuse/views/pages/title.twig",
-		"/D/projects/sitemuse/export/pages/page1.html",
-		"/D/projects/sitemuse/views/pages/page1.twig",
-		"/D/projects/sitemuse/export/pages/newpage.html",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
-		"/D/projects/sitemuse/sitemuse.js",
-		"/D/projects/sitemuse/export/pages/title.html"
+		"/D/projects/jetstyle/sap/public/less/core/sprite.less"
 	],
 	"find":
 	{
@@ -363,6 +298,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"\"logo\":",
+			"\"></",
+			"		\n",
+			"slider__itemse",
+			"dataso",
+			"o",
 			";\n",
 			"></",
 			"\">\n",
@@ -413,377 +355,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "public/less/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2103,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								338,
-								338
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/less/components/wrapped-section.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 710,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								505,
-								505
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/less/components/tab.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1436,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								134,
-								134
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "views/pages/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1474,
-								1474
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 285.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "public/less/components/btn.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 514,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								204,
-								204
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "public/less/core/layout.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3101,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "public/less/core/mixins.less",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 6235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "public/less/components/hero.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "public/javascripts/general.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -834,7 +407,7 @@
 	"project": "cosnr2.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 102.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -844,8 +417,20 @@
 		"selected_items":
 		[
 			[
+				"index.h",
+				"views\\pages\\index.html"
+			],
+			[
+				"index",
+				"views\\pages\\index.html"
+			],
+			[
 				"api",
 				"routes\\api.js"
+			],
+			[
+				"app.js",
+				"app.js"
 			],
 			[
 				"faq",
@@ -861,9 +446,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "dev",
 		"selected_items":
 		[
+			[
+				"dev",
+				"D:\\__subl_projects\\devcon.sublime-project"
+			],
+			[
+				"co",
+				"D:\\projects\\cosnr2\\cosnr2.sublime-project"
+			],
 			[
 				"",
 				"D:\\__subl_projects\\mba_vshe.sublime-project"

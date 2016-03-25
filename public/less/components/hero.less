@@ -1,0 +1,91 @@
+.hero {
+	position: relative;
+
+	&__title {
+		font-size: round(54/16em, 3);
+		line-height: round(60/54, 3);;
+	}
+
+	&-slider {
+	//	opacity: 0;
+
+		&__item {
+			outline: none;
+		}
+
+		&__imgbox {
+			display: table-cell;
+			vertical-align: top;
+			padding: 10px 0;
+			width: 100px;
+		}
+
+		&__img {
+			display: block;
+			max-width: 100%;
+			border: 2px solid #fff;
+		}
+
+		&__text {
+			display: table-cell;
+			vertical-align: middle;
+			color: #fff;
+			font-size: round(20/16em, 3);
+			outline: none;
+			padding: 10px 180px 10px 30px;
+
+			a {
+				text-decoration: none;
+				color: inherit;
+				outline: none;
+			}
+		}
+
+		&__link {
+			display: table;
+			width: 100%;
+			text-decoration: none;
+			outline: none;
+		}
+
+		&__container {
+			//position: relative
+		}
+
+		&__wrapper {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: fade(#000, 70%);
+		}
+
+		.slick-dots {
+			position: absolute;
+			top: 10px;
+			right: 0;
+			z-index :2;
+
+			li {
+				display: inline-block;
+				vertical-align: top;
+				width: 9px;
+				height: 9px;
+				background-color: #a6a396;
+				margin-left: 4px;
+				border-radius: 50%;
+				cursor: pointer;
+
+				&.slick-active {
+					background-color: #fff;
+				}
+
+				button {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+// Все подходит к концу

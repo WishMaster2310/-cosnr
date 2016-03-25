@@ -11,6 +11,18 @@ $(function() {
 		}
 	};
 
+	function setHeroHeight () {
+		var hero = $('.hero'),
+			wh = 600;
+		if (window.innerHeight) {
+			wh = window.innerHeight;
+			
+		}
+		//hero.css("height", wh)
+	};
+
+
+	setHeroHeight ();
 
 	$('.j-lazybg').each(function(indx, elem) {
 			loadSectionBgs(elem);
