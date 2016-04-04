@@ -55,6 +55,21 @@
     "url": "http://oootisa.ru/About/Tisa/",
     "logo": "partner-logo-tisa.png",
     "_id": "Tisa"
+  }, {
+    "name": "Manzana",
+    "url": "http://oootisa.ru/About/Tisa/",
+    "logo": "partner-logo-tisa.png",
+    "_id": "manzana"
+  }, {
+    "name": "Электронная Москва",
+    "url": "http://oootisa.ru/About/Tisa/",
+    "logo": "partner-logo-tisa.png",
+    "_id": "mosoblako"
+  }, {
+    "name": "Электронная Москва",
+    "url": "http://oootisa.ru/About/Tisa/",
+    "logo": "partner-logo-tisa.png",
+    "_id": "actionspace"
   }],
   "groupA": [{
     "_id": "gossector",

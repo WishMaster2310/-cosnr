@@ -3,20 +3,7 @@
 	"name": "CRM от Softline",
 	"_id": "crm_ot_softline",
 	"provider": "softline",
-	"similar": ["msiaas", "oblakoteka_virtualnaja_infrastruktura", "virtualniy_ofice"],
-	"general": [
-		{
-			"_id": "description",
-			"caption": "Описание",
-			"content": "<p>Контент временно недоступен</p>"
-		}
-	],
-	"technical": [
-
-		{
-			"_id": "architecture",
-			"caption": "Архитектура решения",
-			"content": "<p>Контент временно недоступен</p>"
-		}
-	]
+	"pdf": false,
+	"form": "",
+	"content": "<p>Контент временно недоступен</p>"
 }
