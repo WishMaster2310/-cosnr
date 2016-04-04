@@ -88,7 +88,8 @@ app.all('*', function(req, res, next) {
       Export: false,
       Articles: muse.articles,
       Cases: muse.cases,
-      Products: muse.cases
+      Products: muse.products,
+      Base: muse.base
     }
   )
   } else {

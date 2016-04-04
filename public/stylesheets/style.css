@@ -1124,6 +1124,23 @@ a:hover {
   min-width: 140px;
   text-align: center;
 }
+.btn--bluelight {
+  background-color: #e6eff5;
+  color: #0072bc;
+  letter-spacing: -0.01em;
+  transition: all 0.3s ease-in-out;
+  min-width: 120px;
+}
+.btn--bluelight:hover {
+  background-color: #0072bc;
+  border-color: #0072bc;
+  color: #fff;
+}
+.btn--bluelight:active {
+  background-color: #0063a3;
+  border-color: #0063a3;
+  color: #fff;
+}
 .needs-wrapper {
   background-color: #fff;
   padding-top: 2.500em;
@@ -4466,6 +4483,42 @@ Copyright (c) 2015 Daniel Eden
   color: #008272;
   border-color: #008272;
 }
+.filter-btn {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #0072bc;
+  vertical-align: inherit;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  padding: 4px 1.5em 6px 1.5em;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+}
+.filter-btn span {
+  border-bottom: 1px dashed #696a6d;
+  color: #696a6d;
+  transition: all 0.3s ease-in-out;
+}
+.filter-btn:hover span {
+  border-bottom-color: transparent;
+}
+.filter-btn_active {
+  background-color: #fff;
+  border-color: #0072bc;
+}
+.filter-btn_active span {
+  border-bottom-color: transparent;
+  color: #0072bc;
+}
+.filter-btn_green.filter-btn_active {
+  border-color: #008272 !important;
+}
+.filter-btn_green.filter-btn_active span {
+  color: #008272;
+}
 .catalog {
   margin-left: -3%;
 }
@@ -5339,12 +5392,12 @@ Copyright (c) 2015 Daniel Eden
   overflow-y: auto;
   padding: 60px 50px;
   width: 100%;
-  top: 100%;
+  top: -100%;
   bottom: 30px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.96);
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   transition: -webkit-transform .75s ease;
   transition: transform .75s ease;
   transition: transform .75s ease, -webkit-transform .75s ease;

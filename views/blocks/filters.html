@@ -1,0 +1,32 @@
+<div class="filter-block mb40">
+
+	<p class="filter-block__section mb10">
+		<span class="filter-block__section-label">Виды бизнеса:&emsp;</span>
+		{%- for item in Base.groupA -%}
+			<a href="#" class="filter-btn mb10" data-bind="
+			click: function() {
+				m_site.toggleFilter(0, '{{ item._id }}')
+			}, css: {'filter-btn_active': m_site.activeFilterA() === '{{ item._id }}'}"><span>{{ item.name }}</span></a>
+		{%- endfor -%}
+	</p>
+
+	<p class="filter-block__section  mb10">
+		<span class="filter-block__section-label">Деятельность:&emsp;</span>
+		{%- for item in Base.groupB -%}
+			<a href="#" class="filter-btn mb5" data-bind="click: function() {m_site.toggleFilter(1, '{{ item._id }}')}, css: {'filter-btn_active': m_site.activeFilterB() === '{{ item._id }}'}"><span>{{ item.name }}</span></a>
+		{%- endfor -%}
+	</p>
+
+	<div class="filter-tags__wrapper">
+		<ul class="filter-tags" data-bind="foreach: m_site.tags">
+			<li>
+				<label class="filter-tags__label">
+					<input type="checkbox" data-bind="value: id, checked: m_site.activeTags">
+					<span data-bind="text: caption"></span>
+				</label>
+			</li>
+		</ul>
+	</div>
+</div>
+
+

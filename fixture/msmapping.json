@@ -431,6 +431,15 @@
             "msid": "",
             "_id": "54c4a9fb15d7a3135635fa516f8c2d36b2dbb5ed",
             "ctime": 1456926319704
+        },
+        {
+            "name": "products",
+            "group": "pages",
+            "status": "new",
+            "fixture": false,
+            "msid": "",
+            "_id": "c3cfd52c6926bfdb536c8562c6280c1000caab0a",
+            "ctime": 1459430229893
         }
     ],
     "fragments": [
@@ -879,14 +888,6 @@
             "_id": "29be7ca52f0d6abb63e2d05ec82f165f09e9d61e"
         },
         {
-            "path": "D:\\projects\\cosnr2\\public\\images\\norbit.png",
-            "name": "norbit.png",
-            "size": 8009,
-            "group": "images",
-            "msid": "",
-            "_id": "9cb0435753b64a5d1d04b4522bed1db68ccf1e2c"
-        },
-        {
             "path": "D:\\projects\\cosnr2\\public\\images\\norbit22.png",
             "name": "norbit22.png",
             "size": 43218,
@@ -1013,14 +1014,6 @@
             "group": "images",
             "msid": "",
             "_id": "b44123dfd69226cfa032f8d17d3d10b816a32a89"
-        },
-        {
-            "path": "D:\\projects\\cosnr2\\public\\images\\tekora.png",
-            "name": "tekora.png",
-            "size": 8199,
-            "group": "images",
-            "msid": "",
-            "_id": "184fa466d5d647dc6dba560d982811d1571f22c2"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\tisa.png",
@@ -1383,14 +1376,6 @@
             "_id": "879d2ada6a4dadfb6826faf5b20b45ab4187a2a7"
         },
         {
-            "path": "D:\\projects\\cosnr2\\public\\images\\activecloud.png",
-            "name": "activecloud.png",
-            "size": 3696,
-            "group": "images",
-            "msid": "",
-            "_id": "b5adda7f04637c8763274b47800c789a031e3337"
-        },
-        {
             "path": "D:\\projects\\cosnr2\\public\\images\\article1.jpg",
             "name": "article1.jpg",
             "size": 25665,
@@ -1469,14 +1454,6 @@
             "group": "images",
             "msid": "",
             "_id": "e25ebf153244722dbeb70fb6ea7447b257753807"
-        },
-        {
-            "path": "D:\\projects\\cosnr2\\public\\images\\logo_elmoscow.png",
-            "name": "logo_elmoscow.png",
-            "size": 3483,
-            "group": "images",
-            "msid": "",
-            "_id": "c856c136d2dab4e8237704831e9fe63ea170113a"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\logo_infobox.png",
@@ -1613,6 +1590,14 @@
             "group": "images",
             "msid": "",
             "_id": "497219cdad080f325d0ef2b6ff862799f5720f3c"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\tekora.png",
+            "name": "tekora.png",
+            "size": 8199,
+            "group": "images",
+            "msid": "",
+            "_id": "a510536d66c43ceb1b2f2ff16d1ac3d879feda58"
         }
     ]
 }

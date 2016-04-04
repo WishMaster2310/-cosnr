@@ -457,10 +457,11 @@ muse.fillGroup = function (items, group, callback) {
 
         if (_.findIndex(MSMAP['pages'], { name: page.name }) < 0) {
             MSMAP['pages'].push(new muse.Page(page));
-            fs.writeFileSync(MSMAP_FILE, JSON.stringify(MSMAP, null, 4));
-            fs.createReadStream(viewsOrigin).pipe(fs.createWriteStream(viewsPath));
+            
             next()
         } else {
+            fs.writeFileSync(MSMAP_FILE, JSON.stringify(MSMAP, null, 4));
+            fs.createReadStream(viewsOrigin).pipe(fs.createWriteStream(viewsPath));
            next()
         }
 

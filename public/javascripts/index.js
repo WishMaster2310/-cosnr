@@ -82,23 +82,3 @@ var viewModel = {
 		}, viewModel.currentSpeed)
 	}
 }
-
-
-
-/*$(function() {
-	viewModel.loadImg(viewModel.images[0], function() {
-		viewModel.initClouds();
-		viewModel.loadImg(viewModel.images[1], function() {
-			viewModel.currentLimit = 120;
-			viewModel.loadImg(viewModel.images[2], function() {
-				viewModel.currentLimit = 150;
-				viewModel.loadImg(viewModel.images[3], function() {
-					viewModel.currentLimit = 176;
-				})
-			})
-		})
-	});
-
-});*/
-
-

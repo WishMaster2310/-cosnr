@@ -1,0 +1,59 @@
+<!-- page  -->
+{% extends "../layout.html" %} {% block content %}
+<script src="/javascripts/products.js"></script>
+<div class="container">
+  <ul class="bradCrumbs">
+    <li class="bradCrumbs__item">
+      <a href="/ru-ru/cloudosnetwork/">Главная</a>
+    </li>
+    <li class="bradCrumbs__item">Каталог решений</li>
+  </ul>
+  <h1 class="h1">Каталог решений</h1>{% include "blocks/filters.html" %}
+  <div class="mb35 product-preloader" style="text-align: center;"><img src="{{ base.STATIC_URL }}img/product-preloader.gif" alt=""></div>
+  <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
+    <div class="catalog catalog_mh mb30" data-bind="foreach: {
+    data: productFiltrat, 
+    afterAdd: m_site.showCatalogItem, 
+    beforeRemove: m_site.hideCatalogItem, 
+    beforeMove: m_site.moveonCatalogItem, 
+    afterMove: m_site.moveofCatalogItem
+    }">
+      <div class="catalog__item" data-bind="css: {'inactive': $data.inactive }">
+        <div class="product-block">
+          <div class="product-block__front">
+            <div class="product-block__logo">
+              <img src="" alt="" data-bind="attr: {src: logo }">
+            </div>
+            <div class="product-block__name">
+              <div class="product-block__name-icon" data-bind="visible: icon">
+                <span data-bind="css: 'sprite-icon-' + icon"></span>
+              </div>
+              <div class="product-block__name-text" data-bind="html: name"></div>
+            </div>
+            <div class="product-block__data">
+              <div class="product-block__text" data-bind="html: short_text"></div>
+              <div class="product-block__control">
+                <a href="" class="btn btn--bluelight" onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Details_CON);" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
+              </div>
+            </div>
+            <!-- ko if: $data.case_data  -->
+            <div class="product-block__popup">
+              <a href="#" class="product-block__popup-toggle" data-bind="click: function() {$root.toggleProductAnimation($element)}"></a>
+              <div class="product-block__popup-content">
+                <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
+                <div data-bind="foreach: $data.case_data">
+                  <p class="mt5">
+                    <a href="" data-bind="attr: {href: '/' + _id}, text: name"></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /ko -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+<!-- page -->

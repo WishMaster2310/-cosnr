@@ -2,6 +2,7 @@
 node_modules/*
 .sass-cache/*
 __design/*
+__pdfs/*
 export/*
 *.sublime-project
 *.sublime-workspace
