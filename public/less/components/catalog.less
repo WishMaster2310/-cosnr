@@ -1,5 +1,6 @@
 .catalog {
 	margin-left: -3%;
+
 	&__item {
 		display: inline-block;
 		vertical-align: top;
@@ -16,5 +17,22 @@
 
 	&-wrapper {
 		min-height: 450px;
+	}
+
+	@media (max-width: 1024px) {
+		&__item {
+			width: 47%;
+		}
+	}
+
+	@media (max-width: 620px) {
+		margin-left: 0;
+
+		&__item {
+			width: 100%;
+			display: block;
+			margin-left: 0;
+			margin-right: 0;
+		}
 	}
 }

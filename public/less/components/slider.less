@@ -8,10 +8,15 @@
 
 	&__item {
 		padding: 5px 20px;
-		opacity: .2;
-		transition: opacity .3s ease-in-out;
-		filter: grayscale(100%);
+		
+		
 		outline: none !important;
+
+		@media (min-width: 1024px) {
+			opacity: .2;
+			transition: opacity .3s ease-in-out;
+			filter: grayscale(100%);
+		}
 	}
 
 	&--cases {
@@ -20,8 +25,13 @@
 		}
 
 		.slick-active {
-			opacity: 1;
-			filter: grayscale(0);
+			
+			
+
+			@media (min-width: 1024px) {
+				filter: grayscale(0);
+				opacity: 1;
+			}
 		}
 	}
 

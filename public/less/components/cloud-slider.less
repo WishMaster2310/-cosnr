@@ -19,7 +19,8 @@
 
 	&__img {
 		position: absolute;
-		top: 0;
+		//top: 0;
+		bottom: 0;
 		left: 50%;
 		margin-left: -640px;
 	}
@@ -95,6 +96,23 @@
 		top: 30px;
 		transform: translateY(0)
 	} 
+
+	@media (max-width: 1024px) {
+		&__content {
+			padding-left: 0;
+			padding-bottom: 50px;
+			padding-top: 50px;
+			height: auto;
+		}
+
+		&__clouds {
+			display: none !important;
+		}
+
+		&__title {
+			font-size: 1.8em;
+		}
+	}
 
 }
 

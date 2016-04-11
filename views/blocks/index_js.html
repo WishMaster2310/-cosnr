@@ -12,7 +12,10 @@
 	};
 
 	$(function() {
-		setHeroHeight ();
+		if (window.outerWidth > 1024) {
+			setHeroHeight ();
+		}
+		
 
 		$('.hero-slider').slick({ 
 				infinite: false, 

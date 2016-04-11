@@ -5,20 +5,19 @@ body {
 }
 
 .main-wrapper {
-	background-color: #f8f8f8;
+	background-color: #FCFCFC;
+	padding-bottom: 20px;
+
+	&--withbg {
+		background: #FCFCFC url(https://coderussia.blob.core.windows.net/cosnr/bodybg.jpg) no-repeat center top;
+	}
 }
 
 * {
 	.box-sizing(border-box);
 }
 .j-page {
-	//background-color: #f7f7f7;
 	min-height: 600px;
-
-	&.bg-body {
-		background: #f8f8f8 url('../img/page-bg.jpg') no-repeat center top fixed !important;
-		min-height: 600px;
-	}
 }
 .tmp-header {
 	height: 140px;
