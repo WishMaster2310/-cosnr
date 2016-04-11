@@ -70,21 +70,26 @@ var m_site = {
 
       $('.product-preloader').hide();
 
-      _.forEach(products, function(d, indx) {
+      _.forEach(products, function(d) {
 
         if (d.case_id) {
           d.case_data = [];
 
-          _.forEach(d.case_id, function(c, cindx) {
+          _.forEach(d.case_id, function(c) {
             var a = _.find(m_site.cases(), function(n) {
               return n._id === c;
             });
 
-            d.case_data.push(a)
+            d.case_data.push(a);
           });
 
-        };
-        tmp_prod.push(d)
+          tmp_prod.push(d)
+
+        } else {
+          tmp_prod.push(d)
+        }
+
+        
       });
 
       m_site.products(tmp_prod);

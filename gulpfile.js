@@ -55,16 +55,16 @@ gulp.task('less:prod', function() {
 gulp.task('sprites', function() {
 
   var spriteData = gulp.src('public/__icons/*.png').pipe(spritesmith({
-    imgName: 'sprite-main.png',
-    cssName: 'sprite-main.less',
+    imgName: 'sprite.png',
+    cssName: 'sprite.less',
     padding: 10,
-    cssTemplate: 'sprite_templates/main-sprite.css.hbs'
+    cssTemplate: 'sprites.hbs'
   }));
 
   var imgStream = spriteData.img
     .pipe(gulp.dest('public/images/'));
   var cssStream = spriteData.css
-    .pipe(gulp.dest('public/less/sprites/'));
+    .pipe(gulp.dest('public/less/components'));
 
   return merge(imgStream, cssStream);
 });

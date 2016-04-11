@@ -56,66 +56,34 @@
 	"buffers":
 	[
 		{
-			"file": "app.js",
+			"file": "fixture/pages/manzana_loyalty.json",
 			"settings":
 			{
-				"buffer_size": 3291,
+				"buffer_size": 2164,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/pages/products.html",
+			"file": "fixture/pages/taskmanager.json",
 			"settings":
 			{
-				"buffer_size": 2686,
+				"buffer_size": 1387,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/blocks/filters.html",
+			"file": "fixture/pages/mosoblako.json",
 			"settings":
 			{
-				"buffer_size": 1134,
+				"buffer_size": 1284,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/less/components/btn.less",
+			"file": "public/datasource/base.json",
 			"settings":
 			{
-				"buffer_size": 1080,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/less/components/cloud-slider.less",
-			"settings":
-			{
-				"buffer_size": 1396,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "routes/sitemuse.js",
-			"settings":
-			{
-				"buffer_size": 1592,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/pages/index.html",
-			"settings":
-			{
-				"buffer_size": 8500,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/javascripts/index.js",
-			"settings":
-			{
-				"buffer_size": 1754,
+				"buffer_size": 2814,
 				"line_ending": "Windows"
 			}
 		}
@@ -127,17 +95,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 219.0,
-		"last_filter": "ss js",
+		"height": 288.0,
+		"last_filter": "ss html",
 		"selected_items":
 		[
 			[
-				"ss js",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"ss html",
 				"Set Syntax: HTML"
+			],
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"ss mark",
@@ -210,10 +178,11 @@
 	"expanded_folders":
 	[
 		"/D/projects/cosnr2",
+		"/D/projects/cosnr2/export",
+		"/D/projects/cosnr2/fixture",
 		"/D/projects/cosnr2/public",
+		"/D/projects/cosnr2/public/datasource",
 		"/D/projects/cosnr2/public/javascripts",
-		"/D/projects/cosnr2/public/less/components",
-		"/D/projects/cosnr2/routes",
 		"/D/projects/cosnr2/views",
 		"/D/projects/cosnr2/views/blocks",
 		"/D/projects/cosnr2/views/fragments",
@@ -221,22 +190,50 @@
 	],
 	"file_history":
 	[
+		"/D/projects/cosnr2/public/datasource/base.json",
+		"/D/projects/cosnr2/fixture/pages/crm_ot_softline.json",
+		"/D/projects/cosnr2/fixture/pages/hosted_dynamics_crm.json",
+		"/D/projects/cosnr2/export/pages/manzana_loyalty.html",
+		"/C/Users/wishm/AppData/Roaming/Skype/My Skype Received Files/cloudyday/public/index.html",
+		"/D/projects/cosnr2/fixture/pages/exchange_service.json",
+		"/D/projects/cosnr2/.gitignore",
+		"/D/projects/cosnr2/fixture/pages/cloud_o.json",
+		"/D/projects/cosnr2/fixture/pages/rt_virtualniy_office.json",
+		"/D/projects/cosnr2/fixture/pages/virtualniy_tsod.json",
+		"/D/projects/cosnr2/fixture/pages/infobox_cloud.json",
+		"/D/projects/cosnr2/fixture/pages/biznes_kruglyj_god.json",
+		"/D/projects/cosnr2/export/pages/biznes_kruglyj_god.html",
+		"/D/projects/cosnr2/fixture/pages/office24.json",
+		"/D/projects/cosnr2/fixture/pages/virtualniy_ofice.json",
+		"/D/projects/cosnr2/fixture/pages/cloudv.json",
+		"/D/projects/cosnr2/fixture/pages/msiaas.json",
+		"/D/projects/cosnr2/views/pages/virtualnaya_ifrastructura.html",
+		"/D/projects/cosnr2/fixture/pages/virtualnaya_ifrastructura.json",
+		"/D/projects/cosnr2/fixture/pages/oblakoteka_virtualnaja_infrastruktura.json",
+		"/D/projects/cosnr2/fixture/pages/active_iaas.json",
+		"/D/projects/cosnr2/views/proto/__products.html",
+		"/D/projects/cosnr2/views/blocks/scripts_products.html",
+		"/D/projects/cosnr2/public/javascripts/reshenie.js",
+		"/D/projects/cosnr2/public/javascripts/products.js",
+		"/D/projects/cosnr2/public/javascripts/index.js",
+		"/D/projects/cosnr2/public/javascripts/general.js",
+		"/D/projects/cosnr2/app.js",
+		"/D/projects/cosnr2/views/pages/products.html",
+		"/D/projects/cosnr2/views/blocks/filters.html",
 		"/D/projects/cosnr2/public/less/components/btn.less",
+		"/D/projects/cosnr2/public/less/components/cloud-slider.less",
+		"/D/projects/cosnr2/fixture/pages/azure_pack_v_oblakoteke.json",
+		"/D/projects/cosnr2/views/pages/index.html",
+		"/D/projects/cosnr2/views/proto/__articles.html",
+		"/D/projects/cosnr2/routes/api.js",
+		"/D/projects/cosnr2/views/pages/crm_dlya_proizvodstva.html",
+		"/D/projects/cosnr2/gulpfile.js",
 		"/D/projects/cosnr2/public/less/components/filter.less",
 		"/D/projects/cosnr2/views/layout.html",
-		"/D/projects/cosnr2/public/javascripts/products.js",
-		"/D/projects/cosnr2/public/datasource/base.json",
-		"/D/projects/cosnr2/public/javascripts/general.js",
-		"/D/projects/cosnr2/public/javascripts/index.js",
 		"/D/projects/cosnr2/public/datasource/products.json",
-		"/D/projects/cosnr2/routes/api.js",
 		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/D/projects/cosnr2/views/blocks/filters.html",
-		"/D/projects/cosnr2/views/pages/index.html",
 		"/D/projects/cosnr2/public/datasource/cases.json",
 		"/D/projects/cosnr2/views/pages/msiaas.html",
-		"/D/projects/cosnr2/views/pages/products.html",
-		"/D/projects/cosnr2/public/less/components/cloud-slider.less",
 		"/D/projects/cosnr2/public/less/core/variables.less",
 		"/D/projects/cosnr2/views/blocks/case-slider.html",
 		"/D/projects/cosnr2/public/less/components/wrapped-section.less",
@@ -250,7 +247,6 @@
 		"/D/projects/cosnr2/public/less/components/partner.less",
 		"/D/projects/cosnr2/public/less/modules/slick.less",
 		"/D/projects/cosnr2/Gruntfile.js",
-		"/D/projects/cosnr2/gulpfile.js",
 		"/D/projects/cosnr2/public/stylesheets/style.css",
 		"/D/projects/cosnr2/public/less/components/slider.less",
 		"/D/projects/cosnr2/public/less/components/helpers.less",
@@ -259,22 +255,18 @@
 		"/D/projects/cosnr2/views/blocks",
 		"/C/Users/wishm/Downloads/slick-1.5.9 (1)/slick-1.5.9/slick/slick.min.js",
 		"/D/projects/cosnr2/public/less/components/tab.less",
-		"/D/projects/cosnr2/app.js",
 		"/D/projects/cosnr2/public/datasource/articles.json",
 		"/D/projects/cosnr2/public/less/components/typography.less",
 		"/D/projects/cosnr2/modules/watcher.js",
 		"/D/projects/cosnr2/routes/sitemuse.js",
 		"/D/projects/cosnr2/views/proto/__cases.html",
 		"/C/Users/wishm/Desktop/qqq.js",
-		"/D/projects/cosnr2/views/proto/__articles.html",
 		"/D/projects/cosnr2/public/admin/js/admin.js",
 		"/D/projects/cosnr2/fixture/msmapping.json",
 		"/D/projects/hcloudsite/fixture/__base.json",
-		"/D/projects/cosnr2/.gitignore",
 		"/D/projects/cosnr2/public/datasource",
 		"/D/projects/cosnr2/fixture/pages/index.json",
 		"/D/projects/cosnr2/.git/config",
-		"/D/projects/cosnr2/views/proto/__products.html",
 		"/D/projects/devcon2015/public/less/blocks/tickets.less",
 		"/D/projects/devcon2015/public/less/blocks/intensive.less",
 		"/D/projects/devcon2015/views/intensive.html",
@@ -325,30 +317,7 @@
 		"/D/projects/devcon2015/views/faq.twig",
 		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/D/projects/devcon2015/views/layouts/main.twig",
-		"/D/projects/devcon2015/views/layouts/faq.twig",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/D/projects/w10lp/assets/less/footer.less",
-		"/D/projects/w10lp/assets/less/hero.less",
-		"/D/projects/w10lp/assets/less/getin.less",
-		"/D/projects/w10lp/assets/less/prod.less",
-		"/D/projects/w10lp/assets/less/style.less",
-		"/D/projects/w10lp/assets/less/layout.less",
-		"/D/projects/jetstyle/sap/public/less/blocks/slider.less",
-		"/D/projects/jetstyle/sap/views/index.html",
-		"/D/projects/jetstyle/sap/public/less/core/layout.less",
-		"/D/projects/jetstyle/sap/public/less/blocks/helpers.less",
-		"/D/projects/jetstyle/sap/public/stylesheets/style.css",
-		"/D/projects/jetstyle/sap/views/__blocks/listing.html",
-		"/D/projects/jetstyle/sap/views/__blocks/hero.html",
-		"/D/projects/jetstyle/sap/public/less/blocks/hero.less",
-		"/D/projects/jetstyle/sap/public/less/blocks/listing.less",
-		"/D/projects/jetstyle/sap/public/less/blocks/workflow.less",
-		"/D/projects/jetstyle/sap/views/layout.html",
-		"/D/projects/jetstyle/sap/public/javascripts/site.js",
-		"/D/projects/jetstyle/sap/public/javascripts/1.js",
-		"/D/projects/jetstyle/sap/public/javascripts/__site.js",
-		"/D/projects/jetstyle/sap/public/javascripts/scrollControl.js"
+		"/D/projects/devcon2015/views/layouts/faq.twig"
 	],
 	"find":
 	{
@@ -366,6 +335,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mosoblako",
+			"fillGroup",
 			"\"logo\": \"",
 			"exportPage",
 			"h1",
@@ -426,116 +397,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app.js",
+					"file": "fixture/pages/manzana_loyalty.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3291,
+						"buffer_size": 2164,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1206,
-								1206
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/pages/products.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								66
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/blocks/filters.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								707,
-								707
+								86,
+								86
 							]
 						],
 						"settings":
@@ -551,8 +430,7 @@
 									"selector": "text.html"
 								}
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -563,20 +441,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "public/less/components/btn.less",
+					"buffer": 1,
+					"file": "fixture/pages/taskmanager.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1080,
+						"buffer_size": 1387,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								875,
-								875
+								75,
+								75
 							]
 						],
 						"settings":
@@ -592,90 +470,7 @@
 									"selector": "text.html"
 								}
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "public/less/components/cloud-slider.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1064,
-								1064
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 855.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "routes/sitemuse.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -686,20 +481,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "views/pages/index.html",
+					"buffer": 2,
+					"file": "fixture/pages/mosoblako.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8500,
+						"buffer_size": 1284,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								509,
-								509
+								1282,
+								44
 							]
 						],
 						"settings":
@@ -715,32 +510,31 @@
 									"selector": "text.html"
 								}
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "public/javascripts/index.js",
+					"buffer": 3,
+					"file": "public/datasource/base.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1754,
+						"buffer_size": 2814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								148,
-								148
+								1865,
+								1876
 							]
 						],
 						"settings":
@@ -756,15 +550,15 @@
 									"selector": "text.html"
 								}
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/1337.tmTheme",
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 912.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -827,6 +621,62 @@
 		"selected_items":
 		[
 			[
+				"taskmanager",
+				"fixture\\pages\\taskmanager.json"
+			],
+			[
+				"base",
+				"public\\datasource\\base.json"
+			],
+			[
+				"mosoblako",
+				"fixture\\pages\\mosoblako.json"
+			],
+			[
+				"manzana_loyalty",
+				"fixture\\pages\\manzana_loyalty.json"
+			],
+			[
+				"hosted_dynamics_crm",
+				"fixture\\pages\\hosted_dynamics_crm.json"
+			],
+			[
+				"crm_ot_softline",
+				"fixture\\pages\\crm_ot_softline.json"
+			],
+			[
+				"clou",
+				"fixture\\pages\\cloud_o.json"
+			],
+			[
+				"rt_virtualniy_office",
+				"fixture\\pages\\rt_virtualniy_office.json"
+			],
+			[
+				"virtualniy_tsod",
+				"fixture\\pages\\virtualniy_tsod.json"
+			],
+			[
+				"biznes_kruglyj_god",
+				"fixture\\pages\\biznes_kruglyj_god.json"
+			],
+			[
+				"infobox",
+				"fixture\\pages\\infobox_cloud.json"
+			],
+			[
+				"infobox_cloud",
+				"fixture\\pages\\infobox_cloud.json"
+			],
+			[
+				"virtualnaya",
+				"views\\pages\\virtualnaya_ifrastructura.html"
+			],
+			[
+				"virtua",
+				"fixture\\pages\\virtualnaya_ifrastructura.json"
+			],
+			[
 				"index.h",
 				"views\\pages\\index.html"
 			],
@@ -856,9 +706,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "peng",
+		"last_filter": "pen",
 		"selected_items":
 		[
+			[
+				"pen",
+				"D:\\projects\\pengwindows\\pengwindows.sublime-workspace"
+			],
 			[
 				"peng",
 				"D:\\projects\\pengwindows\\pengwindows.sublime-workspace"

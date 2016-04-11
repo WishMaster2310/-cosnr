@@ -1,65 +1,76 @@
-{% extends "../layout.html" %}
-{% block content %}
-<div class="container" itemscope itemtype="http://schema.org/Article">
-  <h1 class="h1" itemprop="name">{{ Page.name|safe }}</h1>
-  <div class="row">
-    <div class="col-sm-8">
-      <div class="user-generate" itemprop="articleBody">
-        {{ Page.content|safe }}
+{% extends "../layout.html" %} {% block content %}
+<div class="main-wrapper main-wrapper--withbg">
+  <div class="container" itemscope itemtype="http://schema.org/Article">
+    <ul class="bradCrumbs">
+      <li class="bradCrumbs__item">
+        <a href="/">Главная</a>
+      </li>
+      <li class="bradCrumbs__item">
+        <a href="/products">Каталог решений</a>
+      </li>
+    </ul>
+    <h1 class="h1" itemprop="name">{{ Page.name|safe }}</h1>
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="user-generate" itemprop="articleBody">
+          {{ Page.content|safe }}
+        </div>
+      </div>
+      <div class="col-sm-4">
+        {%- for partner in Base.partners %} {%- if partner._id == Page.provider %}
+        <img src="/images/{{ partner.logo }}" alt=""> {%- endif %} {%- endfor %}
+        <a href="#">Связаться с Партнером</a>
+        <br>
+        <a href="#">Скачать пдф</a>
       </div>
     </div>
-    <div class="col-sm-4">
-      {%- for partner in Base.partners %} {%- if partner._id == Page.provider %}
-      <img src="/images/{{ partner.logo }}" alt=""> {%- endif %} {%- endfor %}
-      <a href="#">Связаться с Партнером</a>
-      <br>
-      <a href="https://download.microsoft.com/documents/rus/cloudosnetwork/{{ Page.pdf|urlencode }}">Скачать пдф </a>
-    </div>
   </div>
-</div>
-<div class="container">
-  <h1 class="h1">Похожие решения</h1>
-</div>
-<div class="expand-block">
-	<!-- ko if: m_site.products() -->
-  <div class="catalog catalog_mh mb30" data-bind="foreach: {data: m_site.products()}">
-    <div class="catalog__item">
-      <div class="product-block">
-        <div class="product-block__front">
-          <div class="product-block__logo">
-            <img src="" alt="" data-bind="attr: {src: logo }">
-          </div>
-          <div class="product-block__name">
-            <div class="product-block__name-icon" data-bind="visible: icon">
-              <span data-bind="css: 'sprite-icon-' + icon"></span>
+  <div class="container">
+    <h1 class="h1">Похожие решения</h1>
+  </div>
+  <div class="expand-block">
+    <!-- ko if: m_site.products() -->
+    <div class="catalog catalog_mh" data-bind="foreach: {data: m_site.products()}">
+      <div class="catalog__item">
+        <div class="product-block">
+          <div class="product-block__front">
+            <div class="product-block__logo">
+              <img src="" alt="" data-bind="attr: {src: logo }">
             </div>
-            <div class="product-block__name-text" data-bind="html: name"></div>
-          </div>
-          <div class="product-block__data">
-            <div class="product-block__text" data-bind="html: short_text"></div>
-            <div class="product-block__control">
-              <a href="" class="btn btn-bluelight" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
+            <div class="product-block__name">
+              <div class="product-block__name-icon" data-bind="visible: icon">
+                <span data-bind="css: 'sprite-icon-' + icon"></span>
+              </div>
+              <div class="product-block__name-text" data-bind="html: name"></div>
             </div>
-          </div>
-          <!-- ko if: $data.case_data  -->
-          <div class="product-block__popup">
-            <a href="#" class="product-block__popup-toggle" data-bind="click: function() {$root.toggleProductAnimation($element)}"></a>
-            <div class="product-block__popup-content">
-              <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
-              <div data-bind="foreach: $data.case_data">
-                <p class="mt5">
-                  <a href="" data-bind="attr: {href:  '/' + _id, text: name"></a>
-                </p>
+            <div class="product-block__data">
+              <div class="product-block__text" data-bind="html: short_text"></div>
+              <div class="product-block__control">
+                <a href="" class="btn btn--bluelight" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
               </div>
             </div>
+            <!-- ko if: $data.case_data  -->
+            <div class="product-block__popup">
+              <a href="#" class="product-block__popup-toggle" data-bind="click: function() {$root.toggleProductAnimation($element)}"></a>
+              <div class="product-block__popup-content">
+                <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
+                <div data-bind="foreach: $data.case_data">
+                  <p class="mt5">
+                    <a href="" data-bind="attr: {href:  '/' + _id, text: name"></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /ko -->
           </div>
-          <!-- /ko -->
         </div>
       </div>
     </div>
+    <!-- /ko -->
   </div>
-  <!-- /ko -->
+  <div class="container mb30">
+    <a href="/products" class="btn">Посмотреть все решения</a>
+  </div>
 </div>
-
-{% include "../blocks/scripts_products.html" %}
+{% include "../blocks/scripts_products.html" %} 
 {% endblock %}

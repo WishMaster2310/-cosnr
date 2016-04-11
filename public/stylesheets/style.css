@@ -827,10 +827,9 @@ table {
 body {
   font: normal normal normal 16px/1.4 'wf_segoe-ui_semilight', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;
   color: #000000;
-  background-color: #f8f8f8 !important;
 }
-body.bg-body {
-  background: #f8f8f8 url('../img/page-bg.jpg') no-repeat center top fixed !important;
+.main-wrapper {
+  background-color: #f8f8f8;
 }
 * {
   box-sizing: border-box;
@@ -868,7 +867,7 @@ a:hover {
 }
 *[class^="sprite-icon-"],
 *[class$="sprite-icon-"] {
-  background-image: url('../img/sprite.png');
+  background-image: url('../images/sprite.png');
   background-repeat: no-repeat;
   display: inline-block;
   vertical-align: text-top;
@@ -4728,37 +4727,42 @@ Copyright (c) 2015 Daniel Eden
   display: inline-block;
 }
 .sprite-icon-api-w {
-  background-position: -69px -406px;
+  background-position: -69px -398px;
   width: 59px;
   height: 51px;
 }
 .sprite-icon-api {
-  background-position: 0px -406px;
+  background-position: 0px -398px;
   width: 59px;
   height: 51px;
 }
-.sprite-icon-batch-w {
-  background-position: 0px -210px;
-  width: 57px;
-  height: 56px;
+.sprite-icon-asimbol {
+  background-position: -410px -65px;
+  width: 55px;
+  height: 55px;
 }
-.sprite-icon-batch {
+.sprite-icon-batch-w {
   background-position: -67px -210px;
   width: 57px;
   height: 56px;
 }
+.sprite-icon-batch {
+  background-position: 0px -210px;
+  width: 57px;
+  height: 56px;
+}
 .sprite-icon-box-w {
-  background-position: -475px -114px;
+  background-position: -475px -57px;
   width: 45px;
   height: 53px;
 }
 .sprite-icon-box {
-  background-position: -475px -177px;
+  background-position: -475px -120px;
   width: 45px;
   height: 53px;
 }
 .sprite-icon-cloud_exchange-w {
-  background-position: -475px -57px;
+  background-position: -284px -276px;
   width: 54px;
   height: 47px;
 }
@@ -4768,32 +4772,32 @@ Copyright (c) 2015 Daniel Eden
   height: 47px;
 }
 .sprite-icon-cloud_fuck-w {
-  background-position: -348px 0px;
+  background-position: -348px -70px;
   width: 52px;
   height: 60px;
 }
 .sprite-icon-cloud_fuck {
-  background-position: 0px -276px;
+  background-position: -348px 0px;
   width: 52px;
   height: 60px;
 }
 .sprite-icon-cloud_gear-w {
-  background-position: -274px -346px;
+  background-position: -274px -338px;
   width: 58px;
   height: 48px;
 }
 .sprite-icon-cloud_gear {
-  background-position: -206px -346px;
+  background-position: -206px -338px;
   width: 58px;
   height: 48px;
 }
 .sprite-icon-cloud_recovery-w {
-  background-position: -268px -406px;
+  background-position: -268px -398px;
   width: 55px;
   height: 47px;
 }
 .sprite-icon-cloud_recovery {
-  background-position: -333px -406px;
+  background-position: -342px -338px;
   width: 55px;
   height: 47px;
 }
@@ -4808,12 +4812,12 @@ Copyright (c) 2015 Daniel Eden
   height: 57px;
 }
 .sprite-icon-clouds-w {
-  background-position: -71px -467px;
+  background-position: -71px -459px;
   width: 58px;
   height: 34px;
 }
 .sprite-icon-clouds {
-  background-position: -139px -467px;
+  background-position: -139px -459px;
   width: 58px;
   height: 34px;
 }
@@ -4823,12 +4827,12 @@ Copyright (c) 2015 Daniel Eden
   height: 45px;
 }
 .sprite-icon-cloudsstar {
-  background-position: -475px -402px;
+  background-position: -475px -345px;
   width: 54px;
   height: 33px;
 }
 .sprite-icon-crm-w {
-  background-position: 0px -467px;
+  background-position: 0px -459px;
   width: 61px;
   height: 38px;
 }
@@ -4838,17 +4842,17 @@ Copyright (c) 2015 Daniel Eden
   height: 38px;
 }
 .sprite-icon-crmbank-w {
-  background-position: -132px -276px;
+  background-position: -70px -276px;
   width: 60px;
   height: 52px;
 }
 .sprite-icon-crmbank {
-  background-position: -62px -276px;
+  background-position: 0px -276px;
   width: 60px;
   height: 52px;
 }
 .sprite-icon-crmcontact-w {
-  background-position: 0px -346px;
+  background-position: 0px -338px;
   width: 62px;
   height: 50px;
 }
@@ -4858,22 +4862,22 @@ Copyright (c) 2015 Daniel Eden
   height: 57px;
 }
 .sprite-icon-crmdistr-w {
-  background-position: -202px -276px;
+  background-position: -212px -276px;
   width: 62px;
   height: 50px;
 }
 .sprite-icon-crmdistr {
-  background-position: -274px -276px;
+  background-position: -140px -276px;
   width: 62px;
   height: 50px;
 }
 .sprite-icon-crmmanufacture-w {
-  background-position: -196px -66px;
+  background-position: -140px -136px;
   width: 67px;
   height: 57px;
 }
 .sprite-icon-crmmanufacture {
-  background-position: -140px -136px;
+  background-position: -196px -66px;
   width: 67px;
   height: 57px;
 }
@@ -4893,17 +4897,17 @@ Copyright (c) 2015 Daniel Eden
   height: 58px;
 }
 .sprite-icon-healthy-w {
-  background-position: -410px -130px;
+  background-position: -410px -195px;
   width: 55px;
   height: 52px;
 }
 .sprite-icon-healthy {
-  background-position: -410px -192px;
+  background-position: -410px -257px;
   width: 55px;
   height: 52px;
 }
 .sprite-icon-infra-w {
-  background-position: -410px -65px;
+  background-position: -410px -130px;
   width: 55px;
   height: 55px;
 }
@@ -4943,87 +4947,87 @@ Copyright (c) 2015 Daniel Eden
   height: 20px;
 }
 .sprite-icon-need3 {
-  background-position: -217px -136px;
+  background-position: -207px -459px;
   width: 20px;
   height: 20px;
 }
 .sprite-icon-realtor-w {
-  background-position: -72px -346px;
+  background-position: -139px -338px;
   width: 57px;
   height: 49px;
 }
 .sprite-icon-realtor {
-  background-position: -139px -346px;
+  background-position: -72px -338px;
   width: 57px;
   height: 49px;
 }
 .sprite-icon-recycle-w {
-  background-position: -348px -126px;
+  background-position: -348px -207px;
   width: 34px;
   height: 46px;
 }
 .sprite-icon-recycle {
-  background-position: -348px -70px;
+  background-position: -475px -388px;
   width: 34px;
   height: 46px;
 }
 .sprite-icon-sheats-w {
-  background-position: -398px -406px;
+  background-position: -398px -398px;
   width: 55px;
   height: 47px;
 }
 .sprite-icon-sheats {
-  background-position: -342px -346px;
+  background-position: -333px -398px;
   width: 55px;
   height: 47px;
 }
 .sprite-icon-some_cloud-w {
-  background-position: -410px -254px;
+  background-position: -410px -319px;
   width: 49px;
   height: 57px;
 }
 .sprite-icon-some_cloud {
-  background-position: -410px -321px;
+  background-position: -348px -140px;
   width: 49px;
   height: 57px;
 }
 .sprite-icon-timecloud-w {
-  background-position: -203px -406px;
+  background-position: -203px -398px;
   width: 55px;
   height: 49px;
 }
 .sprite-icon-timecloud {
-  background-position: -138px -406px;
+  background-position: -138px -398px;
   width: 55px;
   height: 49px;
 }
 .sprite-icon-wiki-article {
-  background-position: -348px -182px;
+  background-position: -348px -263px;
   width: 32px;
   height: 41px;
 }
 .sprite-icon-wiki-presentation {
-  background-position: -475px -348px;
+  background-position: -475px -291px;
   width: 50px;
   height: 44px;
 }
 .sprite-icon-wiki-video {
-  background-position: -348px -233px;
+  background-position: -217px -136px;
   width: 27px;
   height: 33px;
 }
 .sprite-icon-wiki-webinar {
-  background-position: -348px -276px;
+  background-position: -284px -210px;
   width: 27px;
   height: 33px;
 }
 .sprite-icon-worker-w {
-  background-position: -475px -240px;
+  background-position: -475px -183px;
   width: 54px;
   height: 44px;
 }
 .sprite-icon-worker {
-  background-position: -475px -294px;
+  background-position: -475px -237px;
   width: 54px;
   height: 44px;
 }

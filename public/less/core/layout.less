@@ -1,13 +1,11 @@
 body {
 	font: normal normal normal @font-size-base/@line-height-base @font-semilight;
 	color: @font-color;
-	background-color: #f8f8f8 !important;
-
-
-	&.bg-body {
-		background: #f8f8f8 url('../img/page-bg.jpg') no-repeat center top fixed !important;
-	}
 	
+}
+
+.main-wrapper {
+	background-color: #f8f8f8;
 }
 
 * {
@@ -57,7 +55,7 @@ a {
 
 *[class^="sprite-icon-"],
 *[class$="sprite-icon-"] {
-	background-image: url('../img/sprite.png');
+	background-image: data-uri('../images/sprite.png');
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: text-top;
