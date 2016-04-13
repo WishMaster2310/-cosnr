@@ -1,7 +1,49 @@
 <!-- page  -->
-{% extends "../layout.html" %}
-
-{% block content %}
-	
+{% extends "../layout.html" %} {% block content %}
+<div class="main-wrapper main-wrapper--withbg">
+  <div class="container">
+    <ul class="bradCrumbs">
+      <li class="bradCrumbs__item">
+        <a href="/">Главная</a>
+      </li>
+      <li class="bradCrumbs__item">
+        <a href="/cases">Примеры успешных внедрений</a>
+      </li>
+      <li class="bradCrumbs__item">{{ Page.name }}</li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <div data-bind="visible: m_site.activeDir() === 'general'">
+        {% for item in Page.general %}
+        <article id="generalInfo_{{item._id}}">
+          <div class="user-generate" data-bind="visible: m_site.activeMenuA() == {{ loop.index - 1 }}">
+            <h2 class="h2">{{ item.caption }}</h2> {{ item.content|safe }}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <div data-bind="visible: m_site.activeDir() === 'technical'">
+        {% for item in page.technical %}
+        <article id="technicalInfo_{{item._id}}">
+          <div class="user-generate" data-bind="visible: m_site.activeMenuB() == {{ loop.index - 1 }}">
+            <h2 class="h2">{{ item.caption }}</h2> {{ item.content|safe }}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="boxer">
+        <div class="boxer__logo">
+          {%- for partner in Products %} {%- if partner._id == Page._id %}
+          <img src="{{ partner.logo }}" alt="{{ partner.name }}"> {%- endif %} {%- endfor %}
+        </div>
+        {%- for opt in Page.formOptions %} {%- for btn in Base.opts %} {%- if opt == btn.id %} {% set str = "id=" ~ Page._id ~ "&opts=[" ~ Page.formOptions|e ~ "]" %}
+        <a class="btn btn--block {%- if not loop.last %} mb10{% endif %}" href="{{ " https://events.techdays.ru/cloud-os-network-form/apply? " ~ str|urlencode ~ "&active="|urlencode ~ opt }}">{{ btn.title }}</a> {%- endif %} {%- endfor %} {%- endfor %}
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
 <!-- page -->

@@ -10,7 +10,8 @@
    "wizard_id": "62d681e0-7901-47d2-a7d3-015d1b8e451d",
    "wizard_label": "Связаться с партнером",
    "rio": "300316560",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "msiaas",
    "icon": "cloud_gear",
@@ -23,7 +24,8 @@
    "wizard_id": "3886b3cc-2b05-4228-8f75-13215c322c75",
    "wizard_label": "Связаться с партнером Solution 1",
    "rio": "300316561",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "oblakoteka_virtualnaja_infrastruktura",
    "groupA": ["middlebusiness"],
@@ -36,7 +38,8 @@
    "wizard_id": "d267ab15-fd09-4140-affd-9fc0e783f251",
    "wizard_label": "Связаться с партнером Solution 2",
    "rio": "300316562",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "exchange_service",
    "groupA": ["middlebusiness"],
@@ -49,7 +52,8 @@
    "wizard_id": "a1b43da4-40c0-4a22-be51-7ac62f666ef0",
    "wizard_label": "Связаться с партнером Solution 3",
    "rio": "300316563",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "virtualnaya_ifrastructura",
    "groupA": ["middlebusiness", "bigbusiness", "gossector"],
@@ -62,7 +66,8 @@
    "wizard_id": "b7299b4a-5f79-4b2c-9881-f8e1bdc3d25f",
    "wizard_label": "Связаться с партнером Solution 4",
    "rio": "300316564",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "virtualniy_ofice",
    "groupA": ["middlebusiness", "bigbusiness", "gossector"],
@@ -75,7 +80,8 @@
    "wizard_id": "10334e19-9cc2-4676-91af-a1562dc8f882",
    "wizard_label": "Связаться с партнером Solution 5",
    "rio": "300316565",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "active_iaas",
    "groupA": ["middlebusiness"],
@@ -89,7 +95,8 @@
    "wizard_label": "Связаться с партнером Solution 6",
    "rio": "300316566",
    "tags": [],
-   "inactive": true
+   "inactive": true,
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "office24",
    "groupA": ["middlebusiness"],
@@ -102,7 +109,8 @@
    "wizard_id": "3e4ea6b7-8de5-42b6-ae8b-430aa130b9f6",
    "wizard_label": "Связаться с партнером Solution 7",
    "rio": "300316567",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage", "telephoniya"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage", "telephoniya"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "infobox_cloud",
    "groupA": ["middlebusiness"],
@@ -116,7 +124,8 @@
    "wizard_label": "Связаться с партнером Solution 8",
    "rio": "300316568",
    "tags": [],
-   "inactive": true
+   "inactive": true,
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "biznes_kruglyj_god",
    "groupA": ["bigbusiness"],
@@ -129,7 +138,8 @@
    "wizard_id": "20dfb309-124b-4376-b3c4-dfd7b69cb3b5",
    "wizard_label": "Связаться с партнером Solution 9",
    "rio": "300316569",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "virtualniy_tsod",
    "groupA": ["gossector", "bigbusiness"],
@@ -142,7 +152,8 @@
    "wizard_id": "471d7b8b-7735-40af-b79f-ddc1a493eb65",
    "wizard_label": "Связаться с партнером Solution 10",
    "rio": "300316570",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "rt_virtualniy_office",
    "groupA": ["gossector", "bigbusiness"],
@@ -155,7 +166,8 @@
    "wizard_id": "687f0210-6a58-4232-b43a-61fa9ff5d90c",
    "wizard_label": "Связаться с партнером Solution 11",
    "rio": "300316571",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "cloud_o",
    "groupA": ["bigbusiness"],
@@ -181,7 +193,8 @@
    "wizard_id": "59ab0f29-ba50-4620-b315-6b1ecf403d93",
    "wizard_label": "Связаться с партнером Solution 13",
    "rio": "300316573",
-   "tags": ["onlinecommunicate", "crmsystem"]
+   "tags": ["onlinecommunicate", "crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "hosted_dynamics_crm",
    "groupA": ["middlebusiness"],
@@ -194,7 +207,8 @@
    "wizard_id": "5847d765-a94d-4267-b795-e39872090c18",
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300316574",
-   "tags": ["onlinecommunicate", "crmsystem"]
+   "tags": ["onlinecommunicate", "crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "manzana_loyalty",
    "groupA": ["middlebusiness"],
@@ -207,7 +221,8 @@
    "wizard_id": "97c05d32-6234-4beb-9344-5498511a1b92",
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300316575",
-   "tags": ["onlinecommunicate", "crmsystem"]
+   "tags": ["onlinecommunicate", "crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "mosoblako",
    "groupA": ["gossector", "middlebusiness"],
@@ -220,7 +235,8 @@
    "wizard_id": "798cf4fb-c6d4-4def-a97f-0c9a01a6055e",
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300320827",
-   "tags": []
+   "tags": [],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "taskmanager",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -233,7 +249,8 @@
    "wizard_id": "6958b4f0-190f-4ef7-b6b7-0bac9ec3ba4c",
    "wizard_label": "",
    "rio": "300320828",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "systema4i",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -246,7 +263,8 @@
    "wizard_id": "d16f93bf-0f6c-4921-bf70-1bac070b0541",
    "wizard_label": "",
    "rio": "300320829",
-   "tags": ["idea"]
+   "tags": ["idea"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_proizvodstva",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -259,7 +277,8 @@
    "wizard_id": "ffab3a3c-b5e9-4ca1-a1ee-aa62487b6ae9",
    "wizard_label": "Связаться с партнером_20",
    "rio": "300335189",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_distributorov",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -272,7 +291,8 @@
    "wizard_id": "7b19469b-12e6-48ae-8e4b-b8a481c5d0ee",
    "wizard_label": "Связаться с партнером_19",
    "rio": "300335190",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_bankov",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -285,7 +305,8 @@
    "wizard_id": "1bdf5de2-3317-42f1-8cdc-1b203d409534",
    "wizard_label": "Связаться с партнером_18",
    "rio": "300335191",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_kontaktcentrov",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -298,7 +319,8 @@
    "wizard_id": "7126bcf9-60b5-4628-8219-c98ba45eba0b",
    "wizard_label": "Связаться с партнером_17",
    "rio": "300335192",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "realtor_aero",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -311,7 +333,8 @@
    "wizard_id": "6c29727b-9d8d-44fa-8f0a-8eceeccfc646",
    "wizard_label": "Связаться с партнером_21",
    "rio": "300335193",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_gostinic",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -324,7 +347,8 @@
    "wizard_id": "ebe20bb0-09e1-4b5c-b452-e00b5fc80311",
    "wizard_label": "Связаться с партнером_22",
    "rio": "300348999",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_servisa",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -337,7 +361,8 @@
    "wizard_id": "6a6f6f2f-129a-455b-a490-a7f933c34922",
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349000",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_dlya_obrazovaniya",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -350,7 +375,8 @@
    "wizard_id": "88554a4a-423a-4f44-8f9d-5ce67b044011",
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349001",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "bystryj_start_prodazh",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -363,5 +389,6 @@
    "wizard_id": "acd35a54-b824-47b4-93ed-9e00050687ba",
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349002",
-   "tags": ["crmsystem"]
+   "tags": ["crmsystem"],
+   "formOptions": [0, 1, 2, 3, 4]
  }]

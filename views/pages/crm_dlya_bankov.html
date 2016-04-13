@@ -22,9 +22,9 @@
       </div>
       <div class="col-sm-4">
         <div class="boxer">
+         {%- for product in Products %} {%- if partner._id == Page._id %}
           <div class="boxer__logo">
-            {%- for partner in Products %} {%- if partner._id == Page._id %}
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}"> {%- endif %} {%- endfor %}
+            <img src="{{ product.logo }}" alt="{{ product.name }}"> 
           </div>
           {%- for opt in Page.formOptions %}
             {%- for btn in Base.opts %}
@@ -34,7 +34,7 @@
             {%- endif %}
             {%- endfor %}
           {%- endfor %}
-        </div>
+        {%- endif %} {%- endfor %}</div>
       </div>
     </div>
   </div>
