@@ -10,20 +10,16 @@ body {
 
 	&--withbg {
 		background: #FCFCFC url(https://coderussia.blob.core.windows.net/cosnr/bodybg.jpg) no-repeat center top;
+		min-height: 100vh;
 	}
 }
 
 * {
 	.box-sizing(border-box);
 }
+
 .j-page {
 	min-height: 600px;
-}
-.tmp-header {
-	height: 140px;
-	padding-top: 20px;
-	background-color: #fff;
-	border-bottom: 5px solid @ms-gray;
 }
 
 .header {
@@ -64,7 +60,6 @@ a {
 .gray-section {
 	padding: 3.375em 0;
 	background-color: #f7f7f7;
-
 }
 .gray-section2 {
 	padding: 10px 0 3.375em;
@@ -166,6 +161,10 @@ a {
 		&_mh {
 			//min-height: 400px;
 		}
+	}
+
+	&__content {
+		padding-right: 1.5em;
 	}
 }
 

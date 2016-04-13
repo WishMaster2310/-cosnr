@@ -834,18 +834,13 @@ body {
 }
 .main-wrapper--withbg {
   background: #FCFCFC url(https://coderussia.blob.core.windows.net/cosnr/bodybg.jpg) no-repeat center top;
+  min-height: 100vh;
 }
 * {
   box-sizing: border-box;
 }
 .j-page {
   min-height: 600px;
-}
-.tmp-header {
-  height: 140px;
-  padding-top: 20px;
-  background-color: #fff;
-  border-bottom: 5px solid #eeeeee;
 }
 .header-back {
   margin-top: 1.385em;
@@ -945,6 +940,9 @@ a:hover {
   margin-bottom: 7px;
 }
 .page-content {
+  padding-right: 1.5em;
+}
+.page__content {
   padding-right: 1.5em;
 }
 .flex-img {
@@ -1119,6 +1117,10 @@ a:hover {
 .btn--white {
   background-color: #fff;
   color: #008272;
+}
+.btn--block {
+  display: block;
+  width: 100%;
 }
 .btn--min-width {
   min-width: 195px;
@@ -4252,6 +4254,7 @@ Copyright (c) 2015 Daniel Eden
 .partner-section {
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background: url(https://coderussia.blob.core.windows.net/cosnr/partners-section-bg.jpg) no-repeat center center;
   background-size: cover;
   padding: 80px 0 100px;
 }
@@ -5298,6 +5301,8 @@ Copyright (c) 2015 Daniel Eden
 }
 .hero {
   position: relative;
+  background: url(https://coderussia.blob.core.windows.net/cosnr/wrapped-section_bg1.jpg) no-repeat center bottom;
+  background-size: cover;
 }
 .hero__title {
   font-size: 3.375em;
@@ -5492,6 +5497,15 @@ Copyright (c) 2015 Daniel Eden
 .slick-active .cloud-slider__clouds {
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+.boxer {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.boxer__logo {
+  text-align: center;
+  margin-bottom: 30px;
 }
 .wrapped-section {
   position: relative;

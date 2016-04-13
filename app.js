@@ -66,7 +66,9 @@ app.get('/', function(req, res, next) {
 app.all('*', function(req, res, next) {
   var viewsDir = fs.readdirSync('./views/pages');
   var dataDir = fs.readdirSync('./fixture/pages');
-  var reqPath = _.compact(req.url.split('/'));
+  //var reqPath = _.compact(req.url.split('/'));
+  var reqPath = req.url.split('/').reverse()[0].split('?')[0];
+  console.log(reqPath)
   var d = {};
 
   var targetData = _.find(dataDir, function(n) {

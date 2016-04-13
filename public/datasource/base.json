@@ -3,88 +3,102 @@
   "partners": [{
     "name": "Ростелеком",
     "url": "http://rt.ru/",
-    "logo": "partner-logo-rt.png",
-    "_id": "rostelecom"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_rt220x100.png",
+    "_id": "rostelecom",
+    "isvisible": true
   }, {
     "name": "Infobox",
     "url": "http://infobox.ru/vps/windows/",
-    "logo": "partner-logo-infobox.png",
-    "_id": "infobox"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_infobox220x100.png",
+    "_id": "infobox",
+    "isvisible": true
   }, {
     "name": "DataLine",
     "url": "http://www.dtln.ru/",
-    "logo": "partner-logo-dataline.png",
-    "_id": "dataline"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_dataline220x100.jpg",
+    "_id": "dataline",
+    "isvisible": true
   }, {
     "name": "Электронная Москва",
     "url": "http://www.uc-em.ru/",
-    "logo": "partner-logo-elmoscow.png",
-    "_id": "elmoscow"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-elmoscow220x100.png",
+    "_id": "elmoscow",
+    "isvisible": true
   }, {
     "name": "Softline",
     "url": "http://store.softline.ru/",
-    "logo": "partner-logo-softline.png",
-    "_id": "softline"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_softline220x100.png",
+    "_id": "softline",
+    "isvisible": true
   }, {
     "name": "КРОК",
     "url": "http://www.croc.ru/",
-    "logo": "partner-logo-crock.png",
-    "_id": "crock"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_crock220x100.png",
+    "_id": "crock",
+    "isvisible": true
   }, {
     "name": "Облакотека",
     "url": "http://oblakoteka.ru/",
-    "logo": "partner-logo-oblakoteka.png",
-    "_id": "oblokoteka"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_oblokoteka220x100.jpg",
+    "_id": "oblokoteka",
+    "isvisible": true
   }, {
     "name": "ActiveCloud",
     "url": "http://www.activecloud.ru/",
-    "logo": "partner-logo-activecloud.png",
-    "_id": "activecloud"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-activecloud220x100.png",
+    "_id": "activecloud",
+    "isvisible": true
   }, {
     "name": "Norbit",
     "url": "http://www.norbit.ru/",
-    "logo": "partner-logo-norbit.png",
-    "_id": "Norbit"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-norbit220x100.png",
+    "_id": "Norbit",
+    "isvisible": true
   }, {
     "name": "Tekora",
     "url": "http://tekora.ru/",
-    "logo": "partner-logo-tekora.jpg",
-    "_id": "tekora"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tekora220x100.jpg",
+    "_id": "tekora",
+    "isvisible": true
   }, {
     "name": "Tisa",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
-    "_id": "Tisa"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tisa220x100.png",
+    "_id": "Tisa",
+    "isvisible": true
   }, {
     "name": "Manzana",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
-    "_id": "manzana"
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tisa220x100.png",
+    "_id": "manzana",
+    "isvisible": true
   }, {
     "name": "Электронная Москва",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tisa220x100.png",
     "_id": "mosoblako"
   }, {
     "name": "Электронная Москва",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tisa220x100.png",
     "_id": "actionspace"
   }, {
     "name": "Электронная Москва",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
+    "logo": "https://coderussia.blob.core.windows.net/cosnr/partner-logo-tisa220x100.png",
     "_id": "pkgroup"
   }, {
     "name": "Электронная Москва",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
-    "_id": "korus"
+    "logo": "partner-logo-tisa220x100.png",
+    "_id": "korus",
+    "isvisible": false
   }, {
     "name": "Электронная Москва",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "partner-logo-tisa.png",
-    "_id": "k2it"
+    "logo": "partner-logo-tisa220x100.png",
+    "_id": "k2it",
+    "isvisible": false
   }],
   "groupA": [{
     "_id": "gossector",
@@ -106,5 +120,27 @@
     "name": "Развитие бизнеса",
     "helper_text": "Виртуальные и&nbsp;инфраструктурные сервисы для построения веб-приложений, веб-сайтов, баз данных, развертывания виртуальных машин, сетей, хранилищ данных или выполнения долговременного резервного копирования данных с&nbsp;сохранением.",
     "helper_icon": "filter_helper1"
-  }]
+  }],
+  "opts": [
+    {
+      "id": 0,
+      "title": "Заказать звонок"
+    },
+    {
+      "id": 1,
+      "title": "Заказать решение"
+    },
+    {
+      "id": 2,
+      "title": "Тест-драйв решения"
+    },
+    {
+      "id": 3,
+      "title": "Заказать презентацию"
+    },
+    {
+      "id": 4,
+      "title": "Экскурсия в ЦОД"
+    }
+  ]
 }

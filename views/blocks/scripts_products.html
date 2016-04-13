@@ -1,9 +1,9 @@
 <script>
-function ProductItem (arguments) {
+function ProductItem (d) {
 
   var that = this;
 
-  _.forEach(arguments, function(n, key) {
+  _.forEach(d, function(n, key) {
 
     that[key] = n;  
   });
