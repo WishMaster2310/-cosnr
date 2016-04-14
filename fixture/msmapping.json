@@ -459,120 +459,135 @@
             "name": "wrapped-section_bg2.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "1622b323a41bb38eb0d671fcb9d94c29c456a919"
+            "msid": "b4cd5abe-f56d-4c60-a946-7c5fec317a3b",
+            "_id": "1622b323a41bb38eb0d671fcb9d94c29c456a919",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg3.jpg",
             "name": "wrapped-section_bg3.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "33a1b7217a7b723d52dbaa9f35d5ac4465c9aa1d"
+            "msid": "5e8f86c9-05ce-4961-90c5-8839707aa1ab",
+            "_id": "33a1b7217a7b723d52dbaa9f35d5ac4465c9aa1d",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\wrapped-section_bg4.jpg",
             "name": "wrapped-section_bg4.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "a2c7c1c9abb52aed1c17f8fda67ca75e8974aad6"
+            "msid": "1b783b14-9646-466c-9c42-3f2afa1bbfc6",
+            "_id": "a2c7c1c9abb52aed1c17f8fda67ca75e8974aad6",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-promsvyazbank.jpg",
             "name": "case-logo-promsvyazbank.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "7c7a7de2ffc8e92628b9bfb6c3cb459bd0cb732d"
+            "msid": "b401c06c-6a9f-42be-835d-649a2bf3b9cb",
+            "_id": "7c7a7de2ffc8e92628b9bfb6c3cb459bd0cb732d",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-kagazy.jpg",
             "name": "case-logo-kagazy.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "58d1fac97fa2fae27b61d77faf3fc947bf53f74b"
+            "msid": "caf8e6be-8329-4dda-801c-ed38e647d724",
+            "_id": "58d1fac97fa2fae27b61d77faf3fc947bf53f74b",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-directum.jpg",
             "name": "case-logo-directum.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "3d4df9bcd0bde1d40da0e7203a62053c6ed11a8e"
+            "msid": "2fe11b54-cb3d-43f4-9f3c-eaad5fa865ff",
+            "_id": "3d4df9bcd0bde1d40da0e7203a62053c6ed11a8e",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\partners-section-bg.jpg",
             "name": "partners-section-bg.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "967747f48ee3521a2eb994e07ea808feacd7eb2a"
+            "msid": "f7f8c056-bf06-4917-9c44-791138d3d92e",
+            "_id": "967747f48ee3521a2eb994e07ea808feacd7eb2a",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\partner-logo-tisa.png",
             "name": "partner-logo-tisa.png",
             "size": 10248,
             "group": "images",
-            "msid": "",
-            "_id": "2f2ed72403251d02cee4a6d48fd0849af55fdf68"
+            "msid": "0815d111-f8bd-41f2-835a-ffae8d44794e",
+            "_id": "2f2ed72403251d02cee4a6d48fd0849af55fdf68",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\sprite.png",
             "name": "sprite.png",
             "size": 103610,
             "group": "images",
-            "msid": "",
-            "_id": "8d44ecc68fb99c2ce28b6f2d6789a14e4d4b9278"
+            "msid": "1bffef13-3fba-4b27-8825-28cfe08340ad",
+            "_id": "8d44ecc68fb99c2ce28b6f2d6789a14e4d4b9278",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-1.png",
             "name": "cloud-slider-1.png",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "1cfad51baec20fc77254897ff37418d754de5093"
+            "msid": "0f541c1d-d7ed-4c1d-af3f-538e64db7ab0",
+            "_id": "1cfad51baec20fc77254897ff37418d754de5093",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-2.png",
             "name": "cloud-slider-2.png",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "d20b7f96cce65337894f52bcc487c59ac1ded842"
+            "msid": "97c4e800-535a-45fb-9416-2bed8ce0f2c0",
+            "_id": "d20b7f96cce65337894f52bcc487c59ac1ded842",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-img1.jpg",
             "name": "cloud-slider-img1.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "91c84b71bbb4cd0b103e55bcf901cccbf321cdc5"
+            "msid": "d985a684-03da-4247-a03b-9175082f6576",
+            "_id": "91c84b71bbb4cd0b103e55bcf901cccbf321cdc5",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-img2.jpg",
             "name": "cloud-slider-img2.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "b6b0ac377f62d495f6c202e99b9f7051370003e4"
+            "msid": "feeaf3e5-0c8b-4585-94dc-5201c0a32532",
+            "_id": "b6b0ac377f62d495f6c202e99b9f7051370003e4",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-img3.jpg",
             "name": "cloud-slider-img3.jpg",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "c788e5798d77ef756114be3de4a0e1cc65b3da93"
+            "msid": "a9df802f-54b1-4ccb-935c-cb1fd79dd1e8",
+            "_id": "c788e5798d77ef756114be3de4a0e1cc65b3da93",
+            "status": "sync"
         },
         {
             "path": "D:\\projects\\cosnr2\\public\\images\\cloud-slider-3.png",
             "name": "cloud-slider-3.png",
             "size": 0,
             "group": "images",
-            "msid": "",
-            "_id": "497219cdad080f325d0ef2b6ff862799f5720f3c"
+            "msid": "91deb143-c064-45a7-a438-8f638a97e213",
+            "_id": "497219cdad080f325d0ef2b6ff862799f5720f3c",
+            "status": "sync"
         }
     ]
 }

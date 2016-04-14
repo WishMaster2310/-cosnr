@@ -1,8 +1,7 @@
 <!-- page  -->
 {% extends "../layout.html" %} {% block content %}
 <div class="main-wrapper main-wrapper--withbg">
-  <script src="/javascripts/products.js"></script>
-  <div class="container">
+  <div class="l-container">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
         <a href="/">Главная</a>
@@ -10,7 +9,6 @@
       <li class="bradCrumbs__item">Каталог решений</li>
     </ul>
     <h1 class="h1">Каталог решений</h1>{% include "blocks/filters.html" %}
-    <div class="mb35 product-preloader" style="text-align: center;"><img src="{{ base.STATIC_URL }}img/product-preloader.gif" alt=""></div>
   </div>
   <div class="expand-block">
     <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
@@ -59,5 +57,6 @@
     </div>
   </div>
 </div>
+{% include "blocks/scripts_products.html" %}
 {% endblock %}
 <!-- page -->

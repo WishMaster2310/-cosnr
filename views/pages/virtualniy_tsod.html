@@ -1,17 +1,20 @@
 {% extends "../layout.html" %} {% block content %}
 <div class="main-wrapper main-wrapper--withbg">
-  <div class="container" itemscope itemtype="http://schema.org/Article">
+  <div class="l-container" itemscope itemtype="http://schema.org/Article">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
-        <a href="/">Главная</a>
+        <a href="{{ Root }}/">Главная</a>
       </li>
       <li class="bradCrumbs__item">
-        <a href="/products">Каталог решений</a>
+        <a href="{{ Root }}/products">Каталог решений</a>
+      </li>
+      <li class="bradCrumbs__item">
+        {{ Page.name|safe }}
       </li>
     </ul>
     <h1 class="h1" itemprop="name">{{ Page.name|safe }}</h1>
-    <div class="row">
-      <div class="col-sm-8">
+    <div class="l-row">
+      <div class="l-col--sm-8">
         <article class="user-generate page__content" itemprop="articleBody">
           {{ Page.content|safe }}
         </article>
@@ -20,27 +23,27 @@
         <a class="btn" href="https://download.microsoft.com/documents/rus/cloudosnetwork/{{ Page.pdf }}" download >Скачать полное описание</a>
         {%- endif %}
       </div>
-      <div class="col-sm-4">
+      <div class="l-col--sm-4">
         <div class="boxer">
-         {%- for product in Products %} {%- if partner._id == Page._id %}
+         {%- for product in Products %} {%- if product._id == Page._id %}
           <div class="boxer__logo">
             <img src="{{ product.logo }}" alt="{{ product.name }}"> 
           </div>
-          {%- for opt in Page.formOptions %}
+          {%- for opt in product.formOptions %}
             {%- for btn in Base.opts %}
             {%- if opt == btn.id %}
-            {% set str = "id=" ~ Page._id ~ "&opts=[" ~ Page.formOptions|e ~ "]" %}
+            {% set str = "id=" ~ Page._id ~ "&opts=[" ~ product.formOptions|e ~ "]" %}
             <a class="btn btn--block {%- if not loop.last %} mb10{% endif %}" href="{{ "https://events.techdays.ru/cloud-os-network-form/apply?" ~ str|urlencode ~ "&active="|urlencode ~ opt }}">{{ btn.title }}</a>
             {%- endif %}
             {%- endfor %}
           {%- endfor %}
-        {%- endif %} {%- endfor %}</div>
+        {%- endif %}{%- endfor %}</div>
       </div>
     </div>
   </div>
 
   <section class="simple-section">
-    <div class="container">
+    <div class="l-container">
       <h1 class="h1">Похожие решения</h1>
     </div>
     <div class="expand-block">
@@ -61,7 +64,7 @@
               <div class="product-block__data">
                 <div class="product-block__text" data-bind="html: short_text"></div>
                 <div class="product-block__control">
-                  <a href="" class="btn btn--bluelight" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
+                  <a href="" class="btn btn--bluelight" data-bind="attr: {href: '{{ Root }}/' + _id}">Подробнее →</a>
                 </div>
               </div>
               <!-- ko if: $data.case_data  -->
@@ -71,7 +74,7 @@
                   <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
                   <div data-bind="foreach: $data.case_data">
                     <p class="mt5">
-                      <a href="" data-bind="attr: {href:  '/' + _id, text: name"></a>
+                      <a href="" data-bind="attr: {href:  '{{ Root }}/' + _id, text: name"></a>
                     </p>
                   </div>
                 </div>
@@ -83,10 +86,10 @@
       </div>
       <!-- /ko -->
     </div>
-    <div class="container mb30">
-      <a href="/products" class="btn">Посмотреть все решения</a>
+    <div class="l-container mb30">
+      <a href="{{ Root }}/products" class="btn">Посмотреть все решения</a>
     </div>
   </section>
 </div>
-{% include "../blocks/scripts_products.html" %} 
+{% include "../blocks/scripts_product.html" %} 
 {% endblock %}

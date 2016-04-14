@@ -171,19 +171,20 @@ muse.XMLizeImages = function(dir, callback) {
             var alt = $(el).attr('alt') || "";
             var datasrc = $(el).data('src') ? true : false;
 
-            var msid = _.result(_.find(muse.db, {name: filename}), 'msid');
-            console.log(_.find(muse.db, {name: filename}), 'filename')
+            var msid = _.result(_.find(muse.db.images, {name: filename}), 'msid');
+            console.log(_.find(muse.db.images, {name: filename}), 'filename', filename)
 
-
-            var replacement = '<mscom:image' +
-                ' spritegroup="default"' +
-                ' sprite="false" noheightwidth="true"' +
-                ' md:payloadguid="' + msid + '"' +
-                ' alt="' + alt + '"' +
-                ' usedatasource="' + datasrc  + '"' +
-                ' classoverride="' + classes + '"' +
-                ' ></mscom:image>'
-            $(el).replaceWith(replacement);
+            if (msid) {
+                var replacement = '<mscom:image' +
+                    ' spritegroup="default"' +
+                    ' sprite="false" noheightwidth="true"' +
+                    ' md:payloadguid="' + msid + '"' +
+                    ' alt="' + alt + '"' +
+                    ' usedatasource="' + datasrc  + '"' +
+                    ' classoverride="' + classes + '"' +
+                    ' ></mscom:image>'
+                $(el).replaceWith(replacement);
+            }
         });
 
         fs.writeFile(path.join(dir, p), $.html(), function(err) {
@@ -211,8 +212,11 @@ muse.exportPage = function(flag, callback) {
                     Page: locals,
                     Articles: muse.articles,
                     Cases: muse.cases,
-                    Products: muse.cases,
+                    _Cases: JSON.stringify(muse.cases),
+                    Products: muse.products,
+                    _Products: JSON.stringify(muse.products),
                     Base: muse.base,
+                    Root: '/ru-ru/cloudosnetwork',
                     Export: flag
                 });
             } else {

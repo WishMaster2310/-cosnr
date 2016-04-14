@@ -1,0 +1,103 @@
+<script>
+
+function ProductItem (d) {
+
+  var that = this;
+
+  _.forEach(d, function(n, key) {
+    that[key] = n;  
+  });
+}
+
+var m_site = {
+  activeDir: ko.observable('general'),
+  activeMenuA: ko.observable(0),
+  activeMenuB: ko.observable(0),
+  toggleDir: function(dir) {
+    m_site.activeDir(dir);
+    m_site.activeMenuA(0);
+    m_site.activeMenuB(0);
+  },
+  products: ko.observableArray(),
+  currentProduct: ko.observable(),
+  cases: ko.observableArray({{ _Cases|safe }}),
+  toggleProductAnimation: function(element) {
+
+    var block = $(element).closest('.product-block');
+    var popup = block.find('.product-block__popup-content');
+    var front = block.find('.product-block__front');
+
+    if(block.hasClass('product-block_mod_open')) {
+      block.removeClass('product-block_mod_open');
+      front.animate({top: 0}, 400)
+
+    } else {
+      block.addClass('product-block_mod_open');
+      front.animate({top: -popup.outerHeight()}, 400)
+    }
+  },
+  loadProducts: function() {
+    var products = {{ _Products|safe }};
+    var tmp_prod = [];
+    var currentPage = "{{ Page._id }}"
+
+    var xpath = _.compact(window.location.href.split('/'));
+    var p = xpath[xpath.length-1].split('.')[0];
+
+    _.forEach(products, function(d, indx) {
+
+      if (d.case_id) {
+
+        d.case_data = [];
+
+        _.forEach(d.case_id, function(c, cindx) {
+
+          var a = _.find(m_site.cases(), function(n) {
+
+              return n._id == d.case_id[cindx];
+
+          });
+
+          d.case_data.push(a)
+        });
+      };
+
+      if (d._id != currentPage)  {
+        tmp_prod.push(new ProductItem(d))
+      } else {
+        m_site.currentProduct(d)
+      }
+    });
+    m_site.setOrder(tmp_prod);
+  },
+
+  setOrder: function(arr) {
+    var prods, newArr;
+
+    if(m_site.currentProduct().groupB[0] === "infra") {
+
+      // если группа -  инфраструктура 
+      // то не фильтруем по тегам, 
+      // а перемешиваем и выводим только 
+      // инфраструктурные решения
+
+      newArr = _.shuffle(_.filter(arr, function(o) { return o.groupB[0] === "infra" })).slice(0, 3);
+
+    } else {
+
+      prods = _.forEach(arr, function(item, indx) {
+        var a = _.intersection(item.tags, m_site.currentProduct().tags);
+        item.order = a.length
+      });
+      newArr = _.sortBy(prods, "order").reverse().slice(0, 3);
+    }
+    
+    m_site.products(newArr);
+  }
+}
+$(document).ready(function() {
+  m_site.loadProducts();
+  ko.applyBindings(m_site);
+});
+
+</script>

@@ -2,9 +2,8 @@
 	margin: 0px auto;
 	font-size: 16px;
 
-	.container {
+	.l-container {
 		position: relative;
-
 		z-index: 1;
 	}
 
@@ -67,10 +66,7 @@
 		transition: transform .75s ease;
 		z-index: 2;
 
-		&-content {
-
-
-		}
+		&-content {}
 	}
 	&-advantage {
 		
@@ -96,6 +92,61 @@
 		top: 30px;
 		transform: translateY(0)
 	} 
+
+	&__tabs {
+		&-wrapper {
+			padding: 50px 0;
+
+			@media (max-width: @screen-sm-min) {
+				padding-bottom: 20px;
+				padding-top: 20px;
+				max-width: 400px;
+				margin: 0 auto;
+			}
+		}
+
+		&-link {
+			font-size: 18px;
+			text-decoration: none;
+			border-bottom: 1px dashed;
+			color: @gray;
+			display: inline-block;
+			margin-right: 2em;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&--active {
+				color: @green
+			}
+
+			@media (max-width: @screen-sm-min) {
+				display: block;
+				width: 100%;
+				margin-right: 0;
+				padding: 10px;
+				border: 1px solid;
+				margin-bottom: 10px;
+				text-align: center;
+			}
+		}
+	}
+
+	&__tocatalog {
+		text-align: right;
+		color: @green;
+
+		a {
+			color: @green;
+			font-size: 18px;
+			text-decoration: none;
+		}
+
+		@media (max-width: @screen-md) {
+			display: none;
+		}
+	}
 
 	@media (max-width: 1024px) {
 		&__content {

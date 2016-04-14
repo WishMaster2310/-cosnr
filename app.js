@@ -52,14 +52,16 @@ app.get('/', function(req, res, next) {
   if (!!targetData) {
     d = require('./fixture/pages/' + targetData);
   };
-  console.log(muse.articles)
   res.render('pages/index.html', {
       Page: d,
       Export: false,
       Articles: muse.articles,
       Cases: muse.cases,
+      _Cases: JSON.stringify(muse.cases),
       Products: muse.products,
-      Base: muse.base
+      _Products: JSON.stringify(muse.products),
+      Base: muse.base,
+      Root: ''
     });
 });
 
@@ -90,7 +92,9 @@ app.all('*', function(req, res, next) {
       Export: false,
       Articles: muse.articles,
       Cases: muse.cases,
+      _Cases: JSON.stringify(muse.cases),
       Products: muse.products,
+      _Products: JSON.stringify(muse.products),
       Base: muse.base
     }
   )
