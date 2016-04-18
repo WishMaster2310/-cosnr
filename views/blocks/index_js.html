@@ -1,109 +1,107 @@
 <script>
-	$(function() {
+$(function() {
 
-		function setHeroHeight () {
-			var hero = $('.c-hero');
-			var	wh = 700;
-				
-			if (window.innerHeight) {
-				wh = window.innerHeight - 48;
-			}
-			
-			$('.c-hero').css('min-height', wh);
-		};
-		
-		if (window.outerWidth > 1024) {
-			setHeroHeight ()
-		}
-		
-		if (window.outerWidth > 1024) {
-			setHeroHeight ();
-		}
-		
+  function setHeroHeight() {
+    var hero = $('.c-hero');
+    var wh = 700;
 
-		$('.c-hero-slider').slick({ 
-				infinite: false, 
-				arrows: false,
-				dots: true
-		});
+    if (window.innerHeight) {
+      wh = window.innerHeight - 48;
+    }
+
+    $('.c-hero').css('min-height', wh);
+  };
+
+  if (window.outerWidth > 1024) {
+    setHeroHeight()
+  }
+
+  if (window.outerWidth > 1024) {
+    setHeroHeight();
+  }
 
 
-		$('.cloud-slider').slick({ 
-				infinite: false, 
-				dots: false,
-				fade: true,
-				arrows: false
-		});
+  $('.c-hero-slider').slick({
+    infinite: false,
+    arrows: false,
+    dots: true
+  });
 
-		$('.cloud-slider__tabs-link').eq(0).addClass('cloud-slider__tabs-link--active');
 
-		$('.cloud-slider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
-		
-			var slide = $('.cloud-slider__item').eq(currentSlide);
-			console.log(currentSlide)
+  $('.cloud-slider').slick({
+    infinite: false,
+    dots: false,
+    fade: true,
+    arrows: false
+  });
 
-			if (slide.hasClass('cloud-slider__item--active')) {
-				slide.removeClass('cloud-slider__item--active')
-			}
+  $('.cloud-slider__tabs-link').eq(0).addClass('cloud-slider__tabs-link--active');
 
-			$('.cloud-slider__tabs-link').eq(nextSlide).addClass('cloud-slider__tabs-link--active').siblings().removeClass('cloud-slider__tabs-link--active');
-		});
+  $('.cloud-slider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
 
-		$(".j-show-advantages").on('click', function(e) {
-			e.preventDefault();
-			$(this).closest('.cloud-slider__item').addClass('cloud-slider__item--active');
+    var slide = $('.cloud-slider__item').eq(currentSlide);
+    console.log(currentSlide)
 
-		});
+    if (slide.hasClass('cloud-slider__item--active')) {
+      slide.removeClass('cloud-slider__item--active')
+    }
 
-		$('.cloud-slider__tabs-link').on('click', function(e) {
-			e.preventDefault();
+    $('.cloud-slider__tabs-link').eq(nextSlide).addClass('cloud-slider__tabs-link--active').siblings().removeClass('cloud-slider__tabs-link--active');
+  });
 
-			var tar = $('.cloud-slider__wrapper');
-			$('.cloud-slider').slick('slickGoTo', $(e.target).index());
-			$('html, body').stop(true).animate({
-				scrollTop: tar.offset().top
-			}, 200)
-		})
+  $(".j-show-advantages").on('click', function(e) {
+    e.preventDefault();
+    $(this).closest('.cloud-slider__item').addClass('cloud-slider__item--active');
 
-	});
+  });
 
-	var viewModel = {
-		counter: 0,
-		currentLimit: 56,
-		currentSpeed: 60,
-		interval: {},
-		images: [
-			'https://coderussia.blob.core.windows.net/cloud1/1.png', 
-			'https://coderussia.blob.core.windows.net/cloud1/2.png', 
-			'https://coderussia.blob.core.windows.net/cloud1/3.png', 
-			'https://coderussia.blob.core.windows.net/cloud1/4.png'
-		],
-		loadImg: function(src, cb) {
-			var img = new Image();
-			img.src = src;
-			img.onload = function() {
-				cb();
-			};
-		},
-		checkLitmit: function() {
-			return viewModel.counter == viewModel.currentLimit ? 1 : -1
-		},
-		initClouds: function() {
-			var diff = 1;
-			var cont = $('body');
-			viewModel.interval = setInterval(function() {
+  $('.cloud-slider__tabs-link').on('click', function(e) {
+    e.preventDefault();
 
-				if (viewModel.counter == viewModel.currentLimit) {
-					diff = -1;
-				} else if (viewModel.counter == 0) {
-					diff = 1;
-				}
+    var tar = $('.cloud-slider__wrapper');
+    $('.cloud-slider').slick('slickGoTo', $(e.target).index());
+    $('html, body').stop(true).animate({
+      scrollTop: tar.offset().top
+    }, 200)
+  })
 
-				viewModel.counter += diff;
+});
 
-			}, viewModel.currentSpeed)
-		}
-	}
+var viewModel = {
+  counter: 0,
+  currentLimit: 56,
+  currentSpeed: 60,
+  interval: {},
+  images: [
+    'https://coderussia.blob.core.windows.net/cloud1/1.png',
+    'https://coderussia.blob.core.windows.net/cloud1/2.png',
+    'https://coderussia.blob.core.windows.net/cloud1/3.png',
+    'https://coderussia.blob.core.windows.net/cloud1/4.png'
+  ],
+  loadImg: function(src, cb) {
+    var img = new Image();
+    img.src = src;
+    img.onload = function() {
+      cb();
+    };
+  },
+  checkLitmit: function() {
+    return viewModel.counter == viewModel.currentLimit ? 1 : -1
+  },
+  initClouds: function() {
+    var diff = 1;
+    var cont = $('body');
+    viewModel.interval = setInterval(function() {
 
+      if (viewModel.counter == viewModel.currentLimit) {
+        diff = -1;
+      } else if (viewModel.counter == 0) {
+        diff = 1;
+      }
+
+      viewModel.counter += diff;
+
+    }, viewModel.currentSpeed)
+  }
+}
 </script>
-
