@@ -869,7 +869,7 @@ a:hover {
 }
 .gray-section {
   padding: 3.375em 0;
-  background-color: #f7f7f7;
+  background-color: #FCFCFC;
 }
 .gray-section2 {
   padding: 10px 0 3.375em;
@@ -939,6 +939,9 @@ a:hover {
 .menu-vertical__item {
   margin-bottom: 7px;
 }
+.menu-vertical__item .btn {
+  text-align: left;
+}
 .page-content {
   padding-right: 1.5em;
 }
@@ -960,6 +963,7 @@ a:hover {
 .bradCrumbs {
   list-style-type: none;
   margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 14px;
 }
 .bradCrumbs__item {
@@ -1121,6 +1125,7 @@ a:hover {
 .btn--block {
   display: block;
   width: 100%;
+  min-width: none;
 }
 .btn--min-width {
   min-width: 195px;
@@ -1129,6 +1134,14 @@ a:hover {
 .btn--min-width2 {
   min-width: 140px;
   text-align: center;
+}
+.btn--greenlight {
+  background-color: #f2f9f8;
+  color: #008272;
+}
+.btn--greenlight-active {
+  background-color: #008272;
+  color: #fff;
 }
 .btn--bluelight {
   background-color: #e6eff5;
@@ -4120,6 +4133,7 @@ Copyright (c) 2015 Daniel Eden
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
   background-color: #fff;
   padding: 0 1.875em 0 1.875em;
+  margin-bottom: 1.875em;
   overflow: hidden;
   position: relative;
 }
@@ -4250,6 +4264,9 @@ Copyright (c) 2015 Daniel Eden
   vertical-align: top;
   margin-right: -0.25em;
   margin-left: 3%;
+}
+.slider .story-block {
+  margin-bottom: 0;
 }
 .partner-section {
   background-repeat: no-repeat;
@@ -5552,14 +5569,34 @@ Copyright (c) 2015 Daniel Eden
 .boxer {
   background-color: #fff;
   padding: 30px;
+  margin-bottom: 40px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 .boxer__logo {
   text-align: center;
   margin-bottom: 30px;
 }
+.boxer__logo--nomb {
+  margin-bottom: 0;
+}
 .boxer__logo img {
   max-width: 100%;
+}
+.boxer__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.boxer__products {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.boxer__products-item {
+  margin-bottom: 10px;
+}
+.boxer__products-item a {
+  color: #008272;
+  font-size: 18px;
+  text-decoration: none;
 }
 .wrapped-section {
   position: relative;
@@ -5997,4 +6034,7 @@ Copyright (c) 2015 Daniel Eden
 }
 .hide-base-shadow {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0);
+}
+.mr20 {
+  margin-right: 20px;
 }

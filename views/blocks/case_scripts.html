@@ -1,0 +1,80 @@
+<script>
+	function ProductItem (arguments) {
+
+		var that = this;
+
+		_.forEach(arguments, function(n, key) {
+
+			that[key] = n;	
+		});
+	}
+
+	var m_site = {
+		activeMenu: ko.observable(0),
+		products: ko.observableArray([]),
+		currentProduct: ko.observable(),
+		toggleProductAnimation: function(element) {
+
+			var block = $(element).closest('.product-block');
+			var popup = block.find('.product-block__popup-content');
+			var front = block.find('.product-block__front');
+
+			if(block.hasClass('product-block_mod_open')) {
+				block.removeClass('product-block_mod_open');
+				front.animate({top: 0}, 400)
+
+			} else {
+				block.addClass('product-block_mod_open');
+				front.animate({top: -popup.outerHeight()}, 400)
+			}
+		},
+		loadItems: function() {
+			var products = {{ _Products|safe }};
+			var cases = {{ _Cases|safe }};
+
+			_.forEach(cases, function(d, indx) {
+				if (d.target_id) {
+
+					d.target_data = _.find(products, function(n) {
+						var a = _.indexOf(n.case_id, d._id)
+						return a != -1;
+					});
+
+					d.groupA = d.target_data.groupA;
+					d.groupB = d.target_data.groupB;
+					d.tags = d.target_data.tags;
+				};
+
+				m_site.products.push(new ProductItem(d))
+			});
+		},
+
+		setOrder: function(arr) {
+			var prods, newArr;
+
+			if(m_site.currentProduct().groupB[0] === "infra") {
+
+				// если группа -  инфраструктура 
+				// то не фильтруем по тегам, 
+				// а перемешиваем и выводим только 
+				// инфраструктурные решения
+
+				newArr = _.shuffle(_.filter(arr, function(o) { return o.groupB[0] === "infra" })).slice(0, 3);
+
+			} else {
+
+				prods = _.forEach(arr, function(item, indx) {
+					var a = _.intersection(item.tags, m_site.currentProduct().tags);
+					item.order = a.length
+				});
+				newArr = _.sortBy(prods, "order").reverse().slice(0, 3);
+			}
+			
+			m_site.products(newArr);
+		}
+	}
+	$(document).ready(function() {
+		m_site.loadItems();
+		ko.applyBindings(m_site);
+	})
+</script>

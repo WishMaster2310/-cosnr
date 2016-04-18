@@ -2,10 +2,9 @@
 	
 	"name": "Тестирование облачной инфраструктуры",
 	"provider": "softline",
-	"links": ["virtualnaya_ifrastructura"],
 	"_id": "testirovanie_oblachnoi_infrastructuri",
+	"productID": "virtualnaya_ifrastructura",
 	"general": [
-		
 		{
 			"_id": "situation",
 			"caption": "Ситуация",

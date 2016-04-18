@@ -8,7 +8,18 @@
       </li>
       <li class="bradCrumbs__item">Каталог решений</li>
     </ul>
-    <h1 class="h1">Каталог решений</h1>{% include "blocks/filters.html" %}
+
+    <div class="l-row">
+        <div class="l-col--md-9">
+            <h1 class="h1">Каталог решений</h1>
+        </div>
+        <div class="l-col--md-3 text-right">
+            <div class="header-back">
+                <a href="{{ Root }}/cases" class="header-back__link">Примеры внедрений</a>
+            </div>
+        </div>
+    </div>
+    {% include "blocks/filters.html" %}
   </div>
   <div class="expand-block">
     <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
@@ -56,6 +67,20 @@
       </div>
     </div>
   </div>
+
+  <section class="faq-section">
+    <div class="l-container text-center">
+        <div class="l-row">
+            <div class="l-col--md-6 l-col--md-offset-3">
+                <h1 class="h1">Вопросы и ответы</h1>
+                <p class="mb20">
+                    Команда экспертов Cloud OS Network Russia готова ответить на&#160;ваши вопросы и помочь вам в выборе решения
+                </p>
+                <a href="{{ Root }}/wiki" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
 </div>
 {% include "blocks/scripts_products.html" %}
 {% endblock %}

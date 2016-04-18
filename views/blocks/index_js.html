@@ -6,7 +6,7 @@ $(function() {
     var wh = 700;
 
     if (window.innerHeight) {
-      wh = window.innerHeight - 48;
+      wh = window.innerHeight - $('#shell-header').height();
     }
 
     $('.c-hero').css('min-height', wh);

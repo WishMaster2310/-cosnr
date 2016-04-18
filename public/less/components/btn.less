@@ -35,6 +35,7 @@
 	&--block {
 		display: block;
 		width: 100%;
+		min-width: none;
 	}
 
 	&--min-width {
@@ -45,6 +46,16 @@
 	&--min-width2 {
 		min-width: 140px;
 		text-align: center;
+	}
+
+	&--greenlight {
+		background-color: #f2f9f8;
+		color: @green;
+
+		&-active {
+			background-color: @green;
+			color: #fff;
+		}
 	}
 
 	&--bluelight {

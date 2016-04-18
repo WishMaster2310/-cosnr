@@ -1,0 +1,76 @@
+<!-- page {{ name }} -->
+{% extends "../layout.html" %} {% block content %}
+<div class="main-wrapper main-wrapper--withbg">
+  <div class="l-container">
+    <ul class="bradCrumbs">
+      <li class="bradCrumbs__item">
+        <a href="/">Главная</a>
+      </li>
+      <li class="bradCrumbs__item">Примеры успешных внедрений</li>
+    </ul>
+    <div class="l-row mb40">
+      <div class="l-col--md-9">
+        <h1 class="h1">Примеры успешных внедрений</h1>
+      </div>
+      <div class="l-col--md-3 text-right">
+        <div class="header-back">
+          <a href="{{ Root }}/products" class="header-back__link">Каталог решений</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="expand-block">
+    <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
+      <div class="catalog catalog_mh" data-bind="foreach: {
+      data: productFiltrat, 
+      afterAdd: m_site.showCatalogItem, 
+      beforeRemove: m_site.hideCatalogItem, 
+      beforeMove: m_site.moveonCatalogItem, 
+      afterMove: m_site.moveofCatalogItem
+      }">
+        <div class="catalog__item" data-bind="css: {'inactive': $data.inactive }">
+          <div class="story-block">
+            <div class="story-block__img">
+              <img src="" data-bind="attr: {src: img }" alt="">
+            </div>
+            <div class="story-block__data">
+              <div class="story-block__text" data-bind="html: text"></div>
+              <div class="story-block__control">
+                <a href="" class="story-block__btn" data-bind="attr: {href:  '{{ Root }}/' + _id }">Подробнее →</a>
+              </div>
+            </div>
+            <div class="story-block__popup" data-bind="visible: target_data">
+              <a href="#" class="story-block__popup-toggle" data-bind="click: function() {$root.toggleCaseAnimation($element)}"></a>
+              <div class="story-block__popup-content">
+                <p>Решение для кейса:</p>
+                <a class="story-block__popup-brand" href="#" data-bind="attr: {href:  '{{ Root }}/' + target_data._id }">
+                    <div class="story-block__popup-brand-icon">
+                        <span data-bind="css: 'sprite-icon-' + target_data.icon + '-w'" class=""></span>
+                    </div>
+                    <div class="story-block__popup-brand-name" data-bind="html: target_data.name "></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <section class="faq-section">
+    <div class="l-container text-center">
+        <div class="l-row">
+            <div class="l-col--md-6 l-col--md-offset-3">
+                <h1 class="h1">Вопросы и ответы</h1>
+                <p class="mb20">
+                    Команда экспертов Cloud OS Network Russia готова ответить на&#160;ваши вопросы и помочь вам в выборе решения
+                </p>
+                <a href="{{ Root }}/wiki" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+{% include "blocks/cases_scripts.html" %}
+{% endblock %}
+<!-- page -->

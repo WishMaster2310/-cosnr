@@ -1,8 +1,8 @@
 {
 	
 	"name": "Облачная копилка идей",
-	"id": "oblachnaja_kopilka_idej",
-	"productID": "oblakoteka_virtualnaja_infrastruktura",
+	"_id": "oblachnaja_kopilka_idej",
+	"productID": "virtualnaya_ifrastructura",
 	"general": [
 		{
 			"_id": "description",

@@ -5,12 +5,13 @@
    "groupB": ["infra"],
    "logo": "https://coderussia.blob.core.windows.net/cosnr/dataline.png",
    "name": "Cloud-V",
-   "short_text": "Решение для переноса IT-инфраструктуры в&nbsp;облако и&nbsp;быстрого развертывания виртуальных машин",
+   "short_text": "Решение для переноса IT-инфраструктуры в&#160;облако и&#160;быстрого развертывания виртуальных машин",
    "case_id": false,
    "wizard_id": "62d681e0-7901-47d2-a7d3-015d1b8e451d",
    "wizard_label": "Связаться с партнером",
    "rio": "300316560",
    "tags": [],
+   "productSet": 0,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "msiaas",
@@ -19,13 +20,14 @@
    "groupB": ["infra"],
    "logo": "https://coderussia.blob.core.windows.net/cosnr/crock.png",
    "name": "MS IaaS",
-   "short_text": "Решение для быстрого развертывания и&nbsp;масштабирования виртуальных систем, снижения затрат на&nbsp;IT",
+   "short_text": "Решение для быстрого развертывания и&#160;масштабирования виртуальных систем, снижения затрат на&#160;IT",
    "case_id": false,
    "wizard_id": "3886b3cc-2b05-4228-8f75-13215c322c75",
    "wizard_label": "Связаться с партнером Solution 1",
    "rio": "300316561",
    "tags": [],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 0,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "oblakoteka_virtualnaja_infrastruktura",
    "groupA": ["middlebusiness"],
@@ -33,13 +35,14 @@
    "icon": "clouds",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/oblakoteka.png",
    "name": "Виртуальная инфраструктура",
-   "short_text": "Решение для организации IT-инфраструктуры компании, включая работу с&nbsp;1С&nbsp;и&nbsp;построение VPN",
+   "short_text": "Решение для организации IT-инфраструктуры компании, включая работу с&#160;1С&#160;и&#160;построение VPN",
    "case_id": false,
    "wizard_id": "d267ab15-fd09-4140-affd-9fc0e783f251",
    "wizard_label": "Связаться с партнером Solution 2",
    "rio": "300316562",
    "tags": [],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 0,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "exchange_service",
    "groupA": ["middlebusiness"],
@@ -47,12 +50,13 @@
    "icon": "cloud_exchange",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/oblakoteka.png",
    "name": "Наш офис.Exchange",
-   "short_text": "Решение для организации совместной и&nbsp;удаленной работы сотрудников с&nbsp;помощью бизнес-приложений",
+   "short_text": "Решение для организации совместной и&#160;удаленной работы сотрудников с&#160;помощью бизнес-приложений",
    "case_id": false,
    "wizard_id": "a1b43da4-40c0-4a22-be51-7ac62f666ef0",
    "wizard_label": "Связаться с партнером Solution 3",
    "rio": "300316563",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "productSet": 1,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "virtualnaya_ifrastructura",
@@ -61,12 +65,13 @@
    "icon": "infra",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/softline.png",
    "name": "Виртуальная инфраструктура",
-   "short_text": "Решение для отказа от&nbsp;серверной инфраструктуры и&nbsp;быстрого запуска облачных проектов",
+   "short_text": "Решение для отказа от&#160;серверной инфраструктуры и&#160;быстрого запуска облачных проектов",
    "case_id": ["oblachnaja_kopilka_idej", "modernizaciya_pochtovih_servisov", "testirovanie_oblachnoi_infrastructuri"],
    "wizard_id": "b7299b4a-5f79-4b2c-9881-f8e1bdc3d25f",
    "wizard_label": "Связаться с партнером Solution 4",
    "rio": "300316564",
    "tags": [],
+   "productSet": 0,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "virtualniy_ofice",
@@ -75,12 +80,13 @@
    "icon": "batch",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/softline.png",
    "name": "Виртуальный офис",
-   "short_text": "Решение для автоматизации бизнес-процессов и&nbsp;коммуникации между сотрудниками и&nbsp;клиентами",
+   "short_text": "Решение для автоматизации бизнес-процессов и&#160;коммуникации между сотрудниками и&#160;клиентами",
    "case_id": false,
    "wizard_id": "10334e19-9cc2-4676-91af-a1562dc8f882",
    "wizard_label": "Связаться с партнером Solution 5",
    "rio": "300316565",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "productSet": 1,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "active_iaas",
@@ -89,14 +95,15 @@
    "icon": "cloud_gear",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/activecloud.png",
    "name": "Active IaaS",
-   "short_text": "Решение для переноса IT-инфраструктуры в&nbsp;частное облако для повышения безопасности данных",
+   "short_text": "Решение для переноса IT-инфраструктуры в&#160;частное облако для повышения безопасности данных",
    "case_id": false,
    "wizard_id": "c09f4daf-2d4a-4747-bf29-576b6a3607b4",
    "wizard_label": "Связаться с партнером Solution 6",
    "rio": "300316566",
    "tags": [],
    "inactive": true,
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 0,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "office24",
    "groupA": ["middlebusiness"],
@@ -104,13 +111,14 @@
    "icon": "cloud_recovery",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/infobox.png",
    "name": "Офис24",
-   "short_text": "Решение для эффективной коммуникации между сотрудниками компании с&nbsp;помощью бизнес-приложений",
+   "short_text": "Решение для эффективной коммуникации между сотрудниками компании с&#160;помощью бизнес-приложений",
    "case_id": false,
    "wizard_id": "3e4ea6b7-8de5-42b6-ae8b-430aa130b9f6",
    "wizard_label": "Связаться с партнером Solution 7",
    "rio": "300316567",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage", "telephoniya"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 1,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "infobox_cloud",
    "groupA": ["middlebusiness"],
@@ -118,28 +126,30 @@
    "icon": "box",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/infobox.png",
    "name": "InfoboxCloud MS",
-   "short_text": "Решение для безопасного переноса IT-инфраструктуры в&nbsp;облако и&nbsp;запуска сайтов и&nbsp;веб-приложений",
+   "short_text": "Решение для безопасного переноса IT-инфраструктуры в&#160;облако и&#160;запуска сайтов и&#160;веб-приложений",
    "case_id": false,
    "wizard_id": "5a80138b-012e-431c-89c7-57bfb4a6476c",
    "wizard_label": "Связаться с партнером Solution 8",
    "rio": "300316568",
    "tags": [],
    "inactive": true,
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 0,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "biznes_kruglyj_god",
    "groupA": ["bigbusiness"],
    "groupB": ["business"],
    "icon": "worker",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/crock.png",
-   "name": "Бизнес круглый&nbsp;год",
-   "short_text": "Решение для повышения эффективности коммуникации между сотрудниками в&nbsp;компании и&nbsp;клиентами",
+   "name": "Бизнес круглый&#160;год",
+   "short_text": "Решение для повышения эффективности коммуникации между сотрудниками в&#160;компании и&#160;клиентами",
    "case_id": false,
    "wizard_id": "20dfb309-124b-4376-b3c4-dfd7b69cb3b5",
    "wizard_label": "Связаться с партнером Solution 9",
    "rio": "300316569",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 1,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "virtualniy_tsod",
    "groupA": ["gossector", "bigbusiness"],
@@ -147,12 +157,13 @@
    "icon": "some_cloud",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/rt.png",
    "name": "Виртуальный ЦОД",
-   "short_text": "Решение для переноса IT-инфраструктуры в&nbsp;облако, быстрого создания сайтов и&nbsp;веб-приложений",
+   "short_text": "Решение для переноса IT-инфраструктуры в&#160;облако, быстрого создания сайтов и&#160;веб-приложений",
    "case_id": false,
    "wizard_id": "471d7b8b-7735-40af-b79f-ddc1a493eb65",
    "wizard_label": "Связаться с партнером Solution 10",
    "rio": "300316570",
    "tags": [],
+   "productSet": 0,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "rt_virtualniy_office",
@@ -161,12 +172,13 @@
    "icon": "cloud_fuck",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/rt.png",
    "name": "Виртуальный офис",
-   "short_text": "Решение для комплексной организации коммуникации внутри компании с&nbsp;помощью бизнес-приложений",
+   "short_text": "Решение для комплексной организации коммуникации внутри компании с&#160;помощью бизнес-приложений",
    "case_id": false,
    "wizard_id": "687f0210-6a58-4232-b43a-61fa9ff5d90c",
    "wizard_label": "Связаться с партнером Solution 11",
    "rio": "300316571",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "productSet": 1,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "cloud_o",
@@ -175,12 +187,14 @@
    "icon": "cloud_rose",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/dataline.png",
    "name": "Cloud-O",
-   "short_text": "Решение для оптимизации совместной работы сотрудников и&nbsp;передачи управления&nbsp;IT на&nbsp;аутсорcинг",
+   "short_text": "Решение для оптимизации совместной работы сотрудников и&#160;передачи управления&#160;IT на&#160;аутсорcинг",
    "case_id": false,
    "wizard_id": "cbaf3298-dd5f-4d6a-ad1b-0bb310076cb5",
    "wizard_label": "Связаться с партнером Solution 12",
    "rio": "300316572",
-   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"]
+   "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
+   "productSet": 1,
+   "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "crm_ot_softline",
    "groupA": ["middlebusiness", "bigbusiness", "gossector"],
@@ -188,12 +202,13 @@
    "icon": "crm",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/softline.png",
    "name": "CRM от Softline",
-   "short_text": "Решение для создания единой рабочей среды для отделов продаж, маркетинга и&nbsp;сервиса",
+   "short_text": "Решение для создания единой рабочей среды для отделов продаж, маркетинга и&#160;сервиса",
    "case_id": false,
    "wizard_id": "59ab0f29-ba50-4620-b315-6b1ecf403d93",
    "wizard_label": "Связаться с партнером Solution 13",
    "rio": "300316573",
    "tags": ["onlinecommunicate", "crmsystem"],
+   "productSet": 2,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "hosted_dynamics_crm",
@@ -201,14 +216,15 @@
    "groupB": ["business"],
    "icon": "timecloud",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/oblakoteka.png",
-   "name": "Hosted Dynamics&nbsp;CRM",
-   "short_text": "Решение для комплексного управления отделами продаж, маркетинга и&nbsp;сервиса в&nbsp;вашей компании",
+   "name": "Hosted Dynamics&#160;CRM",
+   "short_text": "Решение для комплексного управления отделами продаж, маркетинга и&#160;сервиса в&#160;вашей компании",
    "case_id": false,
    "wizard_id": "5847d765-a94d-4267-b795-e39872090c18",
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300316574",
    "tags": ["onlinecommunicate", "crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "manzana_loyalty",
    "groupA": ["middlebusiness"],
@@ -216,13 +232,14 @@
    "icon": "healthy",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/oblakoteka.png",
    "name": "Manzana Loyalty Online",
-   "short_text": "Решение с&nbsp;полным набором функций для управления программой повышения лояльности ваших клиентов",
+   "short_text": "Решение с&#160;полным набором функций для управления программой повышения лояльности ваших клиентов",
    "case_id": false,
    "wizard_id": "97c05d32-6234-4beb-9344-5498511a1b92",
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300316575",
    "tags": ["onlinecommunicate", "crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "mosoblako",
    "groupA": ["gossector", "middlebusiness"],
@@ -236,6 +253,7 @@
    "wizard_label": "Связаться с партнером Solution 14",
    "rio": "300320827",
    "tags": [],
+   "productSet": 0,
    "formOptions": [0, 1, 2, 3, 4]
  }, {
    "_id": "taskmanager",
@@ -244,13 +262,14 @@
    "icon": "sheats",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/actionspace.png",
    "name": "Контроль поручений",
-   "short_text": "Решение для организации, планирования и&nbsp;управления задачами, совместной работы над проектами и&nbsp;контроля поручений",
+   "short_text": "Решение для организации, планирования и&#160;управления задачами, совместной работы над проектами и&#160;контроля поручений",
    "case_id": false,
    "wizard_id": "6958b4f0-190f-4ef7-b6b7-0bac9ec3ba4c",
    "wizard_label": "",
    "rio": "300320828",
    "tags": ["corpemail", "onlinecommunicate", "webconf", "filestorage"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 1,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "systema4i",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -258,13 +277,14 @@
    "icon": "lamp",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/tekora.jpg",
    "name": "Система «4И»",
-   "short_text": "Решение для активизации и&nbsp;использования интеллектуального потенциала сотрудников и&nbsp;управления идеями",
+   "short_text": "Решение для активизации и&#160;использования интеллектуального потенциала сотрудников и&#160;управления идеями",
    "case_id": false,
    "wizard_id": "d16f93bf-0f6c-4921-bf70-1bac070b0541",
    "wizard_label": "",
    "rio": "300320829",
    "tags": ["idea"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 1,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_proizvodstva",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -278,7 +298,8 @@
    "wizard_label": "Связаться с партнером_20",
    "rio": "300335189",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_distributorov",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -292,21 +313,23 @@
    "wizard_label": "Связаться с партнером_19",
    "rio": "300335190",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_bankov",
    "groupA": ["bigbusiness", "middlebusiness"],
    "groupB": ["business"],
    "icon": "crmbank",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/norbitoblakoteka.png",
-   "name": "CRM для&nbsp;банков",
+   "name": "CRM для&#160;банков",
    "short_text": "Решение для управления продажами, маркетингом и сервисными службами, полностью адаптированное для банков",
    "case_id": false,
    "wizard_id": "1bdf5de2-3317-42f1-8cdc-1b203d409534",
    "wizard_label": "Связаться с партнером_18",
    "rio": "300335191",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_kontaktcentrov",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -320,7 +343,8 @@
    "wizard_label": "Связаться с партнером_17",
    "rio": "300335192",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "realtor_aero",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -328,13 +352,14 @@
    "icon": "realtor",
    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_tisa.png",
    "name": "Риелтор АЭРО",
-   "short_text": "Решение для управления продажами объектов недвижимости в&nbsp;новостройках и на вторичном рынке недвижимости",
+   "short_text": "Решение для управления продажами объектов недвижимости в&#160;новостройках и на вторичном рынке недвижимости",
    "case_id": false,
    "wizard_id": "6c29727b-9d8d-44fa-8f0a-8eceeccfc646",
    "wizard_label": "Связаться с партнером_21",
    "rio": "300335193",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_gostinic",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -348,7 +373,8 @@
    "wizard_label": "Связаться с партнером_22",
    "rio": "300348999",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_servisa",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -362,7 +388,8 @@
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349000",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "crm_dlya_obrazovaniya",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -376,7 +403,8 @@
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349001",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }, {
    "_id": "bystryj_start_prodazh",
    "groupA": ["bigbusiness", "middlebusiness"],
@@ -390,5 +418,6 @@
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349002",
    "tags": ["crmsystem"],
-   "formOptions": [0, 1, 2, 3, 4]
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
  }]

@@ -3,100 +3,59 @@
 	{
 		"selected_items":
 		[
-			[
-				"ge",
-				"getURLQueryByName"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"T",
-				"Tisa	(base.json)"
-			],
-			[
-				"gree",
-				"green-light2	 variables.less"
-			],
-			[
-				"ar",
-				"articles"
-			],
-			[
-				"datas",
-				"datasource"
-			],
-			[
-				"in",
-				"inherit"
-			],
-			[
-				"new",
-				"newImg"
-			],
-			[
-				"da",
-				"datasource	(gulpfile.js)"
-			],
-			[
-				"p",
-				"primary"
-			],
-			[
-				"con",
-				"conditions	(index.html)"
-			],
-			[
-				"scroll",
-				"scrollify"
-			],
-			[
-				"j",
-				"javascripts	(layout.html)"
-			],
-			[
-				"tra",
-				"trsanslateZ	(layout.less)"
-			],
-			[
-				"write",
-				"writeFileSync"
-			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "views/pages/oblachnaja_kopilka_idej.html",
+			"file": "views/blocks/index_js.html",
 			"settings":
 			{
-				"buffer_size": 2054,
+				"buffer_size": 2458,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/proto/__articles.html",
+			"contents": "<div>\n    <!--      created by gnklv       -->\n    <!DOCTYPE html>\n    <html lang=\"ru\">\n        <head>\n            <meta charset=\"utf-8\">\n            <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>\n            <link rel=\"stylesheet\" href=\"css/normalize.css\">\n            <link rel=\"stylesheet\" href=\"css/style.min.css\">\n            <title>Барбершоп \"Бородинский\"</title>\n        </head>\n        <body>\n            <header class=\"main-header\">\n                <div class=\"container clearfix\">\n                    <nav class=\"navigation\">\n                        <ul>\n                            <li class=\"active\">\n                                <a href=\"index.html\">Главная</a>\n                            </li>\n                            <li>\n                                <a href=\"#\">Информация</a>\n                            </li>\n                            <li>\n                                <a href=\"#\">Новости</a>\n                            </li>\n                            <li>\n                                <a href=\"price.html\">Прайс-лист</a>\n                            </li>\n                            <li>\n                                <a href=\"shop.html\">Магазин</a>\n                            </li>\n                            <li>\n                                <a href=\"#\">Контакты</a>\n                            </li>\n                        </ul>\n                    </nav>\n                    <div class=\"user-block\">\n                        <a href=\"login.html\" class=\"login\">Вход</a>\n                    </div>\n                </div>\n            </header>\n            \n            <main class=\"container\">\n                <div class=\"logo\">\n                    <img src=\"img/barbershop-logo.png\" width=\"368\" height=\"204\" alt=\"Барбершоп «Бородинский»\">\n                </div>\n                <section class=\"features-row clearfix\">\n                    <div class=\"features-item\">\n                        <div class=\"features-title\">Быстро</div>\n                        <p>Мы делаем свою работу быстро! Два часа пролетят незаметно - и вы счастливый обладатель стильной стрижки-минути.</p>\n                    </div>\n                    <div class=\"features-item\">\n                        <div class=\"features-title\">Круто</div>\n                        <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>\n                    </div>\n                    <div class=\"features-item\">\n                        <div class=\"features-title\">Дорого</div>\n                        <p>Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>\n                    </div>\n                </section>\n                <div class=\"index-content clearfix\">\n                    <div class=\"content-column-left\">\n                        <h2 class=\"content-column-title\">Новости</h2>\n                        <ul class=\"news-prewie\">\n                            <li>\n                                Нам наконец завезли Ягермайстер! Теперь вы можете пропутить стаканчик во время стрижки<br>\n                                <time datetime=\"2013-09-25\">25 сентября</time>\n                            </li>\n                            <li>\n                                В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды<br>\n                                <time datetime=\"2013-09-19\">19 сентября</time>\n                            </li>\n                        </ul>\n                        <a href=\"#\" class=\"btn\">Все новости</a>\n                    </div>\n                    <div class=\"content-column-right\">\n                        <h2 class=\"content-column-title\">Фотогалерея</h2>\n                        <div class=\"gallery\">\n                            <figure class=\"gallery-content\">\n                                <img src=\"img/gallery.jpg\" width=\"286\" height=\"164\" alt=\"\">\n                            </figure>\n                            <button class=\"btn gallery-prev disabled\">Назад</button>\n                            <button class=\"btn gallery-next\">Вперед</button>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"index-content clearfix\">\n                    <div class=\"content-column-left\">\n                        <div class=\"main-contacts\">\n                            <h2 class=\"content-column-title\">Контактная информация</h2>\n                            <p>\n                                Барбершоп «Бородинский»<br>\n                                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>\n                                Телефон: +7 (495) 666-02-66\n                            </p>\n                            <p>\n                                Время работы:<br>\n                                пн - пт: с 10:00 до 22:00<br>\n                                сб - вс: с 10:00 до 19:00\n                            </p>\n                            <a href=\"map.html\" class=\"btn map-open\">Как проехать</a>\n                            <a href=\"#\" class=\"btn\">Обратная связь</a>\n                        </div>\n                    </div>\n                    <div class=\"content-column-right\">\n                        <div class=\"appointment-form\">\n                            <h2 class=\"content-column-title\">Записаться</h2>\n                            <p>Укажите желаемую дату и время, и мы свяжемся с вами для подтверждения брони</p>\n                            <form action=\"/echo\" method=\"post\">\n                                <input type=\"date\" name=\"date\" value=\"\" placeholder=\"Дата\">\n                                <input type=\"time\" name=\"time\" value=\"\" placeholder=\"Время\">\n                                <input type=\"text\" name=\"text\" value=\"\" placeholder=\"Ваше имя\">\n                                <input type=\"tel\" name=\"phone\" value=\"\" placeholder=\"Телефон\">\n                                <button type=\"submit\" class=\"btn\">Отправить</button>\n                            </form>\n                        </div>\n                    </div>\n                </div>\n            </main>\n            \n            <footer class=\"main-footer\">\n                <div class=\"container clearfix\">\n                    <div class=\"footer-contacts\">\n                        Барбершоп «Бородинский»<br>\n                        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>\n                        <a href=\"#\">Как нас найти?</a><br>\n                        Телефон: +7 (495) 666-02-66\n                    </div>\n                    <div class=\"footer-social\">\n                        <p>Давайте Дружить!</p>\n                        <a href=\"#\" class=\"social-btn social-btn-vk\">Вконтакте</a>\n                        <a href=\"#\" class=\"social-btn social-btn-fb\">Фейсбук</a>\n                        <a href=\"#\" class=\"social-btn social-btn-inst\">Инстаграм</a>\n                    </div>\n                    <div class=\"footer-copyright\">\n                        <p>Дизайн сайта:</p>\n                        <a href=\"#\" class=\"btn\">htmlacademy.ru</a>\n                    </div>\n                </div>\n            </footer>\n            \n            <div class=\"modal-content\">\n                <div class=\"modal-content-close\">закрыть</div>\n                <h2 class=\"modal-content-title\">Личный кабинет</h2>\n                <p>Введите, пожалуйста, свой логин и пароль</p>\n                <form class=\"login-form\" action=\"/echo\" method=\"post\">\n                    <input class=\"icon-user\" type=\"text\" name=\"login\" placeholder=\"Логин\" required>\n                    <input class=\"icon-password\" type=\"password\" name=\"password\" placeholder=\"Пароль\" required>\n                    <input type=\"checkbox\" name=\"remember\" id=\"remember-me\">\n                    <label for=\"remember-me\">Запомнить меня</label>\n                    <a href=\"#\" class=\"restore\">Я забыл пароль</a>\n                    <button type=\"submit\" class=\"btn\">Войти</button>\n                </form>\n            </div>\n            \n            <div class=\"modal-content-map\">\n                <div class=\"modal-content-close\">закрыть</div>\n                <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123688!2d30.32113065009585!3d59.93879686904841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1458301656028\" width=\"766\" height=\"561\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n            </div>\n            \n            <script src=\"scripts/script.min.js\"></script>\n            \n        </body>\n    </html>\n</div>",
+			"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/index.html",
+			"file_size": 7891,
+			"file_write_time": 131054342455246092,
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 8885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/pages/cloudv.html",
+			"settings":
+			{
+				"buffer_size": 4414,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "fixture/pages/oblachnaja_kopilka_idej.json",
+			"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/shop.html",
 			"settings":
 			{
-				"buffer_size": 14717,
+				"buffer_size": 7471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/datasource/products.json",
+			"settings":
+			{
+				"buffer_size": 16939,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "views/proto/__products.html",
+			"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/map.html",
 			"settings":
 			{
-				"buffer_size": 3858,
-				"line_ending": "Windows"
+				"buffer_size": 3431,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -107,68 +66,28 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 288.0,
-		"last_filter": "ss html",
+		"height": 58.0,
+		"last_filter": "ss json",
 		"selected_items":
 		[
 			[
-				"ss html",
-				"Set Syntax: HTML"
+				"ss json",
+				"Set Syntax: JSON"
 			],
 			[
-				"ss js",
-				"Set Syntax: JavaScript"
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
-				"ss mark",
-				"Set Syntax: Markdown"
-			],
-			[
-				"ss dja",
-				"Set Syntax: HTML (Django)"
-			],
-			[
-				"ss css",
-				"Set Syntax: CSS"
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"Snippet:",
-				"Snippet: Lorem ipsum"
-			],
-			[
-				":",
-				"Snippet: html"
-			],
-			[
-				"ss dj",
-				"Set Syntax: HTML (Django)"
-			],
-			[
-				"ss less",
-				"Set Syntax: LESS"
-			],
-			[
-				"insta",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"inst",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"install",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 456.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -190,156 +109,28 @@
 	"expanded_folders":
 	[
 		"/D/projects/cosnr2",
-		"/D/projects/cosnr2/export",
-		"/D/projects/cosnr2/export/fragments",
 		"/D/projects/cosnr2/fixture",
 		"/D/projects/cosnr2/public",
 		"/D/projects/cosnr2/public/datasource",
-		"/D/projects/cosnr2/public/javascripts",
 		"/D/projects/cosnr2/views",
-		"/D/projects/cosnr2/views/proto"
+		"/D/projects/cosnr2/views/pages"
 	],
 	"file_history":
 	[
-		"/D/projects/cosnr2/views/proto/__products.html",
-		"/D/projects/cosnr2/views/proto/__cases.html",
-		"/D/projects/cosnr2/public/less/core/layout.less",
-		"/D/projects/cosnr2/views/pages/virtualnaya_ifrastructura.html",
-		"/D/projects/cosnr2/public/less/components/boxer.less",
-		"/D/projects/cosnr2/fixture/pages/rt_virtualniy_office.json",
-		"/D/projects/cosnr2/fixture/msmapping.json",
-		"/D/projects/cosnr2/public/datasource/products.json",
-		"/D/projects/cosnr2/views/pages/cloudv.html",
-		"/D/projects/cosnr2/fixture/pages/oblachnaja_kopilka_idej.json",
-		"/D/projects/cosnr2/public/less/components/btn.less",
-		"/D/projects/cosnr2/public/less/style.less",
-		"/D/projects/cosnr2/fixture/pages/active_iaas.json",
-		"/D/projects/cosnr2/fixture/pages/bystryj_start_prodazh.json",
-		"/D/projects/cosnr2/fixture/pages/cloud_o.json",
-		"/D/projects/cosnr2/fixture/pages/cloudv.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_bankov.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_distributorov.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_gostinic.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_kontaktcentrov.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_proizvodstva.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_servisa.json",
-		"/D/projects/cosnr2/fixture/pages/crm_ot_softline.json",
-		"/D/projects/cosnr2/fixture/pages/modernizaciya_pochtovih_servisov.json",
-		"/D/projects/cosnr2/fixture/pages/virtualniy_tsod.json",
-		"/D/projects/cosnr2/fixture/pages/exchange_service.json",
-		"/D/projects/cosnr2/fixture/pages/infobox_cloud.json",
-		"/D/projects/cosnr2/fixture/pages/manzana_loyalty.json",
-		"/D/projects/cosnr2/fixture/pages/mosoblako.json",
-		"/D/projects/cosnr2/fixture/pages/msiaas.json",
-		"/D/projects/cosnr2/fixture/pages/oblakoteka_virtualnaja_infrastruktura.json",
-		"/D/projects/cosnr2/fixture/pages/office24.json",
-		"/D/projects/cosnr2/fixture/pages/realtor_aero.json",
-		"/D/projects/cosnr2/fixture/pages/systema4i.json",
-		"/D/projects/cosnr2/fixture/pages/taskmanager.json",
-		"/D/projects/cosnr2/fixture/pages/virtualnaya_ifrastructura.json",
-		"/D/projects/cosnr2/fixture/pages/virtualniy_ofice.json",
-		"/D/projects/cosnr2/public/datasource/base.json",
-		"/D/projects/cosnr2/fixture/pages/biznes_kruglyj_god.json",
-		"/D/projects/cosnr2/fixture/pages/crm_dlya_obrazovaniya.json",
-		"/D/projects/cosnr2/package.json",
-		"/D/projects/cosnr2/views/pages/wiki.html",
-		"/D/projects/cosnr2/public/datasource/articles.json",
-		"/D/projects/cosnr2/views/pages/index.html",
-		"/D/projects/cosnr2/public/less/components/partner.less",
-		"/D/projects/cosnr2/public/less/components/product-block.less",
-		"/D/projects/cosnr2/public/less/components/catalog.less",
-		"/D/projects/cosnr2/views/layout.html",
-		"/D/projects/cosnr2/public/javascripts/general.js",
-		"/D/projects/cosnr2/public/javascripts/products.js",
-		"/D/projects/cosnr2/app.js",
-		"/D/projects/cosnr2/views/blocks/scripts_products.html",
-		"/D/projects/cosnr2/export/pages/crm_dlya_servisa.html",
-		"/D/projects/cosnr2/public/less/components/hero.less",
-		"/D/projects/cosnr2/views/pages/products.html",
-		"/D/projects/hcloudsite/templates/wiki.html",
-		"//wwwstaging/drop/locale/ru-ru/cloudosnetwork/Master/hcloudMaster.Master.master",
-		"/D/projects/cosnr2/public/less/components/slider.less",
-		"/D/projects/cosnr2/public/less/components/cloud-slider.less",
-		"/D/projects/cosnr2/public/less/components/typography.less",
-		"/D/projects/cosnr2/views/blocks/index_js.html",
-		"/D/projects/cosnr2/public/less/core/variables.less",
-		"/D/projects/cosnr2/gulpfile.js",
-		"/D/projects/cosnr2/sprites.hbs",
-		"/D/projects/cosnr2/public/less/components/sprites.less",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
-		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/D/projects/cosnr2/public/javascripts/index.js",
-		"/D/projects/cosnr2/export/pages/systema4i.html",
-		"/D/projects/cosnr2/fixture/pages/hosted_dynamics_crm.json",
-		"/D/projects/cosnr2/export/pages/manzana_loyalty.html",
-		"/C/Users/wishm/AppData/Roaming/Skype/My Skype Received Files/cloudyday/public/index.html",
-		"/D/projects/cosnr2/.gitignore",
-		"/D/projects/cosnr2/export/pages/biznes_kruglyj_god.html",
-		"/D/projects/cosnr2/public/javascripts/reshenie.js",
-		"/D/projects/cosnr2/views/blocks/filters.html",
-		"/D/projects/cosnr2/fixture/pages/azure_pack_v_oblakoteke.json",
-		"/D/projects/cosnr2/views/proto/__articles.html",
-		"/D/projects/cosnr2/routes/api.js",
-		"/D/projects/cosnr2/views/pages/crm_dlya_proizvodstva.html",
-		"/D/projects/cosnr2/public/less/components/filter.less",
-		"/D/projects/cosnr2/public/datasource/cases.json",
-		"/D/projects/cosnr2/views/pages/msiaas.html",
-		"/D/projects/cosnr2/views/blocks/case-slider.html",
-		"/D/projects/cosnr2/public/less/components/wrapped-section.less",
-		"/D/projects/cosnr2/public/less/components/story.less",
-		"/D/projects/cosnr2/public/less/components/faq.less",
-		"/D/projects/cosnr2/cosnr2.sublime-project",
-		"/D/projects/cosnr2/export/pages/index.html",
-		"/D/projects/cosnr2/public/less/modules/slick.less",
-		"/D/projects/cosnr2/Gruntfile.js",
-		"/D/projects/cosnr2/public/stylesheets/style.css",
-		"/D/projects/cosnr2/public/less/components/helpers.less",
-		"/D/projects/cosnr2/public/images/partner-logo-logo_elmoscow.png",
-		"/D/projects/cosnr2/public/javascripts/slick.min.js",
-		"/D/projects/cosnr2/views/blocks",
-		"/C/Users/wishm/Downloads/slick-1.5.9 (1)/slick-1.5.9/slick/slick.min.js",
-		"/D/projects/cosnr2/public/less/components/tab.less",
-		"/D/projects/cosnr2/modules/watcher.js",
-		"/D/projects/cosnr2/routes/sitemuse.js",
-		"/C/Users/wishm/Desktop/qqq.js",
-		"/D/projects/cosnr2/public/admin/js/admin.js",
-		"/D/projects/hcloudsite/fixture/__base.json",
-		"/D/projects/cosnr2/public/datasource",
-		"/D/projects/cosnr2/fixture/pages/index.json",
-		"/D/projects/cosnr2/.git/config",
-		"/D/projects/devcon2015/public/less/blocks/tickets.less",
-		"/D/projects/devcon2015/public/less/blocks/intensive.less",
-		"/D/projects/devcon2015/views/intensive.html",
-		"/D/projects/devcon2015/views/blocks/conditions.html",
-		"/D/projects/devcon2015/datasource/sdata.json",
-		"/D/projects/devcon2015/export/intensive.html",
-		"/D/projects/devcon2015/export/index.html",
-		"/D/projects/devcon2015/views/blocks/header.html",
-		"/D/projects/devcon2015/public/less/blocks/header.less",
-		"/D/projects/devcon2015/views/masterpage.html",
-		"/D/projects/devcon2015/export/masterpage.html",
-		"/D/projects/devcon2015/views/conditions.html",
-		"/D/projects/devcon2015/public/less/variables.less",
-		"/D/projects/devcon2015/public/less/helpers.less",
-		"/D/projects/devcon2015/views/blocks/footer.html",
-		"/D/projects/devcon2015/export/location.html",
-		"/D/projects/devcon2015/public/less/layout/layout.less",
-		"/D/projects/devcon2015/views/contacts.html",
-		"/D/projects/devcon2015/views/blocks/header.twig",
-		"/D/projects/devcon2015/views/layouts/main.html",
-		"/D/projects/devcon2015/views/layouts/prod.html",
-		"/D/projects/devcon2015/views/faq.html"
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/wishm/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"D:\\projects\\cosnr2\\fixture\\pages"
 		]
 	},
 	"find_state":
@@ -347,49 +138,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"\"formOptions\": [0, 1, 2, 3, 4, 5],",
-			"visible",
-			"case_id",
-			"mosoblako",
-			"fillGroup",
-			"\"logo\": \"",
-			"exportPage",
-			"h1",
-			">\n",
-			"\"logo\":",
-			"\"></",
-			"		\n",
-			"slider__itemse",
-			"dataso",
-			"o",
-			";\n",
-			"></",
-			"\">\n",
-			"arguments",
-			"updateItem",
-			"XMLizeImages",
-			"EXPORT_PAGES",
-			"export",
-			"siteDB",
-			"\"></",
-			"-plate",
-			"star",
-			"DevConLite",
-			"condition",
-			"%;\n",
-			"scrKeys",
-			"\n/*(",
-			"';\n",
-			"main",
-			"infoButton",
-			"};\n",
-			"clientlib-generic/",
-			"word",
-			";\n",
-			"style.css.map",
-			"public/stylesheets",
-			"}",
-			"render"
+			"\"productSet\": 3,",
+			"\"productSet\": 2,",
+			"\"productSet\": 1,"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -397,12 +148,9 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\"formOptions\": [0, 1, 2, 3, 4],",
-			"DevCon Lite",
-			"conditions",
-			"infoButton infoButton--dark",
-			"../",
-			""
+			"\"productSet\": 2,",
+			"\"productSet\": 1,",
+			"\"productSet\": 0,"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -413,81 +161,93 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "views/pages/oblachnaja_kopilka_idej.html",
+					"file": "views/blocks/index_js.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2054,
+						"buffer_size": 2458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2054,
-								2054
+								313,
+								313
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8885,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
+								0,
+								8885
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "views/proto/__articles.html",
+					"buffer": 2,
+					"file": "views/pages/cloudv.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 4414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								0
+								319,
+								236
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -497,84 +257,96 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "fixture/pages/oblachnaja_kopilka_idej.json",
+					"buffer": 3,
+					"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/shop.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14717,
+						"buffer_size": 7471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								74,
-								83
+								5115,
+								5115
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/datasource/products.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8460,
+								8460
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3420.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "views/proto/__products.html",
+					"buffer": 5,
+					"file": "/C/Users/wishm/Downloads/Portfolio-master/Portfolio-master/Barbershop/html/map.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3858,
+						"buffer_size": 3431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1624,
-								874
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "<",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
+							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -611,14 +383,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.CSS Extended Completions":
-	{
-		"height": 0.0
-	},
-	"output.exec":
-	{
-		"height": 30.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -636,125 +400,17 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"taskmanager",
-				"fixture\\pages\\taskmanager.json"
-			],
-			[
-				"base",
-				"public\\datasource\\base.json"
-			],
-			[
-				"mosoblako",
-				"fixture\\pages\\mosoblako.json"
-			],
-			[
-				"manzana_loyalty",
-				"fixture\\pages\\manzana_loyalty.json"
-			],
-			[
-				"hosted_dynamics_crm",
-				"fixture\\pages\\hosted_dynamics_crm.json"
-			],
-			[
-				"crm_ot_softline",
-				"fixture\\pages\\crm_ot_softline.json"
-			],
-			[
-				"clou",
-				"fixture\\pages\\cloud_o.json"
-			],
-			[
-				"rt_virtualniy_office",
-				"fixture\\pages\\rt_virtualniy_office.json"
-			],
-			[
-				"virtualniy_tsod",
-				"fixture\\pages\\virtualniy_tsod.json"
-			],
-			[
-				"biznes_kruglyj_god",
-				"fixture\\pages\\biznes_kruglyj_god.json"
-			],
-			[
-				"infobox",
-				"fixture\\pages\\infobox_cloud.json"
-			],
-			[
-				"infobox_cloud",
-				"fixture\\pages\\infobox_cloud.json"
-			],
-			[
-				"virtualnaya",
-				"views\\pages\\virtualnaya_ifrastructura.html"
-			],
-			[
-				"virtua",
-				"fixture\\pages\\virtualnaya_ifrastructura.json"
-			],
-			[
-				"index.h",
-				"views\\pages\\index.html"
-			],
-			[
-				"index",
-				"views\\pages\\index.html"
-			],
-			[
-				"api",
-				"routes\\api.js"
-			],
-			[
-				"app.js",
-				"app.js"
-			],
-			[
-				"faq",
-				"views\\faq.twig"
-			],
-			[
-				"faq.",
-				"views\\blocks\\faq.twig"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
-		"last_filter": "peng",
+		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"peng",
-				"D:\\projects\\pengwindows\\pengwindows.sublime-workspace"
-			],
-			[
-				"pen",
-				"D:\\projects\\pengwindows\\pengwindows.sublime-workspace"
-			],
-			[
-				"dev",
-				"D:\\__subl_projects\\devcon.sublime-project"
-			],
-			[
-				"co",
-				"D:\\projects\\cosnr2\\cosnr2.sublime-project"
-			],
-			[
-				"",
-				"D:\\__subl_projects\\mba_vshe.sublime-project"
-			],
-			[
-				"amch",
-				"D:\\projects\\amchamsite\\amcham.sublime-workspace"
-			],
-			[
-				"ug",
-				"D:\\__subl_projects\\ug.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -773,7 +429,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 452.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

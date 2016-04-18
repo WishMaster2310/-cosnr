@@ -3,7 +3,7 @@
     "type": "Вебинар",
     "type_id": "webinar",
     "date": "15 октября",
-    "title": "Запись вебинара «Гибридная история Microsoft: локальные облачные сервисы и&nbsp;Azure»",
+    "title": "Запись вебинара «Гибридная история Microsoft: локальные облачные сервисы и&#160;Azure»",
     "slider": false,
     "icon": false,
     "img": "hybrid_history.jpg",
@@ -47,17 +47,17 @@
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/softlinecloud.jpg",
-    "desc": "Softline представляет первые облачные сервисы международного класса в&nbsp;рамках инициативы Cloud OS&nbsp;Network Russia. Услуги созданы на&nbsp;базе технологий Microsoft и&nbsp;доступны из&nbsp;дата-центров, расположенных на&nbsp;территории нашей страны."
+    "desc": "Softline представляет первые облачные сервисы международного класса в&#160;рамках инициативы Cloud OS&#160;Network Russia. Услуги созданы на&#160;базе технологий Microsoft и&#160;доступны из&#160;дата-центров, расположенных на&#160;территории нашей страны."
   }, {
     "_id": "ms_cloud_os_network",
     "type": "Статья",
     "type_id": "article",
     "date": "17 августа",
-    "title": "Программа Microsoft Cloud&nbsp;OS&nbsp;Network",
+    "title": "Программа Microsoft Cloud&#160;OS&#160;Network",
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/articlecosn.jpg",
-    "desc": "Облачная инициатива Microsoft Cloud OS&nbsp;Network (COSN) действует на&nbsp;глобальном рынке с&nbsp;конца 2013&nbsp;года. В&nbsp;России первые сервисы по&nbsp;этой программе стали доступны через локальных партнеров корпорации в&nbsp;2015&nbsp;году."
+    "desc": "Облачная инициатива Microsoft Cloud OS&#160;Network (COSN) действует на&#160;глобальном рынке с&#160;конца 2013&#160;года. В&#160;России первые сервисы по&#160;этой программе стали доступны через локальных партнеров корпорации в&#160;2015&#160;году."
   }, {
     "_id": "azure_pack_v_oblakoteke",
     "type": "Статья",
@@ -67,7 +67,7 @@
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
-    "desc": "В&nbsp;феврале 2015 года компания &laquo;Облакотека&raquo; запустила новую IaaS-платформу, предназначенную для размещения IT-инфраструктур с&nbsp;интерфейсом управления &laquo;как в&nbsp;Microsoft Azure&raquo;."
+    "desc": "В&#160;феврале 2015 года компания &#171;Облакотека&#187; запустила новую IaaS-платформу, предназначенную для размещения IT-инфраструктур с&#160;интерфейсом управления &#171;как в&#160;Microsoft Azure&#187;."
   }, {
     "_id": "dataline_oblachnii_servis",
     "type": "Статья",
@@ -77,17 +77,17 @@
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/4922f900ce844208a294d44e363777a0.png",
-    "desc": "В&nbsp;облачном меню компании Dataline появилась новинка&nbsp;&mdash; облако на&nbsp;базе технологии Microsoft Hyper-V и&nbsp;с&nbsp;порталом управления Windows Azure Pack."
+    "desc": "В&#160;облачном меню компании Dataline появилась новинка&#160;&#8212; облако на&#160;базе технологии Microsoft Hyper-V и&#160;с&#160;порталом управления Windows Azure Pack."
   }, {
     "_id": "mir_cod_edinoe_v_treh_licah",
     "type": "Статья",
     "type_id": "article",
     "date": "7 августа",
-    "title": "&laquo;Мир ЦОД&raquo;: единое в&nbsp;трех&nbsp;лицах",
+    "title": "&#171;Мир ЦОД&#187;: единое в&#160;трех&#160;лицах",
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
-    "desc": "Облачные сервисы на&nbsp;базе технологий Microsoft российские заказчики могут реализовать самостоятельно или воспользовавшись услугами корпорации либо ее&nbsp;партнеров-провайдеров."
+    "desc": "Облачные сервисы на&#160;базе технологий Microsoft российские заказчики могут реализовать самостоятельно или воспользовавшись услугами корпорации либо ее&#160;партнеров-провайдеров."
   }, {
     "_id": "ne_infrastrukturoi_edinoi",
     "type": "Статья",
@@ -97,7 +97,7 @@
     "slider": false,
     "icon": false,
     "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
-    "desc": "Российские компании &laquo;Ростелеком&raquo;, DataLine, Infobox, Softline, &laquo;Электронная Москва&raquo;, &laquo;Крок&raquo; и&nbsp;&laquo;Облакотека&raquo;&nbsp;&mdash; участники инициативы Microsoft Cloud OS&nbsp;Network Russia&nbsp;&mdash; представили свои первые облачные сервисы на&nbsp;базе технологий корпорации."
+    "desc": "Российские компании &#171;Ростелеком&#187;, DataLine, Infobox, Softline, &#171;Электронная Москва&#187;, &#171;Крок&#187; и&#160;&#171;Облакотека&#187;&#160;&#8212; участники инициативы Microsoft Cloud OS&#160;Network Russia&#160;&#8212; представили свои первые облачные сервисы на&#160;базе технологий корпорации."
   }, {
     "_id": "cosnr_praktiki",
     "type": "Доклад",

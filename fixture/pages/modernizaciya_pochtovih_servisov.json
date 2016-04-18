@@ -3,9 +3,8 @@
 	"name": "Модернизация почтовых сервисов",
 	"provider": "softline",
 	"_id": "modernizaciya_pochtovih_servisov",
-	"links": ["virtualniy_ofice"],
+	"productID": "virtualnaya_ifrastructura",
 	"general": [
-		
 		{
 			"_id": "situation",
 			"caption": "Ситуация",

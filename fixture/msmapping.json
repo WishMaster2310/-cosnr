@@ -440,6 +440,15 @@
             "msid": "",
             "_id": "c3cfd52c6926bfdb536c8562c6280c1000caab0a",
             "ctime": 1459430229893
+        },
+        {
+            "name": "cases",
+            "group": "pages",
+            "status": "new",
+            "fixture": false,
+            "msid": "",
+            "_id": "16a0357af76478e97c32c1ce3e5f712ecf320c44",
+            "ctime": 1460970512741
         }
     ],
     "fragments": [
@@ -479,33 +488,6 @@
             "group": "images",
             "msid": "1b783b14-9646-466c-9c42-3f2afa1bbfc6",
             "_id": "a2c7c1c9abb52aed1c17f8fda67ca75e8974aad6",
-            "status": "sync"
-        },
-        {
-            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-promsvyazbank.jpg",
-            "name": "case-logo-promsvyazbank.jpg",
-            "size": 0,
-            "group": "images",
-            "msid": "b401c06c-6a9f-42be-835d-649a2bf3b9cb",
-            "_id": "7c7a7de2ffc8e92628b9bfb6c3cb459bd0cb732d",
-            "status": "sync"
-        },
-        {
-            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-kagazy.jpg",
-            "name": "case-logo-kagazy.jpg",
-            "size": 0,
-            "group": "images",
-            "msid": "caf8e6be-8329-4dda-801c-ed38e647d724",
-            "_id": "58d1fac97fa2fae27b61d77faf3fc947bf53f74b",
-            "status": "sync"
-        },
-        {
-            "path": "D:\\projects\\cosnr2\\public\\images\\case-logo-directum.jpg",
-            "name": "case-logo-directum.jpg",
-            "size": 0,
-            "group": "images",
-            "msid": "2fe11b54-cb3d-43f4-9f3c-eaad5fa865ff",
-            "_id": "3d4df9bcd0bde1d40da0e7203a62053c6ed11a8e",
             "status": "sync"
         },
         {
