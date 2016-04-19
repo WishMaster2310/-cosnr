@@ -221,6 +221,13 @@ muse.exportPage = function(flag, callback) {
                 });
             } else {
                 var content = nunjucks.render(_tmp, {
+                    Articles: muse.articles,
+                    Cases: muse.cases,
+                    _Cases: JSON.stringify(muse.cases),
+                    Products: muse.products,
+                    _Products: JSON.stringify(muse.products),
+                    Base: muse.base,
+                    Root: '/ru-ru/cloudosnetwork',
                     Export: flag
                 });
             }

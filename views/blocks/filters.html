@@ -1,7 +1,7 @@
 <div class="filter-block mb40">
 
 	<p class="filter-block__section mb10">
-		<span class="filter-block__section-label">Виды бизнеса:&emsp;</span>
+		<span class="filter-block__section-label">Виды бизнеса:&#8195;</span>
 		{%- for item in Base.groupA -%}
 			<a href="#" class="filter-btn mb10" data-bind="
 			click: function() {
@@ -11,7 +11,7 @@
 	</p>
 
 	<p class="filter-block__section  mb10">
-		<span class="filter-block__section-label">Деятельность:&emsp;</span>
+		<span class="filter-block__section-label">Деятельность:&#8195;</span>
 		{%- for item in Base.groupB -%}
 			<a href="#" class="filter-btn mb5" data-bind="click: function() {m_site.toggleFilter(1, '{{ item._id }}')}, css: {'filter-btn_active': m_site.activeFilterB() === '{{ item._id }}'}"><span>{{ item.name }}</span></a>
 		{%- endfor -%}

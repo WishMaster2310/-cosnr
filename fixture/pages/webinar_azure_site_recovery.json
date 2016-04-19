@@ -9,11 +9,11 @@
 
 		{
 			"caption": "",
-			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://www.youtube-nocookie.com/embed/Cn5G8VyWvko\" frameborder=\"0\" allowfullscreen></iframe></div><p>В&nbsp;рамках этого вебинара Олег Новиков объяснил необходимость наличия резервного ЦОДа, коротко рассказал об&nbsp;Azure Site Recovery, описал возможные сценарии использования продукта и&nbsp;его основные функции:</p> <ul> <li>защита локального сайта VMM&nbsp;с помощью другого локального сайта VMM&nbsp;с применением Hyper-V&nbsp;Replica,</li> <li>защита локального сайта VMM&nbsp;с помощью Microsoft Azure,</li> <li>защита с&nbsp;интеграцией в&nbsp;Microsoft Azure Pack.</li> </ul>"
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://www.youtube-nocookie.com/embed/Cn5G8VyWvko\" frameborder=\"0\" allowfullscreen></iframe></div><p>В&#160;рамках этого вебинара Олег Новиков объяснил необходимость наличия резервного ЦОДа, коротко рассказал об&#160;Azure Site Recovery, описал возможные сценарии использования продукта и&#160;его основные функции:</p> <ul> <li>защита локального сайта VMM&#160;с помощью другого локального сайта VMM&#160;с применением Hyper-V&#160;Replica,</li> <li>защита локального сайта VMM&#160;с помощью Microsoft Azure,</li> <li>защита с&#160;интеграцией в&#160;Microsoft Azure Pack.</li> </ul>"
 		},
 		{
 			"caption": "",
-			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/OlegNovikov.jpg\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Новиков Олег Владимирович</strong></p> <p>Выпускник Академии Менеджмента Инноваций по&nbsp;специальности &laquo;Информационный менеджмент&raquo;. Имеет сертификаты MSCE 1.0, MCSA, MSITP. Ведущий инженер в&nbsp;департаменте развития облачных решений, специализируется на&nbsp;продуктах Microsoft. Опыт работы в&nbsp;IT&nbsp;&mdash; 13&nbsp;лет.</p> </div> </div><p></p> "
+			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/OlegNovikov.jpg\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Новиков Олег Владимирович</strong></p> <p>Выпускник Академии Менеджмента Инноваций по&#160;специальности &#171;Информационный менеджмент&#187;. Имеет сертификаты MSCE 1.0, MCSA, MSITP. Ведущий инженер в&#160;департаменте развития облачных решений, специализируется на&#160;продуктах Microsoft. Опыт работы в&#160;IT&#160;&#8212; 13&#160;лет.</p> </div> </div><p></p> "
 		}
 	]
 }

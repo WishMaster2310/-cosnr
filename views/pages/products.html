@@ -4,7 +4,7 @@
   <div class="l-container">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
-        <a href="/">Главная</a>
+        <a href="{{ Root }}/">Главная</a>
       </li>
       <li class="bradCrumbs__item">Каталог решений</li>
     </ul>
@@ -45,7 +45,7 @@
               <div class="product-block__data">
                 <div class="product-block__text" data-bind="html: short_text"></div>
                 <div class="product-block__control">
-                  <a href="" class="btn btn--bluelight" onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Details_CON);" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
+                  <a href="" class="btn btn--bluelight" onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Details_CON);" data-bind="attr: {href: '{{ Root }}/' + _id}">Подробнее →</a>
                 </div>
               </div>
               <!-- ko if: $data.case_data  -->
@@ -55,7 +55,7 @@
                   <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
                   <div data-bind="foreach: $data.case_data">
                     <p class="mt5">
-                      <a href="" data-bind="attr: {href: '/' + _id}, text: name"></a>
+                      <a href="" data-bind="attr: {href: '{{ Root }}/' + _id}, text: name"></a>
                     </p>
                   </div>
                 </div>

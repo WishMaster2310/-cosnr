@@ -1,16 +1,25 @@
 <!-- page  -->
 {% extends "../layout.html" %} {% block content %}
 <div class="main-wrapper main-wrapper--withbg">
-  <script src="/javascripts/products.js"></script>
   <div class="l-container">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
-        <a href="/">Главная</a>
+        <a href="{{ Root }}/">Главная</a>
       </li>
       <li class="bradCrumbs__item">Каталог решений</li>
     </ul>
-    <h1 class="h1">Каталог решений</h1>{% include "blocks/filters.html" %}
-    <div class="mb35 product-preloader" style="text-align: center;"><img src="{{ base.STATIC_URL }}img/product-preloader.gif" alt=""></div>
+
+    <div class="l-row">
+        <div class="l-col--md-9">
+            <h1 class="h1">Каталог решений</h1>
+        </div>
+        <div class="l-col--md-3 text-right">
+            <div class="header-back">
+                <a href="{{ Root }}/cases" class="header-back__link">Примеры внедрений</a>
+            </div>
+        </div>
+    </div>
+    {% include "blocks/filters.html" %}
   </div>
   <div class="expand-block">
     <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
@@ -36,7 +45,7 @@
               <div class="product-block__data">
                 <div class="product-block__text" data-bind="html: short_text"></div>
                 <div class="product-block__control">
-                  <a href="" class="btn btn--bluelight" onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Details_CON);" data-bind="attr: {href: '/' + _id}">Подробнее →</a>
+                  <a href="" class="btn btn--bluelight" onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Details_CON);" data-bind="attr: {href: '{{ Root }}/' + _id}">Подробнее →</a>
                 </div>
               </div>
               <!-- ko if: $data.case_data  -->
@@ -46,7 +55,7 @@
                   <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
                   <div data-bind="foreach: $data.case_data">
                     <p class="mt5">
-                      <a href="" data-bind="attr: {href: '/' + _id}, text: name"></a>
+                      <a href="" data-bind="attr: {href: '{{ Root }}/' + _id}, text: name"></a>
                     </p>
                   </div>
                 </div>
@@ -58,6 +67,21 @@
       </div>
     </div>
   </div>
+
+  <section class="faq-section">
+    <div class="l-container text-center">
+        <div class="l-row">
+            <div class="l-col--md-6 l-col--md-offset-3">
+                <h1 class="h1">Вопросы и ответы</h1>
+                <p class="mb20">
+                    Команда экспертов Cloud OS Network Russia готова ответить на&#160;ваши вопросы и помочь вам в выборе решения
+                </p>
+                <a href="{{ Root }}/wiki" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
 </div>
+{% include "blocks/scripts_products.html" %}
 {% endblock %}
 <!-- page -->

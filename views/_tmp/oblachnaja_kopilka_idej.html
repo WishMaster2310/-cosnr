@@ -1,7 +1,7 @@
 <!-- page  -->
-{% extends "../layout.html" %} {% block content %}
+{% extends "../layout.html" %} {% block content %} {% set CurrentProduct = {} %} {%- for product in Products %} {%- if product._id == Page.productID %} {% set CurrentProduct = product %} {% endif %} {% endfor %}
 <div class="main-wrapper main-wrapper--withbg">
-  <div class="container">
+  <div class="l-container mb40" itemscope="" itemtype="http://schema.org/Article">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
         <a href="/">Главная</a>
@@ -11,39 +11,84 @@
       </li>
       <li class="bradCrumbs__item">{{ Page.name }}</li>
     </ul>
-  </div>
-  <div class="row">
-    <div class="col-sm-8">
-      <div data-bind="visible: m_site.activeDir() === 'general'">
+    
+    <div class="l-row">
+      <div class="l-col--md-8">
+        <h1 class="h1" itemprop="name">{{ Page.name }}</h1>
         {% for item in Page.general %}
         <article id="generalInfo_{{item._id}}">
-          <div class="user-generate" data-bind="visible: m_site.activeMenuA() == {{ loop.index - 1 }}">
+          <div class="user-generate page__content" data-bind="visible: m_site.activeMenu() == {{ loop.index - 1 }}">
             <h2 class="h2">{{ item.caption }}</h2> {{ item.content|safe }}
           </div>
         </article>
         {% endfor %}
       </div>
-      <div data-bind="visible: m_site.activeDir() === 'technical'">
-        {% for item in page.technical %}
-        <article id="technicalInfo_{{item._id}}">
-          <div class="user-generate" data-bind="visible: m_site.activeMenuB() == {{ loop.index - 1 }}">
-            <h2 class="h2">{{ item.caption }}</h2> {{ item.content|safe }}
+      <div class="l-col--sm-4">
+        <div class="boxer mt20">
+          <div class="boxer__logo boxer__logo--nomb">
+            <img src="{{ CurrentProduct.logo }}" alt="{{ CurrentProduct.name }}">
           </div>
-        </article>
-        {% endfor %}
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="boxer">
-        <div class="boxer__logo">
-          {%- for partner in Products %} {%- if partner._id == Page._id %}
-          <img src="{{ partner.logo }}" alt="{{ partner.name }}"> {%- endif %} {%- endfor %}
         </div>
-        {%- for opt in Page.formOptions %} {%- for btn in Base.opts %} {%- if opt == btn.id %} {% set str = "id=" ~ Page._id ~ "&opts=[" ~ Page.formOptions|e ~ "]" %}
-        <a class="btn btn--block {%- if not loop.last %} mb10{% endif %}" href="{{ " https://events.techdays.ru/cloud-os-network-form/apply? " ~ str|urlencode ~ "&active="|urlencode ~ opt }}">{{ btn.title }}</a> {%- endif %} {%- endfor %} {%- endfor %}
+        <ul class="mb20 menu-vertical">
+          {% for item in Page.general %}
+          <li class="menu-vertical__item"><a class="btn btn--block btn--greenlight" data-bind="click: function() {m_site.activeMenu({{ loop.index - 1 }})}, css: {'btn--greenlight-active': m_site.activeMenu() === {{ loop.index - 1 }} }" href="#generalInfo_{{ item._id }}">{{ item.caption }}</a></li>
+          {% endfor %}
+        </ul>
+        <h3 class="h3 mt40">Решение</h3>
+        <a class="product-sidebar" href="{{ Root }}/{{ CurrentProduct._id }}">
+          <div class="product-sidebar-col product-sidebar-col_left">
+            <span class="sprite-icon-{{ CurrentProduct.icon }}"></span>
+          </div>
+          <div class="product-sidebar-col product-sidebar-col_right"><span>{{ CurrentProduct.name }}</span></div>
+        </a>
+        <a href="{{ Root }}/products">Каталог решений</a>
       </div>
     </div>
   </div>
+
+  <section class="gray-section">
+    <div class="l-container">
+      <h1 class="h1">Другие примеры успешных внедрений</h1>
+    </div>
+    <div class="expand-block">
+      <div class="catalog mb30">
+        {%- for item in Cases -%}{%- if item._id != Page._id %}
+        <div class="catalog__item">
+          <div class="story-block">
+            <div class="story-block__img">
+              <img src="{{ item.img }}" alt="">
+            </div>
+            <div class="story-block__data">
+              <div class="story-block__text">{{ item.text|safe }}</div>
+              <div class="story-block__control">
+                <a href="{{ Root }}/{{ item._id }}" class="story-block__btn">Подробнее →</a>
+              </div>
+            </div>
+            <div class="story-block__popup">
+              <a href="#" class="story-block__popup-toggle" data-bind="click: function() {$root.toggleCaseAnimation($element)}"></a>
+              <div class="story-block__popup-content">
+                <p>Решение для кейса:</p>
+                {% for one in Products %} 
+                <a class="story-block__popup-brand" href="{{ Root }}/{{ one._id }}">
+                  <div class="story-block__popup-brand-icon">
+                    <span class="sprite-icon-{{ one.icon }}-w"></span>
+                  </div>
+                  <div class="story-block__popup-brand-name">{{ one.name|safe }}</div>
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {%- endif -%} {%- endfor -%}
+      </div>
+    </div>
+    <div class="l-container">
+      <p class="mb40"><a href="{{ Root }}/cases">Примеры успешных внедрений</a></p>
+    </div>
+  </section>
+
+  
 </div>
-{% endblock %}
+{% include "../blocks/case_scripts.html" %} {% endblock %}
 <!-- page -->

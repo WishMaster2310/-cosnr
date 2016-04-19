@@ -77,7 +77,7 @@
 				<p>Cloud OS&#160;Network Russia&#160;&#8212; это новая партнерская прграмма от&#160;Microsoft для оптимизации вашего бизнеса по&#160;интеграции облачных решений. Вы&#160;можете выбрать свое решение, заказать тест-драйв внедрения, консультацию партнера или экскурсию в&#160;партнерские ЦОД, чтобы узнать больше о&#160;надежности и&#160;качестве наших услуг.</p>
 				<p>Выберите направление и подберите нужное решение</p>
 				<p>
-          <a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>&#8195;<a href="#" class="btn btn--white mb20">Заказать презентацию</a>
+          <a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>{#&#8195;<a href="#" class="btn btn--white mb20">Заказать презентацию</a>#}
         </p>
 			</div>
 		</div>
@@ -101,6 +101,23 @@
 </div>
 
 <div class="cloud-slider__wrapper">
+	<div class="cloud-slider__tabs-wrapper">
+		<div class="l-container">
+			<div class="l-row">
+				<div class="l-col--md-8">
+					<div class="cloud-slider__tabs">
+						<a href="#" class="cloud-slider__tabs-link">Сервисы в аренду</a>
+						<a href="#" class="cloud-slider__tabs-link">Совместная работа</a>
+						<a href="#" class="cloud-slider__tabs-link">Маркетинг и продажи</a>
+					</div>
+				</div>
+				<div class="l-col--md-4 cloud-slider__tocatalog">
+					<a href="{{ Root}}/products">Посмотреть все решения →</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<div class="cloud-slider">
 		{% for item in clouds %} {% set parentIndex = loop.index %}
 			<div class="cloud-slider__item">
@@ -124,7 +141,7 @@
 						<div class="cloud-slider__content">
 							<div class="cloud-slider__title">{{ item.title|safe }}</div>
 							<div class="cloud-slider__text">{{ item.content|safe }}</div>
-							<div class="cloud-slider__text"><a href="{{ Root ~ item.link }}" class="btn mb20">Посмотреть решения</a>{%- if item.advantages -%}&#8195;<a href="#" class="btn mb20 j-show-advantages">Преимущества</a>{%- endif -%}</div>
+							<div class="cloud-slider__text"><a href="{{ Root ~ item.link }}" class="btn mb20">Посмотреть решения</a>{#%- if item.advantages -%}&#8195;<a href="#" class="btn mb20 j-show-advantages">Преимущества</a>{%- endif -%#}</div>
 						</div>
 					</div>
 				</div>
@@ -151,7 +168,7 @@
 			{%- if partner.isvisible %}
 			<li class="partner-list__item">
 				<span class="partner-list__item-link">
-					<img src="{{ partner.logo }}" alt="{{ partner.isvisible }}">
+					<img src="{{ partner.logo }}" alt="{{ partner.name }}">
 				</span>
 			</li>
 			{%- endif -%}
@@ -160,9 +177,9 @@
 		<div class="l-row">
 			<div class="l-col--md-8 l-col--md-offset-2 text-center">
         <p class="mb10">
-	          Мы объединили глобальный опыт Microsoft по построению облачных сервисов с&#160;локальной экспертизой лучших российских партнеров. 
+	          Мы объединили глобальный опыт Microsoft по построению облачных <br>сервисов с&#160;локальной экспертизой лучших российских партнеров. 
 	      </p>
-	      <p  class="mb30">Если вы обладаете похожей компетенцией, присоединяйтесь!</p>
+	      <p  class="mb30">Оптимизируйте свой бизнес с помощью облачных решений.</p>
 	      <p>
 	       	<a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>
 	      </p>

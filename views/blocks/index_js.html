@@ -1,11 +1,12 @@
 <script>
+/*<![CDATA[*/
 $(function() {
 
   function setHeroHeight() {
     var hero = $('.c-hero');
     var wh = 700;
 
-    if (window.innerHeight) {
+    if (window.innerHeight > 700) {
       wh = window.innerHeight - $('#shell-header').height();
     }
 
@@ -19,6 +20,10 @@ $(function() {
   if (window.outerWidth > 1024) {
     setHeroHeight();
   }
+
+  $(window).on('resize', function() {
+    setHeroHeight();
+  })
 
 
   $('.c-hero-slider').slick({
@@ -63,7 +68,42 @@ $(function() {
     $('html, body').stop(true).animate({
       scrollTop: tar.offset().top
     }, 200)
-  })
+  });
+
+
+  function openStoryBlock(block) {
+    block.css('height', block.outerHeight());
+    block.find('.story-block__popup-content').css('display', 'block');
+    block.find('.story-block__img').slideUp(400)
+    block.addClass('story-block_mod_open');
+  }
+
+  function closeStoryBlock(block) {
+
+    block.find('.story-block__img').slideDown(400, function() {
+      block.find('.story-block__popup-content').css('display', 'none');
+      block.css('height', 'auto');
+      block.removeClass('story-block_mod_open');
+    });
+  }
+
+  function storyBlockToggler() {
+    $('.story-block__popup-toggle').on('click', function(e) {
+      e.preventDefault();
+
+      var block = $(this).closest('.story-block');
+
+      if (block.hasClass('story-block_mod_open')) {
+        closeStoryBlock(block);
+
+      } else {
+        openStoryBlock(block);
+      }
+
+    });
+  }
+
+  storyBlockToggler()
 
 });
 
@@ -104,4 +144,5 @@ var viewModel = {
     }, viewModel.currentSpeed)
   }
 }
+/*]]>*/
 </script>

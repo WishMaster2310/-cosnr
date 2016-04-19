@@ -77,7 +77,7 @@
 				<p>Cloud OS&#160;Network Russia&#160;&#8212; это новая партнерская прграмма от&#160;Microsoft для оптимизации вашего бизнеса по&#160;интеграции облачных решений. Вы&#160;можете выбрать свое решение, заказать тест-драйв внедрения, консультацию партнера или экскурсию в&#160;партнерские ЦОД, чтобы узнать больше о&#160;надежности и&#160;качестве наших услуг.</p>
 				<p>Выберите направление и подберите нужное решение</p>
 				<p>
-          <a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>&#8195;<a href="#" class="btn btn--white mb20">Заказать презентацию</a>
+          <a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>{#&#8195;<a href="#" class="btn btn--white mb20">Заказать презентацию</a>#}
         </p>
 			</div>
 		</div>
@@ -141,7 +141,7 @@
 						<div class="cloud-slider__content">
 							<div class="cloud-slider__title">{{ item.title|safe }}</div>
 							<div class="cloud-slider__text">{{ item.content|safe }}</div>
-							<div class="cloud-slider__text"><a href="{{ Root ~ item.link }}" class="btn mb20">Посмотреть решения</a>{%- if item.advantages -%}&#8195;<a href="#" class="btn mb20 j-show-advantages">Преимущества</a>{%- endif -%}</div>
+							<div class="cloud-slider__text"><a href="{{ Root ~ item.link }}" class="btn mb20">Посмотреть решения</a>{#%- if item.advantages -%}&#8195;<a href="#" class="btn mb20 j-show-advantages">Преимущества</a>{%- endif -%#}</div>
 						</div>
 					</div>
 				</div>

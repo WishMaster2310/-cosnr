@@ -6,11 +6,12 @@ body {
 
 .main-wrapper {
 	background-color: #FCFCFC;
-	padding-bottom: 20px;
+
 
 	&--withbg {
 		background: #FCFCFC url(https://coderussia.blob.core.windows.net/cosnr/bodybg.jpg) no-repeat center top;
 		min-height: 100vh;
+		padding-top: 30px;
 	}
 }
 
@@ -50,7 +51,7 @@ a {
 
 *[class^="sprite-icon-"],
 *[class$="sprite-icon-"] {
-	background-image: data-uri('../images/sprite.png');
+	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: text-top;
@@ -190,7 +191,6 @@ a {
 
 .bradCrumbs {
 	list-style-type: none;
-	margin-top: 20px;
 	margin-bottom: 10px;
 	font-size: 14px;
 

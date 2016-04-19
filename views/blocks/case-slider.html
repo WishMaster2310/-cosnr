@@ -12,7 +12,7 @@
 		            {{ case.text|safe|truncate(120, True) }}
 		        </div>
 		        <div class="story-block__control">
-		           <a href="#" class="story-block__btn">Подробнее →</a>
+		           <a href="{{ Root }}/{{ case._id }}" class="story-block__btn">Подробнее →</a>
 		        </div>
 		      </div>
 		      {%- for product in Products %}
@@ -21,7 +21,7 @@
 		          <a href="#" class="story-block__popup-toggle"></a>
 		          <div class="story-block__popup-content">
 	              <p>Решение для кейса:</p>
-	              <a class="story-block__popup-brand" href="#">
+	              <a class="story-block__popup-brand" href="{{ Root }}/{{ product._id }}">
 		              <div class="story-block__popup-brand-icon">
 		                <span class="sprite-icon-{{ product.icon }}-w"></span>
 		              </div>
@@ -36,7 +36,7 @@
 		{% endfor -%}
 		</div>
 
-		<p class="text-center"><a class="btn btn--min-width2" href="#">Все кейсы</a></p>
+		<p class="text-center"><a class="btn btn--min-width2" href="{{ Root }}/cases">Все кейсы</a></p>
 	</div>
 </div>
 <script>
