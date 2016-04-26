@@ -9,7 +9,7 @@
 
 		{
 			"caption": "",
-			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/The-practice-of-building-a-hybrid-cloud-services-Active-Directory-as-a-service-using-Azure-AD/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Оксана Новицкая рассказывает о том, как строятся гибридные облачные сервисы компании «Облакотека» с использованием технологий Microsoft Azure.</p>"
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/The-practice-of-building-a-hybrid-cloud-services-Active-Directory-as-a-service-using-Azure-AD/player\" frameborder=\"0\" allowfullscreen='true'></iframe></div><p>Оксана Новицкая рассказывает о том, как строятся гибридные облачные сервисы компании «Облакотека» с использованием технологий Microsoft Azure.</p>"
 		}
 	],
 	"speaker": {

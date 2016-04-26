@@ -9,7 +9,7 @@
 
 		{
 			"caption": "",
-			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Securing-the-cloud-5nine-Cloud-Security-for-Cloud-V/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Юрий Бражников рассказывает о безопасности как о ключевом факторе при обеспечении непрерывности услуг облачных сервисов, которые предоставляет компания 5nine Software своим клиентам.</p>"
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Securing-the-cloud-5nine-Cloud-Security-for-Cloud-V/player\" frameborder=\"0\" allowfullscreen='true'></iframe></div><p>Юрий Бражников рассказывает о безопасности как о ключевом факторе при обеспечении непрерывности услуг облачных сервисов, которые предоставляет компания 5nine Software своим клиентам.</p>"
 		}
 	],
 	"speaker": {

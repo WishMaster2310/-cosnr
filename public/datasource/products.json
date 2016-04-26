@@ -36,7 +36,7 @@
    "logo": "https://coderussia.blob.core.windows.net/cosnr/oblakoteka.png",
    "name": "Виртуальная инфраструктура",
    "short_text": "Решение для организации IT-инфраструктуры компании, включая работу с&#160;1С&#160;и&#160;построение VPN",
-   "case_id": false,
+   "case_id": ["npo_analitika"],
    "wizard_id": "d267ab15-fd09-4140-affd-9fc0e783f251",
    "wizard_label": "Связаться с партнером Solution 2",
    "rio": "300316562",
@@ -101,7 +101,6 @@
    "wizard_label": "Связаться с партнером Solution 6",
    "rio": "300316566",
    "tags": [],
-   "inactive": true,
    "productSet": 0,
    "formOptions": [0, 1, 2, 3]
  }, {
@@ -132,7 +131,6 @@
    "wizard_label": "Связаться с партнером Solution 8",
    "rio": "300316568",
    "tags": [],
-   "inactive": true,
    "productSet": 0,
    "formOptions": [0, 1, 2, 3]
  }, {
@@ -417,6 +415,36 @@
    "wizard_id": "acd35a54-b824-47b4-93ed-9e00050687ba",
    "wizard_label": "Связаться с партнером_23",
    "rio": "300349002",
+   "tags": ["crmsystem"],
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
+ }, {
+   "_id": "rabyvesko",
+   "groupA": ["bigbusiness", "middlebusiness"],
+   "groupB": ["business"],
+   "icon": "crmdistr",
+   "logo": "https://coderussia.blob.core.windows.net/cosnr/vesko.png",
+   "name": "Рекламное агентство",
+   "short_text": "Рекламное агентство — Решение для автоматизации основных бизнес-процессов планирования и&nbsp;проведения Рекламных кампаний",
+   "case_id": false,
+   "wizard_id": "",
+   "wizard_label": "Связаться с партнером_23",
+   "rio": "",
+   "tags": ["crmsystem"],
+   "productSet": 2,
+   "formOptions": [0, 1, 2, 3]
+ }, {
+   "_id": "crm_dlya_logistiki",
+   "groupA": ["bigbusiness", "middlebusiness"],
+   "groupB": ["business"],
+   "icon": "crm",
+   "logo": "https://coderussia.blob.core.windows.net/cosnr/korus.png",
+   "name": "CRM для логистики",
+   "short_text": "Логистика — Решение для автоматизации работы отдела приема заказов и для обслуживания клиентов логистических компаний",
+   "case_id": false,
+   "wizard_id": "",
+   "wizard_label": "Связаться с партнером_23",
+   "rio": "",
    "tags": ["crmsystem"],
    "productSet": 2,
    "formOptions": [0, 1, 2, 3]

@@ -49,6 +49,25 @@
 				m_site.products.push(new ProductItem(d))
 			});
 		},
+		toggleCaseAnimation: function(element) {
+
+		var block = $(element).closest('.story-block');
+
+		if (block.hasClass('story-block_mod_open')) {
+
+			block.find('.story-block__img').slideDown(400, function() {
+				block.find('.story-block__popup-content').css('display', 'none');
+				block.css('height', 'auto');
+				block.removeClass('story-block_mod_open');
+			});
+
+		} else {
+			block.css('height', block.outerHeight());
+			block.find('.story-block__popup-content').css('display', 'block');
+			block.find('.story-block__img').slideUp(400)
+			block.addClass('story-block_mod_open');
+		}
+	},
 
 		setOrder: function(arr) {
 			var prods, newArr;

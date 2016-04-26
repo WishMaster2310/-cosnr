@@ -8,7 +8,7 @@
 	"general": [
 		{
 			"caption": "",
-			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Building-cloud-services-in-practice-as-we-did-Cloud-V/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Руководитель группы виртуализации компании Dataline Михаил Соловьев представляет облачный сервис Cloud-V, который построен на базе Azure Pack, описывает технические характеристики сервиса и предлагает сценарии его эксплуатации.</p>"
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Building-cloud-services-in-practice-as-we-did-Cloud-V/player\" frameborder=\"0\" allowfullscreen='true'></iframe></div><p>Руководитель группы виртуализации компании Dataline Михаил Соловьев представляет облачный сервис Cloud-V, который построен на базе Azure Pack, описывает технические характеристики сервиса и предлагает сценарии его эксплуатации.</p>"
 		}
 	],
 	"speaker": {

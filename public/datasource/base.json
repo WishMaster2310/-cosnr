@@ -102,6 +102,12 @@
     "logo": "partner-logo-tisa220x100.png",
     "_id": "k2it",
     "isvisible": false
+  }, {
+    "name": "vesko",
+    "url": "http://oootisa.ru/About/Tisa/",
+    "logo": "vesko.png",
+    "_id": "vesko",
+    "isvisible": false
   }],
   "groupA": [{
     "_id": "gossector",

@@ -8,7 +8,7 @@
 	"general": [
 		{
 			"caption": "",
-			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Reliable-foundation-Dataline-OST-or-arranged-one-of-the-largest-data-centers-in-Russia/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Кирилл Шадский рассказывает о том, как устроены дата-центры Dataline, какова инженерная инфраструктура дата-центра, в котором развернут сервис Cloud-V, и что позволяет ему работать бесперебойно.</p>"
+			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Reliable-foundation-Dataline-OST-or-arranged-one-of-the-largest-data-centers-in-Russia/player\" frameborder=\"0\" allowfullscreen='true'></iframe></div><p>Кирилл Шадский рассказывает о том, как устроены дата-центры Dataline, какова инженерная инфраструктура дата-центра, в котором развернут сервис Cloud-V, и что позволяет ему работать бесперебойно.</p>"
 		}
 	],
 	"speaker": {

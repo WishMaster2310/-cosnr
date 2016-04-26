@@ -42,7 +42,7 @@
           {%- endfor %}
         </div>
 
-        <div class="boxer">
+        {#<div class="boxer">
           <div class="boxer__title">Продукты Microsoft</div>
           <ul class="boxer__products">
             {%- if CurrentProduct.productSet == 0 %}
@@ -57,7 +57,7 @@
               <li class="boxer__products-item"><a target="_blank"  href="https://www.microsoft.com/ru-ru/dynamics/default.aspx">Microsoft Dynamics CRM</a></li>
             {%- endif %}
           </ul>
-        </div>
+        </div> #}
       </div>
     </div>
   </div>
@@ -92,9 +92,9 @@
                 <a href="#" class="product-block__popup-toggle" data-bind="click: function() {$root.toggleProductAnimation($element)}"></a>
                 <div class="product-block__popup-content">
                   <p data-bind="text: $data.case_data.length > 1 ? 'Реализованные кейсы:': 'Реализованый кейс'"></p>
-                  <div data-bind="foreach: $data.case_data">
+                  <div data-bind="foreach: { data: case_data,  as: 'item'}">
                     <p class="mt5">
-                      <a href="" data-bind="attr: {href:  '{{ Root }}/' + _id, text: name"></a>
+                      <a href="" data-bind="attr: {href:  '{{ Root }}/' + item._id}, text: item.name"></a>
                     </p>
                   </div>
                 </div>

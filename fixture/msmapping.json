@@ -449,6 +449,50 @@
             "msid": "",
             "_id": "16a0357af76478e97c32c1ce3e5f712ecf320c44",
             "ctime": 1460970512741
+        },
+        {
+            "name": "rabyvesko",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "6c07e1f50a0a56a35232bd6f57d635be073988cc",
+            "ctime": 1461661933287
+        },
+        {
+            "name": "crm_dlya_logistiki",
+            "origin": "products",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "90662f01978d9be07fd4528724afc89c2273e723",
+            "ctime": 1461661933287
+        },
+        {
+            "name": "npo_analitika",
+            "origin": "cases",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "0d491852932312e54dee91e020602a4306b5a5f9",
+            "ctime": 1461664227825
+        },
+        {
+            "name": "wiki",
+            "status": "new",
+            "fixture": true,
+            "msid": "",
+            "_id": "0d491852932312e54dee91e020602a4306c5a5f9",
+            "ctime": 1461664227825
+        },
+        {
+            "name": "success",
+            "group": "pages",
+            "status": "new",
+            "fixture": false,
+            "msid": "",
+            "_id": "079483888b9e182b5d558ccf99dfa37f6dd38a52",
+            "ctime": 1461677750747
         }
     ],
     "fragments": [
@@ -650,6 +694,15 @@
             "group": "images",
             "msid": "0d1698cd-22ff-4059-9855-827e67628803",
             "_id": "3698dc103752006812000927a701bfa4c347f382",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\klientonomika.jpg",
+            "name": "klientonomika.jpg",
+            "size": 0,
+            "group": "images",
+            "msid": "61932f57-1cc3-41ef-8fcd-b9cf4a1b52ec",
+            "_id": "e11d19bfdcb656f15f351e4782e72729bbf40ba5",
             "status": "sync"
         }
     ]

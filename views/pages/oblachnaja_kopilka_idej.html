@@ -4,10 +4,10 @@
   <div class="l-container mb40" itemscope="" itemtype="http://schema.org/Article">
     <ul class="bradCrumbs">
       <li class="bradCrumbs__item">
-        <a href="/">Главная</a>
+        <a href="{{ Root }}/">Главная</a>
       </li>
       <li class="bradCrumbs__item">
-        <a href="/cases">Примеры успешных внедрений</a>
+        <a href="{{ Root }}/cases">Примеры успешных внедрений</a>
       </li>
       <li class="bradCrumbs__item">{{ Page.name }}</li>
     </ul>
@@ -68,13 +68,16 @@
               <a href="#" class="story-block__popup-toggle" data-bind="click: function() {$root.toggleCaseAnimation($element)}"></a>
               <div class="story-block__popup-content">
                 <p>Решение для кейса:</p>
-                {% for one in Products %} 
-                <a class="story-block__popup-brand" href="{{ Root }}/{{ one._id }}">
-                  <div class="story-block__popup-brand-icon">
-                    <span class="sprite-icon-{{ one.icon }}-w"></span>
-                  </div>
-                  <div class="story-block__popup-brand-name">{{ one.name|safe }}</div>
-                </a>
+                
+                {% for inner in Products %} 
+                  {% if inner._id == item.target_id %}
+                    <a class="story-block__popup-brand" href="{{ Root }}/{{ inner._id }}">
+                      <div class="story-block__popup-brand-icon">
+                        <span class="sprite-icon-{{ inner.icon }}-w"></span>
+                      </div>
+                      <div class="story-block__popup-brand-name">{{ inner.name|safe }}</div>
+                    </a>
+                  {% endif %}
                 {% endfor %}
               </div>
             </div>
