@@ -1,0 +1,27 @@
+<div class="l-col--sm-12">
+    <div class="user-generate page-content">
+        {% if Page.img %}
+        <p class="mb30"><img src="{{ Page.img }}" alt="" class="flex-img"></p>
+        {% endif %} {% for item in Page.general %}
+        <article class="mb30">
+            <h2 class="h2">{{ item.caption|safe }}</h2> {{ item.content|safe }}
+        </article>
+        {% endfor %} {%- if Page.speaker %}
+        <div class="l-row">
+            <div class="l-col--md-2">
+                <img src="/images/{{ Page.speaker.img }}" alt="{{ Page.speaker.name }}">
+            </div>
+            <div class="l-col--md-10">
+                <p><strong>{{ Page.speaker.name }}</strong></p>
+                {{ Page.speaker.bio|safe }}
+            </div>
+        </div>
+        {%- endif %} {% if Page.source %}
+        <p class="text-right italic mt20">Источник &#8212; <a target="_blank" href="{{ Page.source_url }}">{{ Page.source }}</a></p>
+        {% endif %}
+        <div class="l-row mt40">
+            <div class="l-col--sm-6"><a href="{{ Root }}/wiki">←  База знаний</a></div>
+            <div class="l-col--sm-6 text-right"><a href="#" class="j-scrollTo">&#8593; Наверх</a></div>
+        </div>
+    </div>
+</div>

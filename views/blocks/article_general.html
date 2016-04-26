@@ -1,0 +1,32 @@
+<div class="l-col--md-8">
+    <div class="user-generate page-content">
+        {% if Article.img %}
+        <p class="mb30"><img src="{{ Article.img }}" alt=""></p>
+        {% endif %} {% for item in Page.general %}
+        <article class="mb30">
+            <h2 class="h2">{{ item.caption|safe }}</h2> {{ item.content|safe }}
+        </article>
+        {% endfor %} {% if Page.source %}
+        <p class="text-right italic mt20">Источник &#8212; <a target="_blank" href="{{ Page.source_url }}">{{ Page.source }}</a></p>
+        {% endif %}
+        <div class="l-row mt40">
+            <div class="l-col--sm-6">
+                <a href="{{ Root }}/wiki">←  База знаний</a>
+            </div>
+            <div class="l-col--sm-6 text-right"><a href="#" class="j-scrollTo">&#8593; Наверх</a> </div>
+        </div>
+    </div>
+</div>
+<div class="l-col--md-4">
+    <div class="page-sidebar">
+        <h3 class="h3">Решения</h3> {% for link in Page.links %} {% for item in Products %} {% if item._id == link %}
+        <a class="product-sidebar" href="{{ Root }}/products/{{ item._id }}">
+            <div class="product-sidebar-col product-sidebar-col_left">
+                <span class="sprite-icon-{{ item.icon }}"></span>
+            </div>
+            <div class="product-sidebar-col product-sidebar-col_right"><span>{{ item.name|safe }}</span></div>
+        </a>
+        {% endif %} {% endfor %} {% endfor %}
+        <a href="{{ Root }}/products">Каталог решений</a>
+    </div>
+</div>

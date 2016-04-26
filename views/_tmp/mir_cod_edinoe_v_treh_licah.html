@@ -1,7 +1,26 @@
 <!-- page  -->
-{% extends "../layout.html" %}
-
-{% block content %}
-placeholder
+{% extends "../layout.html" %} {%- set Article = "" -%} {% block content %}
+<div class="main-wrapper main-wrapper--withbg">
+    <div class="l-container">
+        <ul class="bradCrumbs">
+            <li class="bradCrumbs__item">
+                <a href="{{ Root }}/">Главная</a>
+            </li>
+            <li class="bradCrumbs__item">
+                <a href="{{ Root }}/wiki">База знаний</a>
+            </li>
+            <li class="bradCrumbs__item">
+                {%- for article in Articles %} {%- if article._id == Page.id %} {%- set Article = article %} {{ article.title|safe }} {% endif %} {%- endfor %}
+            </li>
+        </ul>
+    </div>
+    <div class="l-container">
+        <h1 class="h1 mb5">{{ Article.title|safe }}</h1>
+        <div class="mb30">{{ Article.type }} / {{ Article.date }}</div>
+        <div class="l-row mb30">
+            {% if Article.type_id == 'webinar' %} {% include "blocks/article_webinar.html" %} {% else %} {% include "blocks/article_general.html" %} {% endif %}
+        </div>
+    </div>
+</div>
 {% endblock %}
 <!-- page -->

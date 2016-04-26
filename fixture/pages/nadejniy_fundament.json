@@ -6,14 +6,14 @@
 	"img": false,
 	"links": ["virtualnaya_ifrastructura", "virtualniy_ofice"],
 	"general": [
-
 		{
 			"caption": "",
 			"content": "<div class=\"videowrapper mb30\"><iframe src=\"https://channel9.msdn.com/Events/Jump-Starts-Russia/jump-start-cloud-services-by-microsoft/Reliable-foundation-Dataline-OST-or-arranged-one-of-the-largest-data-centers-in-Russia/player\" frameborder=\"0\" allowfullscreen></iframe></div><p>Кирилл Шадский рассказывает о том, как устроены дата-центры Dataline, какова инженерная инфраструктура дата-центра, в котором развернут сервис Cloud-V, и что позволяет ему работать бесперебойно.</p>"
-		},
-		{
-			"caption": "",
-			"content": "<div class=\"row\"> <div class=\"col-md-2\"> <img src=\"./static/img/shadskiy.png\" alt=\"\"> </div> <div class=\"col-md-10\"> <p><strong>Кирилл Шадский</strong></p> <p>Руководитель отдела управления внешними ЦОД компании Dataline</p> </div> </div><p></p> "
 		}
-	]
+	],
+	"speaker": {
+		"img": "shadskiy.png",
+		"name": "Кирилл Шадский",
+		"bio": "<p>Руководитель отдела управления внешними ЦОД компании Dataline</p>"
+	}
 }

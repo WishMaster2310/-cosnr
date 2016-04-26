@@ -570,6 +570,87 @@
             "msid": "91deb143-c064-45a7-a438-8f638a97e213",
             "_id": "497219cdad080f325d0ef2b6ff862799f5720f3c",
             "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\slide_pc.gif",
+            "name": "slide_pc.gif",
+            "size": 218339,
+            "group": "images",
+            "msid": "d772e42d-e3a0-43dd-9eca-0e1ec5768618",
+            "_id": "d3d6d640cb9115da9e841b36a0cb1a297227ae8f",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\slide_cup.gif",
+            "name": "slide_cup.gif",
+            "size": 335539,
+            "group": "images",
+            "msid": "de8d5a00-3a2a-4692-af62-90bbceefc472",
+            "_id": "7f60b40214823370dd135eb6e6d4a4d875eff970",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\slide_map.gif",
+            "name": "slide_map.gif",
+            "size": 235767,
+            "group": "images",
+            "msid": "0ab79c8c-3400-4a94-8e71-679f412142f4",
+            "_id": "a10bcb9501769546810c7b22e848bcf4cc7af971",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\Oleg-Novikov_9312.jpg",
+            "name": "Oleg-Novikov_9312.jpg",
+            "size": 25355,
+            "group": "images",
+            "msid": "b0e22db0-5f5a-4e63-82f6-1acba7893f49",
+            "_id": "5a3b44a272385696496aef9c9cc2307165d9c897",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\novickaya.jpg",
+            "name": "novickaya.jpg",
+            "size": 10222,
+            "group": "images",
+            "msid": "9168e04d-2ce2-456b-a62f-517b6677e8e3",
+            "_id": "32ee945b9b552e6148c163f5c6440d66223c45a2",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\brajnikov.png",
+            "name": "brajnikov.png",
+            "size": 151369,
+            "group": "images",
+            "msid": "518fa981-f900-4122-8de1-db28d133ed5e",
+            "_id": "e4a283fdd006d6668b8dc062cce0fb1bc2f687ec",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\shadskiy.png",
+            "name": "shadskiy.png",
+            "size": 254598,
+            "group": "images",
+            "msid": "ab8586c6-1a82-42cd-9e6b-3d2b219ae19d",
+            "_id": "3679ac43356d7091894a67f2d8e7cf94fd367ac1",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\soloviev.jpg",
+            "name": "soloviev.jpg",
+            "size": 21341,
+            "group": "images",
+            "msid": "45c0c3fe-0f2f-4da2-8170-8696bc092276",
+            "_id": "de4c8b7ba31a3728f7caee07154d7204c8168d22",
+            "status": "sync"
+        },
+        {
+            "path": "D:\\projects\\cosnr2\\public\\images\\kotlyarenko.jpg",
+            "name": "kotlyarenko.jpg",
+            "size": 6133,
+            "group": "images",
+            "msid": "0d1698cd-22ff-4059-9855-827e67628803",
+            "_id": "3698dc103752006812000927a701bfa4c347f382",
+            "status": "sync"
         }
     ]
 }

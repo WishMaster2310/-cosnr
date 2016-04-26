@@ -1,20 +1,83 @@
 <!-- page  -->
-{% set slider = [
-
-] %}
-{% extends "../layout.html" %} {% block content %}
+{% set slider = [ ] %} {% extends "../layout.html" %} {% block content %}
 <div class="main-wrapper main-wrapper--withbg">
-  <script src="/javascripts/products.js"></script>
-  <div class="container">
-    <ul class="bradCrumbs">
-      <li class="bradCrumbs__item">
-        <a href="/">Главная</a>
-      </li>
-      <li class="bradCrumbs__item">Каталог решений</li>
-    </ul>
-    <h1 class="h1">Каталог решений</h1>{% include "blocks/filters.html" %}
-    <div class="mb35 product-preloader" style="text-align: center;"><img src="{{ base.STATIC_URL }}img/product-preloader.gif" alt=""></div>
-  </div>
+    <div class="l-container">
+        <ul class="bradCrumbs">
+            <li class="bradCrumbs__item">
+                <a href="/">Главная</a>
+            </li>
+            <li class="bradCrumbs__item">База знаний</li>
+        </ul>
+    </div>
+    {% include "blocks/wiki_slider.html" %}
+    <div class="l-container">
+        <h1 class="h1 text-center">Статьи и материалы</h1>
+    </div>
+    <div class="expand-block mb30">
+      <div class="wiki-subslider" id="wikiSubSlider">
+        {% for item in Articles %} {%- if item.slider %}
+        <div class="wiki-subslider__item">
+          <div class="wiki-subslider__table">
+            {%- if item.img %}
+            <div class="wiki-subslider__table-col wiki-subslider__table-col_img" style="background-image: url('{{ item.img }}')"></div>
+            {%- endif %}
+            <div class="wiki-subslider__table-col">
+                <a href="{{ item._id }}" class="wiki-subslider__title">{{ item.title|safe }}</a>
+                <div class="wiki-subslider__info">{{ item.type }} / {{ item.date }}</div>
+                <div class="wiki-subslider__text">{{ item.desc|safe }}</div>
+            </div>
+          </div>
+        </div>
+        {%- endif %} {%- endfor %}
+      </div>
+    </div>
+
+    <div class="l-container">
+      <div class="wiki-tiler-list">
+        
+        {% for item in  Articles %}
+          {% if not item.slider %}
+            <div class="wiki-tiler">
+              <div class="wiki-tiler__inner">
+                <div class="wiki-tiler__inner-icon">
+                  <span class="sprite-icon-wiki-{{item.type_id}}"></span>
+                </div>
+                <div class="wiki-tiler__inner-data">
+                  <a href="{{ item._id }}" class="wiki-tiler__title">{{ item.title|safe }}</a>
+                  <div class="wiki-tiler__info">{{ item.type }} / {{ item.date }}</div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
 </div>
+<script>
+/*<![CDATA[*/
+$(document).ready(function() {
+    $('#wikiSlider')
+    .slick({
+        arrows: false
+    })
+
+    .on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+      console.log(currentSlide);
+      $('.wiki-slider__controls-link').eq(nextSlide).addClass('active').siblings().removeClass('active');
+    });
+
+    $('#wikiSubSlider').slick({
+        dots: true,
+        arrows: false
+    });
+
+    $('.wiki-slider__controls-link').on('click', function(e) {
+        e.preventDefault();
+        var idx = $(this).index();
+        $('#wikiSlider').slick('slickGoTo' , idx)
+    });
+});
+/*]]>*/
+</script>
 {% endblock %}
 <!-- page -->
