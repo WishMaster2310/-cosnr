@@ -7,7 +7,7 @@ $(function() {
     var wh = 700;
 
     if (window.innerHeight > 700) {
-      wh = window.innerHeight - $('#shell-header').height();
+      wh = window.innerHeight - ($('#shell-header').height() + $('.shell-category-header').height());
     }
 
     $('.c-hero').css('min-height', wh);
