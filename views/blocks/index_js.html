@@ -101,7 +101,17 @@ $(function() {
       }
 
     });
-  }
+  };
+
+
+
+  $('.cloud-slider__arrow--next').on('click', function() {
+      $('.cloud-slider').slick('next');
+  });
+
+  $('.cloud-slider__arrow--prev').on('click', function() {
+      $('.cloud-slider').slick('prev')
+  });
 
   storyBlockToggler()
 
