@@ -36,7 +36,7 @@
             {%- for btn in Base.opts %}
             {%- if opt == btn.id %}
             {% set str = "id=" ~ Page._id ~ "&opts=[" ~ CurrentProduct.formOptions|e ~ "]" %}
-            <a class="btn btn--block {%- if not loop.last %} mb10{% endif %}" href="{{ "https://events.techdays.ru/cloud-os-network-form/apply?" ~ str|urlencode ~ "&active="|urlencode ~ opt }}">{{ btn.title }}</a>
+            <a class="btn btn--block {%- if not loop.last %} mb10{% endif %}" href="{{ 'https://events.techdays.ru/cloud-os-network-form/apply?' ~ str|urlencode ~ '&active='|urlencode ~ opt }}" {% if btn.id == 1 %} onclick="atlasTrack('CLD_SMB_Rus_Clk_Prd_Cloud_Connect_CON');" {% endif %} >{{ btn.title }}</a>
             {%- endif %}
             {%- endfor %}
           {%- endfor %}

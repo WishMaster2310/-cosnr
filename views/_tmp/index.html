@@ -65,22 +65,28 @@
 <div class="main-wrapper">
 
 <div class="c-hero wrapped-section wrapped-section--mod-hero">
-
+	
+	
 	<div class="l-container wrapped-section__container">
+		<div class="c-animatecloud-wrapper">
+			<div class="c-animatecloud" id="animateClouds" style="display: none"></div>
+			<div class="c-animatecloud-placeholder" id="animateCloudsPlaceholder"></div>
+		</div>
 		<div class="l-row">
 			<div class="l-col--md-9">
 				<h1 class="h1 hero__title">Облачные решения Microsoft от&#160;российских партнеров</h1>
 			</div>
 		</div>
 		<div class="l-row">
-			<div class="l-col--md-7 wrapped-section__content wrapped-section__content--large">
+			<div class="l-col--md-6 wrapped-section__content wrapped-section__content--large">
 				<p>Мы&#160;объединили глобальный опыт Microsoft по&#160;построению облачных сервисов с&#160;локальной экспертизой лучших российских партнеров, чтобы удовлетворить потребности современного бизнеса.</p>
-				<p>Выберите свое решение, закажите тест-драйв внедрения, консультацию сервис-провайдера или экскурсию в&#160;партнерский ЦОД. Cloud OS&#160;Network Russia&#160;&#8212; сделано в&#160;России.</p>
+				<p>Выберите свое решение, закажите тест-драйв внедрения, консультацию сервис-провайдера или экскурсию в&#160;партнерский ЦОД. <br>Cloud OS&#160;Network Russia&#160;&#8212; сделано в&#160;России.</p>
 				<p>
           <a href="{{ Root }}/products" class="btn mb20">Посмотреть решения</a>&#8195;<a href="https://events.techdays.ru/cloud-os-network-form/apply" class="btn btn--white mb20">Заказать презентацию</a>
         </p>
 			</div>
 		</div>
+
 	</div>
 
 	<div class="c-hero-slider__wrapper">
@@ -181,9 +187,9 @@
 			{%- for partner in Base.partners -%}
 			{%- if partner.isvisible %}
 			<li class="partner-list__item">
-				<span class="partner-list__item-link">
+				<a class="partner-list__item-link" target="_blank" href="{{ partner.url }}">
 					<img src="{{ partner.logo }}" alt="{{ partner.name }}">
-				</span>
+				</a>
 			</li>
 			{%- endif -%}
 			{%- endfor -%}

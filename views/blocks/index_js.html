@@ -1,5 +1,99 @@
 <script>
 /*<![CDATA[*/
+var cosnrApp = {
+  cloud: document.getElementById('animateClouds'),
+  counter: 0,
+  loadCounter: [0, 0, 0, 0],
+  imageCounter: 0,
+  currentLimit: 56,
+  currentSpeed: 70,
+  images: [
+    {
+      src: 'https://coderussia.blob.core.windows.net/cosnr/cloudpart1.png',
+      frames: 57
+    },
+    {
+      src: 'https://coderussia.blob.core.windows.net/cosnr/cloudpart2.png',
+      frames: 57
+    },
+    {
+      src: 'https://coderussia.blob.core.windows.net/cosnr/cloudpart3.png',
+      frames: 57
+    },
+    {
+      src: 'https://coderussia.blob.core.windows.net/cosnr/cloudpart4.png',
+      frames: 53
+    }
+  ],
+  loadImg: function(idx, cb) {
+    var img = new Image();
+    img.src = cosnrApp.images[idx].src;
+    img.onload = function() {
+      cb();
+    };
+  },
+  cloudForward: function() {
+    var yPos = -266 * cosnrApp.counter + 'px';
+    this.cloud.style.backgroundPosition = '0px ' + yPos;
+    cosnrApp.counter ++;
+  },
+  dropCloud: function() {
+    cosnrApp.counter = 0;
+    cosnrApp.imageCounter = 0;
+    cosnrApp.cloud.className = 'c-animatecloud c-animatecloud--0';
+    //cosnrApp.cloud.style.backgroundImage = 'url('+ cosnrApp.images[0].src +')';
+  },
+  setCloudBack: function(idx) {
+    cosnrApp.counter = 0;
+    cosnrApp.currentLimit = cosnrApp.images[idx].frames;
+    cosnrApp.cloud.className = 'c-animatecloud c-animatecloud--' + idx;
+    //cosnrApp.cloud.style.backgroundImage = 'url('+ cosnrApp.images[idx].src +')';
+  },
+  switchBack: function() {
+    cosnrApp.imageCounter += 1;
+
+    if (cosnrApp.loadCounter[cosnrApp.imageCounter] === 0) {
+      cosnrApp.dropCloud();
+      return
+    }
+
+    if (cosnrApp.imageCounter === 4 ) {
+      cosnrApp.dropCloud();
+      return
+    }
+
+    this.setCloudBack(cosnrApp.imageCounter);
+  }
+}
+cosnrApp.iniClouds = function() {
+  cosnrApp.loadImg(0, function() {
+    cosnrApp.cloud.style.display = 'block';
+    document.getElementById('animateCloudsPlaceholder').style.display = 'none';
+    cosnrApp.setCloudBack(0);
+
+
+    setInterval(function() {
+      
+      if (cosnrApp.counter === cosnrApp.currentLimit -1 ) {
+        cosnrApp.switchBack();
+      } 
+
+      cosnrApp.cloudForward();
+
+    }, cosnrApp.currentSpeed);
+  });
+
+  cosnrApp.loadImg(1, function() {
+    cosnrApp.loadCounter[1] = 1;
+  });
+  cosnrApp.loadImg(2, function() {
+    cosnrApp.loadCounter[2] = 1;
+  });
+  cosnrApp.loadImg(3, function() {
+    cosnrApp.loadCounter[3] = 1;
+  });
+}
+
 $(function() {
 
   function setHeroHeight() {
@@ -45,7 +139,6 @@ $(function() {
   $('.cloud-slider').on('beforeChange', function(e, slick, currentSlide, nextSlide) {
 
     var slide = $('.cloud-slider__item').eq(currentSlide);
-    console.log(currentSlide)
 
     if (slide.hasClass('cloud-slider__item--active')) {
       slide.removeClass('cloud-slider__item--active')
@@ -103,8 +196,6 @@ $(function() {
     });
   };
 
-
-
   $('.cloud-slider__arrow--next').on('click', function() {
       $('.cloud-slider').slick('next');
   });
@@ -113,46 +204,12 @@ $(function() {
       $('.cloud-slider').slick('prev')
   });
 
-  storyBlockToggler()
+  storyBlockToggler();
+
+  if ($(window).width() > 1000) {
+    cosnrApp.iniClouds();
+  }
 
 });
-
-var viewModel = {
-  counter: 0,
-  currentLimit: 56,
-  currentSpeed: 60,
-  interval: {},
-  images: [
-    'https://coderussia.blob.core.windows.net/cloud1/1.png',
-    'https://coderussia.blob.core.windows.net/cloud1/2.png',
-    'https://coderussia.blob.core.windows.net/cloud1/3.png',
-    'https://coderussia.blob.core.windows.net/cloud1/4.png'
-  ],
-  loadImg: function(src, cb) {
-    var img = new Image();
-    img.src = src;
-    img.onload = function() {
-      cb();
-    };
-  },
-  checkLitmit: function() {
-    return viewModel.counter == viewModel.currentLimit ? 1 : -1
-  },
-  initClouds: function() {
-    var diff = 1;
-    var cont = $('body');
-    viewModel.interval = setInterval(function() {
-
-      if (viewModel.counter == viewModel.currentLimit) {
-        diff = -1;
-      } else if (viewModel.counter == 0) {
-        diff = 1;
-      }
-
-      viewModel.counter += diff;
-
-    }, viewModel.currentSpeed)
-  }
-}
 /*]]>*/
 </script>

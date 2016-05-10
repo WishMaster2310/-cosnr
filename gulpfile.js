@@ -14,6 +14,9 @@ var sourcemaps = require('gulp-sourcemaps');
 var LessPluginAutoPrefix = require('less-plugin-autoprefix');
 var LessPluginCleanCSS = require('less-plugin-clean-css');
 var muse = require('./routes/api');
+var imagemin = require('gulp-imagemin');
+var pngQuant = require('imagemin-pngquant');
+var runSequence = require('run-sequence');
 
 gulp.task('less:dev', function() {
     var autoprefix = new LessPluginAutoPrefix({
@@ -69,6 +72,56 @@ gulp.task('sprites', function() {
   return merge(imgStream, cssStream);
 });
 
+gulp.task('spriteclouds', function() {
+  var part1 = gulp.src('public/__cloudImages/1/*.png').pipe(spritesmith({
+    imgName: 'cloudpart1.png',
+    cssName: 'sprite.less',
+    algorithm: 'top-down',
+    algorithmOpts: {sort: false},
+    padding: 0
+  }));
+
+  var part2 = gulp.src('public/__cloudImages/2/*.png').pipe(spritesmith({
+    imgName: 'cloudpart2.png',
+    cssName: 'sprite.less',
+    algorithm: 'top-down',
+    algorithmOpts: {sort: false},
+    padding: 0
+  }));
+
+  var part3 = gulp.src('public/__cloudImages/3/*.png').pipe(spritesmith({
+    imgName: 'cloudpart3.png',
+    cssName: 'sprite.less',
+    algorithm: 'top-down',
+    algorithmOpts: {sort: false},
+    padding: 0
+  }));
+
+  var part4 = gulp.src('public/__cloudImages/4/*.png').pipe(spritesmith({
+    imgName: 'cloudpart4.png',
+    cssName: 'sprite.less',
+    algorithm: 'top-down',
+    algorithmOpts: {sort: false},
+    padding: 0
+  }));
+
+
+ return part1.img.pipe(gulp.dest('public/__cloudSprites/')).on('end', function() {
+
+    return part2.img.pipe(gulp.dest('public/__cloudSprites/')).on('end', function() {
+      return part3.img.pipe(gulp.dest('public/__cloudSprites/')).on('end', function() {
+        return part4.img.pipe(gulp.dest('public/__cloudSprites/'));
+      });
+    });
+  });
+});
+
+gulp.task('optclouds', function() {
+  return  gulp.src(['public/__cloudSprites/*.png'])
+    .pipe(imagemin([pngQuant({quality: '65-80', speed: 4})]))
+    .pipe(gulp.dest('public/blob/'));
+});
+
 gulp.task('default', function() {
  
   server.run(['bin/www'], [], [true]);
@@ -105,5 +158,9 @@ gulp.task('export', function() {
     .pipe(gulp.dest('export'));
 });
 
+
+/*gulp.task('clouds', function() {
+  runSequence('spriteclouds', 'optclouds')
+});*/
 
 gulp.task('publish', ['less:prod']);

@@ -68,43 +68,43 @@
     "isvisible": true
   }, {
     "name": "Manzana",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "http://manzanagroup.ru/",
     "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-manzana220x100.jpg",
     "_id": "manzana",
     "isvisible": true
   }, {
     "name": "Мособлако",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "http://mosoblako.ru/",
     "logo": "",
     "_id": "mosoblako",
     "isvisible": false
   }, {
     "name": "actionspace",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "http://actionspace.com/ru",
     "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-actionspace220x100.jpg",
     "_id": "actionspace",
     "isvisible": false
   }, {
     "name": "ПК Групп",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "",
     "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-pkgroup220x100.jpg",
     "_id": "pkgroup",
     "isvisible": false
   }, {
     "name": "Корус",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "",
     "logo": "partner-logo-tisa220x100.png",
     "_id": "korus",
     "isvisible": false
   }, {
     "name": "k2it",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "",
     "logo": "partner-logo-tisa220x100.png",
     "_id": "k2it",
     "isvisible": false
   }, {
     "name": "vesko",
-    "url": "http://oootisa.ru/About/Tisa/",
+    "url": "",
     "logo": "vesko.png",
     "_id": "vesko",
     "isvisible": false
