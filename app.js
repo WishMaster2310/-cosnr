@@ -14,7 +14,8 @@ var sitemuse = require('./routes/sitemuse');
 var muse = require('./routes/api');
 var app = express();
 var fs = require('fs');
-var _ = require('lodash')
+var _ = require('lodash');
+global.Faq = 
 app.set('views', path.join(__dirname, 'views'));
 // view engine setup
 
@@ -60,6 +61,8 @@ app.get('/', function(req, res, next) {
       _Cases: JSON.stringify(muse.cases),
       Products: muse.products,
       _Products: JSON.stringify(muse.products),
+      Faq: muse.faq,
+      _Faq: JSON.stringify(muse.faq),
       Base: muse.base,
       Root: ''
     });
@@ -95,6 +98,8 @@ app.all('*', function(req, res, next) {
       _Cases: JSON.stringify(muse.cases),
       Products: muse.products,
       _Products: JSON.stringify(muse.products),
+      Faq: muse.faq,
+      _Faq: JSON.stringify(muse.faq),
       Base: muse.base
     }
   )

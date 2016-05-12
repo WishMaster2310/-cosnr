@@ -25,10 +25,7 @@
     <div class="catalog-wrapper" style="display: none" data-bind="visible: productFiltrat().length > 0">
       <div class="catalog catalog_mh mb30" data-bind="foreach: {
       data: productFiltrat, 
-      afterAdd: m_site.showCatalogItem, 
-      beforeRemove: m_site.hideCatalogItem, 
-      beforeMove: m_site.moveonCatalogItem, 
-      afterMove: m_site.moveofCatalogItem
+      afterAdd: m_site.showCatalogItem
       }">
         <div class="catalog__item" data-bind="css: {'inactive': $data.inactive }">
           <div class="product-block">

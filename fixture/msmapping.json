@@ -493,6 +493,15 @@
             "msid": "",
             "_id": "079483888b9e182b5d558ccf99dfa37f6dd38a52",
             "ctime": 1461677750747
+        },
+        {
+            "name": "faq",
+            "group": "pages",
+            "status": "new",
+            "fixture": false,
+            "msid": "",
+            "_id": "794c2595ea4eb386d3d20119de3f252b12962edd",
+            "ctime": 1462969987199
         }
     ],
     "fragments": [

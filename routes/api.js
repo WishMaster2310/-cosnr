@@ -22,6 +22,7 @@ muse.articles = JSON.parse(fs.readFileSync('public/datasource/articles.json', 'u
 muse.cases = JSON.parse(fs.readFileSync('public/datasource/cases.json', 'utf8'));
 muse.products = JSON.parse(fs.readFileSync('public/datasource/products.json', 'utf8'));
 muse.base = JSON.parse(fs.readFileSync('public/datasource/base.json', 'utf8'));
+muse.faq = JSON.parse(fs.readFileSync('public/datasource/faq.json', 'utf8'));
 
 muse.notify = function(str) {
   console.log('[SiteMuse]:'.green, str);
@@ -215,6 +216,8 @@ muse.exportPage = function(flag, callback) {
                     _Cases: JSON.stringify(muse.cases),
                     Products: muse.products,
                     _Products: JSON.stringify(muse.products),
+                    Faq: muse.faq,
+                    _Faq: JSON.stringify(muse.faq),
                     Base: muse.base,
                     Root: '/ru-ru/cloudosnetwork',
                     Export: flag
@@ -226,6 +229,8 @@ muse.exportPage = function(flag, callback) {
                     _Cases: JSON.stringify(muse.cases),
                     Products: muse.products,
                     _Products: JSON.stringify(muse.products),
+                    Faq: muse.faq,
+                    _Faq: JSON.stringify(muse.faq),
                     Base: muse.base,
                     Root: '/ru-ru/cloudosnetwork',
                     Export: flag

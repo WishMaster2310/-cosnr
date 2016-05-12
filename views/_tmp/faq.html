@@ -1,0 +1,173 @@
+<!-- page {{ name }} -->
+{% extends "../layout.html" %} {% block content %}
+<div class="main-wrapper main-wrapper--withbg">
+  <div class="l-container">
+    <div class="l-row">
+    	<div class="l-col--sm-8">
+    		<h1 class="h1">Частые вопросы</h1>
+    		<div class="faqs" data-bind="foreach: combined_items">
+    		  <div data-bind="visible: $root.activeTab() === type || $root.activeTab() === 'search'">
+    		    <div style="display: none" class="faqs-title" data-bind="foreach: {data: m_site.sections, as: 'title'}">
+    		      <!-- ko if: title.mod == $parent.type  -->
+    		      <div data-bind="html: title.caption"></div>
+    		      <!-- /ko -->
+    		    </div>
+    		    <div data-bind="foreach: {data: items, as: 'item' }">
+    		      <div class="faqs-item" data-bind="css: {'faqs-item_open': item.isopen}">
+    		        <div class="faqs-item__title" data-bind="click: function(data, event) {m_site.faqToggle($element, $data)}">
+    		            <div class="faqs-item__toggle"></div>
+    		            <span data-bind="html: item.q"></span>
+    		        </div>
+    		        <div class="faqs-item__content" data-bind="html: item.a, visible: item.isopen"></div>
+    		      </div>
+    		    </div>
+    		  </div>
+    		</div>
+    	</div>	
+    	<div class="l-col--sm-4">
+    		<div class="page-sidebar">
+    			<div style="display: none">
+    			<h3 class="h3 mt10">Поиск</h3>
+    			<div class="mb30">
+    				<input type="text" placeholder="Искать в вопросах и ответах" class="faqs-search mb20" data-bind="value: $root.query, valueUpdate: 'keyup'">
+    				<p>Воспользуйтесь поиском, чтобы найти нужный ответ по ключевым словам</p>
+    			</div>
+    			
+    			<ul class="mb40 menu-vertical" data-bind="foreach: m_site.menus">
+    				<li class="menu-vertical__item">
+    					<a class="btn btn-greenlight btn-block" data-bind="click: function() {m_site.setActiveTab(mod)}, css: {'btn-greenlight_active': m_site.activeTab() === mod}, text: caption" href="#"></a>
+    				</li>
+    			</ul>
+    			</div>
+
+    			<div class="panel mt10" style="margin-top: 90px">
+    				<p class="mb20">Получите индивидуальную консультацию специалистов Microsoft или задайте вопрос, ответ на который вы не нашли в&nbsp;разделе частых вопросов</p>
+    				<a href="https://events.techdays.ru/cloud-os-network-form/apply" target="_blank" class="btn btn-green">Задать вопрос</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>
+<script>
+/*<![CDATA[*/
+	
+		var m_site = {
+			myvar: ko.observable(0),
+			sections: [{
+					"mod": "leasing",
+					"caption": "Виртуальные и инфраструктурные сервисы в аренду"
+				},
+				{
+					"mod": "coworking",
+					"caption": "Сервисы для коллективной работы сотрудников"
+				},
+				{
+					"mod": "marketing",
+					"caption": "Сервисы для работы отделов маркетинга и продаж"
+				},
+				{
+					"mod": "general",
+					"caption": "Обшие вопросы"
+			}],
+			items: {{ _Faq|safe }},
+			faqs: ko.observableArray([]),
+			query: ko.observable(''),
+			activeTab: ko.observable('general'),
+			menus: ko.observableArray([]),
+
+			search: function(value) {
+				if (value.length > 1) {
+					m_site.activeTab('search');
+					// remove all the current beers, which removes them from the view
+					m_site.faqs([]);
+					var res = [];
+					var re = new RegExp(value,'mi');
+					console.log(re)
+					for(var i in m_site.items) {
+						if(m_site.items[i].a.toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+							var ins = $.extend(true, {}, m_site.items[i]);
+							console.log()
+							ins.isopen(true);
+							ins.q = ins.q.replace(re, '<span class="serchmatch">$&</span>');
+							ins.a = ins.a.replace(re, '<span class="serchmatch">$&</span>');
+							res.push(ins);
+						} else if (m_site.items[i].q.toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+							var ins = $.extend(true, {}, m_site.items[i]);
+							ins.q = ins.q.replace(re, '<span class="serchmatch">$&</span>');
+							ins.a = ins.a.replace(re, '<span class="serchmatch">$&</span>');
+							res.push(ins);
+						} 
+					}
+					m_site.faqs(res);
+				} else {
+					m_site.resetFaq()
+				}
+			},
+			resetFaq: function() {
+				_.forEach(m_site.items, function(n) {
+					n.isopen(false);
+				});
+				m_site.faqs(m_site.items);
+				m_site.activeTab('leasing');
+			},
+			setActiveTab: function(tab) {
+				m_site.activeTab(tab);
+			},
+			faqToggle: function(el, d) {
+				var parent = $(el).closest('.faqs-item');
+				var collapsed = $(parent).find('.faqs-item__content');
+				if(d.isopen()) {
+					$(collapsed).slideUp(200, function() {
+						d.isopen(false);
+					});
+				} else {
+					$(collapsed).slideDown(200, function() {
+						
+					});d.isopen(true);
+				}
+			}
+		};
+
+		m_site.loadFaqData = function() {
+			var _items = [];
+			_.forEach(m_site.items, function(item) {
+				item.isopen = ko.observable();
+				var a = $.extend(true, {}, item);
+				_items.push(item)
+			});
+
+			m_site.faqs(_items);
+		};
+
+		m_site.combined_items = ko.computed(function() {
+			if (m_site.faqs().length > 0) {
+				m_site.menus([]);
+				var res = [];
+				var menu = []
+				_.forEach(_.groupBy(m_site.faqs(), 'section'), function(n, key) {
+					var obj = {
+						type: key,
+						items: n
+					};
+					var menu_item = _.find(m_site.sections, function(sec) {return sec.mod === key});
+					res.push(obj);
+					menu.push(menu_item);
+				});
+				m_site.menus(menu);
+				return res;
+			} else {
+				m_site.menus([]);
+				return false
+			}
+		});
+
+		$(document).ready(function() {
+			m_site.loadFaqData();
+			m_site.query.subscribe(m_site.search);
+			ko.applyBindings(m_site);
+		});
+/*]]>*/
+</script>
+{% endblock %}
+<!-- page -->
