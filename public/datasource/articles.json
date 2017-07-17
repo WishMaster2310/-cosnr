@@ -46,7 +46,7 @@
     "title": "Облачные сервисы Softline",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/softlinecloud.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/softlinecloud.jpg",
     "desc": "Softline представляет первые облачные сервисы международного класса в&#160;рамках инициативы Cloud OS&#160;Network Russia. Услуги созданы на&#160;базе технологий Microsoft и&#160;доступны из&#160;дата-центров, расположенных на&#160;территории нашей страны."
   }, {
     "_id": "ms_cloud_os_network",
@@ -56,7 +56,7 @@
     "title": "Программа Microsoft Cloud&#160;OS&#160;Network",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/articlecosn.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/articlecosn.jpg",
     "desc": "Облачная инициатива Microsoft Cloud OS&#160;Network (COSN) действует на&#160;глобальном рынке с&#160;конца 2013&#160;года. В&#160;России первые сервисы по&#160;этой программе стали доступны через локальных партнеров корпорации в&#160;2015&#160;году."
   }, {
     "_id": "azure_pack_v_oblakoteke",
@@ -66,7 +66,7 @@
     "title": "Azure Pack в «Облакотеке»",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/article1.jpg",
     "desc": "В&#160;феврале 2015 года компания &#171;Облакотека&#187; запустила новую IaaS-платформу, предназначенную для размещения IT-инфраструктур с&#160;интерфейсом управления &#171;как в&#160;Microsoft Azure&#187;."
   }, {
     "_id": "dataline_oblachnii_servis",
@@ -76,7 +76,7 @@
     "title": "Dataline запустила новый облачный сервис",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/4922f900ce844208a294d44e363777a0.png",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/4922f900ce844208a294d44e363777a0.png",
     "desc": "В&#160;облачном меню компании Dataline появилась новинка&#160;&#8212; облако на&#160;базе технологии Microsoft Hyper-V и&#160;с&#160;порталом управления Windows Azure Pack."
   }, {
     "_id": "mir_cod_edinoe_v_treh_licah",
@@ -86,7 +86,7 @@
     "title": "&#171;Мир ЦОД&#187;: единое в&#160;трех&#160;лицах",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/article1.jpg",
     "desc": "Облачные сервисы на&#160;базе технологий Microsoft российские заказчики могут реализовать самостоятельно или воспользовавшись услугами корпорации либо ее&#160;партнеров-провайдеров."
   }, {
     "_id": "ne_infrastrukturoi_edinoi",
@@ -96,7 +96,7 @@
     "title": "Не инфраструктурой единой",
     "slider": false,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/article1.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/article1.jpg",
     "desc": "Российские компании &#171;Ростелеком&#187;, DataLine, Infobox, Softline, &#171;Электронная Москва&#187;, &#171;Крок&#187; и&#160;&#171;Облакотека&#187;&#160;&#8212; участники инициативы Microsoft Cloud OS&#160;Network Russia&#160;&#8212; представили свои первые облачные сервисы на&#160;базе технологий корпорации."
   }, {
     "_id": "cosnr_praktiki",
@@ -106,7 +106,7 @@
     "title": "«Инициатива Microsoft Cloud OS Network Russia: национальные облачные сервисы на базе мировой практики Microsoft»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart1.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart1.jpg",
     "desc": "Доклад об инициативе Cloud OS Network в России и российских сервис-провайдерах"
   }, {
     "_id": "kak_sdelali_cloudv",
@@ -116,7 +116,7 @@
     "title": "«Построения облачного сервиса на практике: как мы сделали Cloud-V»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart2.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart2.jpg",
     "desc": "Доклад про облачный сервис Cloud-V от Dataline, который построен на базе Azure Pack"
   }, {
     "_id": "nadejniy_fundament",
@@ -126,7 +126,7 @@
     "title": "«Надежный фундамент: Dataline OST, или Как устроен один из крупнейших ЦОД в России»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart3.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart3.jpg",
     "desc": "Доклад о том, как устроен дата-центр Dataline, в котором развернут сервис Cloud-V"
   }, {
     "_id": "obespechenie_bezopsnosti",
@@ -136,7 +136,7 @@
     "title": "«Обеспечение безопасности облачных сервисов: 5nine Cloud Security для Cloud-V»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart4.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart4.jpg",
     "desc": "Доклад о безопасности как о ключевом факторе при обеспечении непрерывности услуг облачных сервисов"
   }, {
     "_id": "rezervnoe_kopirivanie",
@@ -146,7 +146,7 @@
     "title": "«Резервное копирование и георепликация в гибридном облаке. Обзор возможностей Azure Backup и Azure Site Recovery»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart5.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart5.jpg",
     "desc": "Презентация службы аварийного восстановления Azure Site Recovery"
   }, {
     "_id": "praktika_azure_ad",
@@ -156,6 +156,6 @@
     "title": "«Практика построения гибридных облачных сервисов: Active Directory как сервис с использованием Azure AD»",
     "slider": true,
     "icon": false,
-    "img": "https://coderussia.blob.core.windows.net/cosnr/jumpStart6.jpg",
+    "img": "https://msbusiness.blob.core.windows.net/cosnr/jumpStart6.jpg",
     "desc": "Доклад о том, как строятся гибридные облачные сервисы компании «Облакотека»"
   }]

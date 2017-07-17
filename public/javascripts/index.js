@@ -50,10 +50,10 @@ var viewModel = {
 	currentSpeed: 60,
 	interval: {},
 	images: [
-		'https://coderussia.blob.core.windows.net/cloud1/1.png', 
-		'https://coderussia.blob.core.windows.net/cloud1/2.png', 
-		'https://coderussia.blob.core.windows.net/cloud1/3.png', 
-		'https://coderussia.blob.core.windows.net/cloud1/4.png'
+		'https://msbusiness.blob.core.windows.net/cloud1/1.png', 
+		'https://msbusiness.blob.core.windows.net/cloud1/2.png', 
+		'https://msbusiness.blob.core.windows.net/cloud1/3.png', 
+		'https://msbusiness.blob.core.windows.net/cloud1/4.png'
 	],
 	loadImg: function(src, cb) {
 		var img = new Image();
