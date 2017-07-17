@@ -1,28 +1,28 @@
 [{
   "_id": "oblachnaja_kopilka_idej",
   "text": "&#171;Промсвязьбанк&#187; в&#160;сжатые сроки решил задачу по&#160;развертыванию платформы для реализации проекта.",
-  "img": "https://coderussia.blob.core.windows.net/cosnr/case-logo-promsvyazbank.jpg",
+  "img": "https://msbusiness.blob.core.windows.net/cosnr/case-logo-promsvyazbank.jpg",
   "name": "Облачная копилка идей",
   "url": "#",
   "target_id": "virtualnaya_ifrastructura"
 }, {
   "_id": "modernizaciya_pochtovih_servisov",
   "text": "Softline модернизировала почтовые сервисы производственной компании Kagazy Recycling в Казахстане.",
-  "img": "https://coderussia.blob.core.windows.net/cosnr/case-logo-kagazy.jpg",
+  "img": "https://msbusiness.blob.core.windows.net/cosnr/case-logo-kagazy.jpg",
   "name": "Модернизация почтовых сервисов",
   "url": "#",
   "target_id": "virtualnaya_ifrastructura"
 }, {
   "_id": "testirovanie_oblachnoi_infrastructuri",
   "text": "Компания Directum протестировала облачную инфраструктуру Softline.",
-  "img": "https://coderussia.blob.core.windows.net/cosnr/case-logo-directum.jpg",
+  "img": "https://msbusiness.blob.core.windows.net/cosnr/case-logo-directum.jpg",
   "name": "Тестирование облачной инфраструктуры",
   "url": "#",
   "target_id": "virtualnaya_ifrastructura"
 }, {
   "_id": "npo_analitika",
   "text": "«НПО Аналитика» запустила сервис на платформе «Облакотеки».",
-  "img": "https://coderussia.blob.core.windows.net/cosnr/npoanalitika.jpg",
+  "img": "https://msbusiness.blob.core.windows.net/cosnr/npoanalitika.jpg",
   "name": "«НПО Аналитика» запустила сервис на платформе «Облакотеки»",
   "url": "#",
   "target_id": "oblakoteka_virtualnaja_infrastruktura"

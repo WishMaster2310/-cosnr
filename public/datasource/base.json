@@ -3,73 +3,73 @@
   "partners": [{
     "name": "Ростелеком",
     "url": "http://rt.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_rt220x100.png",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_rt220x100.png",
     "_id": "rostelecom",
     "isvisible": true
   }, {
     "name": "Infobox",
     "url": "http://infobox.ru/vps/windows/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_infobox220x100.png",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_infobox220x100.png",
     "_id": "infobox",
     "isvisible": true
   }, {
     "name": "DataLine",
     "url": "http://www.dtln.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_dataline220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_dataline220x100.jpg",
     "_id": "dataline",
     "isvisible": true
   }, {
     "name": "Электронная Москва",
     "url": "http://www.uc-em.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_elmoscow220x100.png",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_elmoscow220x100.png",
     "_id": "elmoscow",
     "isvisible": true
   }, {
     "name": "Softline",
     "url": "http://store.softline.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_softline220x100.png",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_softline220x100.png",
     "_id": "softline",
     "isvisible": true
   }, {
     "name": "КРОК",
     "url": "http://www.croc.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_crock220x100.png",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_crock220x100.png",
     "_id": "crock",
     "isvisible": true
   }, {
     "name": "Облакотека",
     "url": "http://oblakoteka.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo_oblokoteka220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo_oblokoteka220x100.jpg",
     "_id": "oblokoteka",
     "isvisible": true
   }, {
     "name": "ActiveCloud",
     "url": "http://www.activecloud.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-activecloud220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-activecloud220x100.jpg",
     "_id": "activecloud",
     "isvisible": true
   }, {
     "name": "Norbit",
     "url": "http://www.norbit.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-norbit220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-norbit220x100.jpg",
     "_id": "Norbit",
     "isvisible": true
   }, {
     "name": "Tekora",
     "url": "http://tekora.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-tekora220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-tekora220x100.jpg",
     "_id": "tekora",
     "isvisible": true
   }, {
     "name": "Tisa",
     "url": "http://oootisa.ru/About/Tisa/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-tisa220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-tisa220x100.jpg",
     "_id": "Tisa",
     "isvisible": true
   }, {
     "name": "Manzana",
     "url": "http://manzanagroup.ru/",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-manzana220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-manzana220x100.jpg",
     "_id": "manzana",
     "isvisible": true
   }, {
@@ -81,13 +81,13 @@
   }, {
     "name": "actionspace",
     "url": "http://actionspace.com/ru",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-actionspace220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-actionspace220x100.jpg",
     "_id": "actionspace",
     "isvisible": false
   }, {
     "name": "ПК Групп",
     "url": "",
-    "logo": "https://coderussia.blob.core.windows.net/cosnr/logo-pkgroup220x100.jpg",
+    "logo": "https://msbusiness.blob.core.windows.net/cosnr/logo-pkgroup220x100.jpg",
     "_id": "pkgroup",
     "isvisible": false
   }, {

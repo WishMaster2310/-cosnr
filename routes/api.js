@@ -300,6 +300,8 @@ muse.injectFragments = function(content, pagename, cb) {
 muse.exporter = function(callback, next) {
     var EXPORT = 'muse'
 
+    console.log('EXPORT NOW')
+
     // Создаем папки для статики, если оные отсутствуют
     if (!fs.existsSync(EXPORT_PAGES)) {
         fs.mkdirSync(EXPORT_PAGES);
